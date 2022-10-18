@@ -1,11 +1,7 @@
-<IfModule mod_rewrite.c>
-    <IfModule mod_negotiation.c>
-        Options -MultiViews
-    </IfModule>
+RewriteEngine On
+RewriteBase /My-Project/
 
-    RewriteEngine On
+RewriteCond %{THE_REQUEST} /public/([^\s?]*) [NC]
+RewriteRule ^ %1 [L,NE,R=302]
 
-    # Redirect All Requests To The Subfolder
-    RewriteRule ^ /public
-
-</IfModule>
+RewriteRule ^((?!public/).*)$ public/$1 [L,NC]
