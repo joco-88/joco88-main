@@ -10,7 +10,7 @@
 
       </header>
       <main>
-        <p>Test Paragraph and testing css. Now testing deploy AGAIN.</p>
+        <p>Test Paragraph and testing css. Now testing deploy again.</p>
         </main>
   </body>
 </html>
