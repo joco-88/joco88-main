@@ -11,7 +11,7 @@
       </header>
       <main>
         <p>Test Paragraph and testing css. Now testing deploy again.</p>
-          <p>Testing again, if GitHub is working with CyberPanel. AGAIN!</p>
+          <p>Testing to see if this auto published to git after saving. Go!</p>
         </main>
   </body>
 </html>
