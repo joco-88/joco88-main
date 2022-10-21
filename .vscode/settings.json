@@ -1,0 +1,9 @@
+{
+    "git.confirmEmptyCommits": false,
+    "git.confirmSync": false,
+    "git.confirmNoVerifyCommit": false,
+    "git.confirmForcePush": false,
+    "git.alwaysShowStagedChangesResourceGroup": true,
+    "git.allowForcePush": true,
+    "git.allowNoVerifyCommit": true
+}
