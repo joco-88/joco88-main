@@ -6,5 +6,5 @@
     "git.alwaysShowStagedChangesResourceGroup": true,
     "git.allowForcePush": true,
     "git.allowNoVerifyCommit": true,
-    "gitdoc.enabled": false
+    "gitdoc.enabled": true
 }
