@@ -5,6 +5,8 @@
     <title><?php echo isset($PageTitle) ? $PageTitle : "Joco88.com"?></title>
   </head>
     <header>
-
+<nav>
+    <p>Nav Links Go Here</p>
+</nav>
     </header>
   <body>
