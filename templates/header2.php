@@ -13,7 +13,7 @@
       <div class="container">
         <nav class="navbar navbar-expand-lg main-nav px-0">
           <a class="navbar-brand" href="/mojo">
-  					      <img src="https://contacts.zoho.com/file?t=user&fs=thumb&ID=770964697&nps=404&exp=20" alt="jocodigital">
+  					      <img src="https://deskstatic.zoho.com/api/v1/agents/695019000000139001/photo?orgId=770964822" alt="jocodigital">
   					    </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="icon-bar icon-bar-1"></span>
