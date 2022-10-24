@@ -1,8 +1,7 @@
 <?php
+
 $PageTitle="Home";
-?>
-<header>
-  <?php
+
 include('header.php');
 ?>
 
