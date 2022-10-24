@@ -1,7 +1,7 @@
 <?php
 $PageTitle="Home";
 
-<header>
+//header
 function joePageHeader(){
 ?>
 <?php }
