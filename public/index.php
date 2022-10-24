@@ -4,10 +4,10 @@ $PageTitle="Home";
 //header
 function joePageHeader(){
 ?>
-<?php }
-
+ }
+<?php
 include_once('header.php');
-
+?>
 
 //body contents go below here
       <main>
@@ -15,7 +15,7 @@ include_once('header.php');
 
       </p>
         </main>
-
+<?php
         include_once('footer.php');
 ?>
   </body>
