@@ -10,8 +10,6 @@
     </title>
   </head>
     <header>
-      <div class="bg-primary text-white p-5 text-center">
-        <h1 class=>Joco88.com</h1>
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Logo</a>
