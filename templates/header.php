@@ -5,7 +5,7 @@
     <title><?= isset($PageTitle) ? $PageTitle : "Joco88.com"?></title>
     <!-- Additional tags here -->
     <?php if (function_exists('joePageHeader')){
-      customPageHeader();
+      joePageHeader();
     }?>
   </head>
   <body>
