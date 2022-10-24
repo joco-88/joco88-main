@@ -2,7 +2,7 @@
 
 $PageTitle="Home";
 
-include('templates/header.php');
+include('/home/joco88.com/public_html/templates/header.php');
 ?>
 
 <!-- Body starts here as body tag opens at end of Header.php file -->
