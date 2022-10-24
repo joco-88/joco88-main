@@ -9,7 +9,7 @@
       <?php echo isset($PageTitle) ? $PageTitle : "Joco88.com"?>
     </title>
   </head>
-    <header>
+    <header class="main-header">
       <div class="container">
         <nav class="navbar navbar-expand-lg main-nav px-0">
           <a class="navbar-brand" href="/mojo">
