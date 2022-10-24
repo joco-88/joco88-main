@@ -1,6 +1,6 @@
 <?php
 
-//$PageTitle="Home";
+$PageTitle="Home";
 
 include('/home/joco88.com/public_html/templates/header.php');
 ?>
