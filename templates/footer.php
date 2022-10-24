@@ -1,1 +1,1 @@
-Test Footer
+<p>Test Footer</p>
