@@ -14,9 +14,9 @@ include_once('header.php');
         <p>Test Paragraph now that I have root access to public folder working.</p>
 
       </p>
-        </main>
-<?php
+  </main>
+        <?php
         include_once('footer.php');
-?>
+        ?>
   </body>
 </html>
