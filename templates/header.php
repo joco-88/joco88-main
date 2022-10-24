@@ -13,6 +13,20 @@
       <div class="bg-primary text-white p-5 text-center">
         <h1 class=>Joco88.com</h1>
         <nav class="navbar navbar-expand-sm bg-light">
+          <div class="container-fluid">
+   <!-- Links -->
+   <ul class="navbar-nav">
+     <li class="nav-item">
+       <a class="nav-link" href="#">Link 1</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="#">Link 2</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="#">Link 3</a>
+     </li>
+   </ul>
+ </div>
 <nav>
     <p><center>Nav Links Go Here</center></p>
 </nav>
