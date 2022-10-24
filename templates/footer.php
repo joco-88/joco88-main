@@ -1,2 +1,2 @@
 <hr>
-<p>Test Footer</p>
+<center><p>Test Footer</p></center>
