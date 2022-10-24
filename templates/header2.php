@@ -15,7 +15,7 @@
 
             <div class="col-3">
               <div class="site-logo">
-                <a href="index.html" class="font-weight-bold">Brand</a>
+                <a href="index.php" class="font-weight-bold">Brand</a>
               </div>
             </div>
 
