@@ -7,11 +7,11 @@ function joePageHeader(){?>
 
 include_once('header.php');
 
-//body contents go here
+
 
 
 ?>
-      </header>
+//body contents go below here    
       <main>
         <p>Test Paragraph now that I have root access to public folder working.</p>
 
