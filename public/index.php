@@ -7,7 +7,7 @@ function joePageHeader(){
 <?php }
 
 include_once('header.php');
-?>
+
 
 //body contents go below here
       <main>
@@ -17,5 +17,6 @@ include_once('header.php');
         </main>
 
         include_once('footer.php');
+        ?>
   </body>
 </html>
