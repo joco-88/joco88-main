@@ -2,7 +2,7 @@
 
 $PageTitle="Home";
 
-include('header.php');
+include('templates/header.php');
 ?>
 
 <!-- Body starts here as body tag opens at end of Header.php file -->
@@ -13,7 +13,7 @@ include('header.php');
   </main>
     <footer>
         <?php
-        include('footer.php');
+        include('templates/footer.php');
         ?>
     </footer>
   </body>
