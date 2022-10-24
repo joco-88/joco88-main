@@ -12,7 +12,7 @@
   </head>
     <header>
       <div class="bg-primary text-white p-5 text-center">
-        <h1>Joco88.com</h1><br>
+        <h1>Joco88.com</h1><
 <nav>
     <p><center>Nav Links Go Here</center></p>
 </nav>
