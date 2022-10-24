@@ -6,7 +6,7 @@
   </head>
     <header>
 <nav>
-    <p>Nav Links Go Here</p>
+    <p><center>Nav Links Go Here</center></p>
 </nav>
 <hr>
     </header>
