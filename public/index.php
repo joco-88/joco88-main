@@ -10,10 +10,8 @@
 
       </header>
       <main>
-        <p>Test Paragraph and testing css. Now testing deploy again.</p>
-          <p>Testing to see if this auto published to git after saving. Go!</p>
-          <p>Now testing that VS code on my Macbook works.... again!<br>
-          Testing the auto save feature. It looks like it works and now my Macbook is pretty much automated :))
+        <p>Test Paragraph now that I have root access to public folder working.</p>
+
       </p>
         </main>
   </body>
