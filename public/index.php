@@ -2,7 +2,8 @@
 $PageTitle="Home";
 
 <header>
-function joePageHeader(){?>
+function joePageHeader(){
+?>
 <?php }
 
 include_once('header.php');
