@@ -1,7 +1,5 @@
 <?php
-
 $PageTitle="Home";
-
 include('/home/joco88.com/public_html/templates/header.php');
 ?>
 
@@ -9,7 +7,7 @@ include('/home/joco88.com/public_html/templates/header.php');
       <main>
         <div class="container-fluid">
         <p>Test Paragraph now that I have root access to public folder working.</p>
-
+      </div>
       </p>
   </main>
     <footer>
