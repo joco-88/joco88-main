@@ -7,7 +7,8 @@ include('/home/joco88.com/public_html/templates/header.php');
 <main>
   <div class="container-fluid">
       <br><h1>Welcome!</h1>
-      <p>Test Paragraph now that I have root access to public folder working. Test Keek</p>
+      <p>Test Paragraph now that I have root access to public folder working.</p>
+      <p>I am also testing out a navbar and bootstrap in general.</p>
   </div>
 </main>
   <footer>
