@@ -8,5 +8,6 @@
 <nav>
     <p>Nav Links Go Here</p>
 </nav>
+<hr>
     </header>
   <body>
