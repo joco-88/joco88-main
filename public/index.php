@@ -12,8 +12,10 @@ include('header.php');
 
       </p>
   </main>
+    <footer>
         <?php
         include('footer.php');
         ?>
+    </footer>
   </body>
 </html>
