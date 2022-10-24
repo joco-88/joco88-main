@@ -13,7 +13,7 @@ include('header.php');
       </p>
   </main>
         <?php
-        include_once('/footer.php');
+        include('footer.php');
         ?>
   </body>
 </html>
