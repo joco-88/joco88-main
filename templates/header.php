@@ -35,6 +35,9 @@
                 <li><a class="dropdown-item" href="#">A third link</a></li>
               </ul>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://joco88.com/contactme.php">Contact Me</a>
+            </li>
           </ul>
         </div>
       </div>
