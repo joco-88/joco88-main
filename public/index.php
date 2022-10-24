@@ -6,12 +6,9 @@ function joePageHeader(){?>
 <?php }
 
 include_once('header.php');
-
-
-
-
 ?>
-//body contents go below here    
+
+//body contents go below here
       <main>
         <p>Test Paragraph now that I have root access to public folder working.</p>
 
