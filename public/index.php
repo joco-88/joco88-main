@@ -9,7 +9,7 @@ include_once('header.php');
 
 //body contents go here
 
-include_once('footer.php');
+
 ?>
       </header>
       <main>
@@ -17,5 +17,7 @@ include_once('footer.php');
 
       </p>
         </main>
+
+        include_once('footer.php');
   </body>
 </html>
