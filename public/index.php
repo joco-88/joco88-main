@@ -1,6 +1,6 @@
 <?php
 $PageTitle="Home";
-include('/home/joco88.com/public_html/templates/header2.php');
+include('/home/joco88.com/public_html/templates/header.php');
 ?>
 
 <!-- Body starts here as body tag opens at end of Header.php file -->
