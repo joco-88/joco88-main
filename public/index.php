@@ -1,11 +1,6 @@
 <?php
 $PageTitle="Home";
 
-//header
-function joePageHeader(){
-?>
- }
-<?php
 include('header.php');
 ?>
 
