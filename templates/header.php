@@ -7,6 +7,7 @@
     </title>
   </head>
     <header>
+      <div class="bg-primary text-white p-5 text-center">
 <nav>
     <p><center>Nav Links Go Here</center></p>
 </nav>
