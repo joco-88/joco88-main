@@ -2,11 +2,11 @@
 $PageTitle="Home";
 ?>
 <header>
-  <?php  
+  <?php
 include('header.php');
 ?>
 
-//body contents go below here
+//Body starts here as body tag opens at end of Header.php file
       <main>
         <p>Test Paragraph now that I have root access to public folder working.</p>
 
