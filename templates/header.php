@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title><?php echo isset($PageTitle) ? $PageTitle : "Joco88.com"?></title>
+    <title><center><?php echo isset($PageTitle) ? $PageTitle : "Joco88.com"?></center></title>
   </head>
     <header>
 <nav>
