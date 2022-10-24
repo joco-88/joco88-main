@@ -1,5 +1,14 @@
-RewriteEngine On
+# .htaccess main domain to subfolder redirect
+RewriteEngine on
 
-RewriteRule . /joco88.com/public/index.php [L]
-RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{HTTP_HOST} ^(www.)?joco88.com$
+RewriteCond %{REQUEST_URI} !^/subfolder/
+
 RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ /subfolder/$1
+
+RewriteCond %{HTTP_HOST} ^(www.)?example.com$
+
+RewriteRule ^(/)?$ subfolder/index.html [L]
