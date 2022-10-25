@@ -9,7 +9,7 @@
     <?php if (isset($extraStylesheet)) {
         echo $extraStylesheet;
     } ?>
-    <script src="https://kit.fontawesome.com/347bff65d7.js" crossorigin="anonymous"></script>
+    <!--- <script src="https://kit.fontawesome.com/347bff65d7.js" crossorigin="anonymous"></script> --->
     <title>
       <?php echo isset($PageTitle) ? $PageTitle . " | Joco88.com" : "Joco88.com"?>
     </title>
