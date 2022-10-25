@@ -5,7 +5,7 @@
 
 /* Footer - Styling */
 
-footer .container-fluid:link {
+.footerLinks {
     color: #ffffff;
    text-decoration: none;
 }
