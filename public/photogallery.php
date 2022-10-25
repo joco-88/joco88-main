@@ -41,5 +41,7 @@ include('/home/joco88.com/public_html/templates/header.php');
     ?>
   </footer>
   <!-- Installing test scripts for photo viewer, only on this page. -->
+  <!-- Core JS file -->
+  <script src="/js/photoviewer.js"></script>
 </body>
 </html>
