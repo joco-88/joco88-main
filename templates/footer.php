@@ -6,6 +6,7 @@
 <!--- Start Footer Content --->
 
 <hr>
-<p class="text-bg-secondary">Secondary background color.
-<center><p>&copy;<?php echo date("Y");?> - <a href="https://joco88.com/contactme.php">Joseph Condon</a> & <a href="https://joco88.com/">Joco88.com</a></p></center>
+<center>
+p class="text-bg-secondary">Secondary background color.
+&copy;<?php echo date("Y");?> - <a href="https://joco88.com/contactme.php">Joseph Condon</a> & <a href="https://joco88.com/">Joco88.com</a></p></center>
 </p>
