@@ -17,7 +17,7 @@ include('/home/joco88.com/public_html/templates/header.php');
             Click the image below to view larger.<br>
               <div class="alert alert-info" role="alert">
                   Use your mouse to zoom in/out.<br>
-                  You can rotate the image with the "R" key, on your keyboard.</p>
+                  You can rotate the image with the "R" key, or by using the controls.</p>
               </div>
   	<div id="imgDiv">
   		<img src="https://joco88.com/media/JustineDustinJoe.JPG" width="300px" />
