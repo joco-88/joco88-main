@@ -14,10 +14,12 @@ include('/home/joco88.com/public_html/templates/header.php');
 
 <center><div class="container-fluid">
     <p class="lead"><i class="fa fa-file-image-o" aria-hidden="true">&nbsp; &nbsp;</i>
-            Click the image below to view larger.<br>
+              <div class="alert alert-primary" role="alert">
+                  Click on the image below to view larger.
+              </div>
               <div class="alert alert-info" role="alert">
-                  <p>Use your mouse to zoom in/out.<br>
-                  You can rotate the image with the "R" key, or by using the controls.</p>
+                  Use your mouse to zoom in/out.<br>
+                  You can rotate the image with the "R" key, or by using the controls.
               </div>
   	<div id="imgDiv">
   		<img src="https://joco88.com/media/JustineDustinJoe.JPG" width="300px" />
