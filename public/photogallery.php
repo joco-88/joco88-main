@@ -36,44 +36,6 @@ include('/home/joco88.com/public_html/templates/header.php');
   	</script>
 </div></center>
 
-
-
-<!-- <script type="text/javacript">
-        ezoom.onInit(domElement, {
-        src:'https://joco88.com/media/JustineDustinJoe.JPG'
-        });
-
-        ezoom.onInit(domElement, {
-          hideControlBtn:false
-        });
-
-        ezoom.onInit(domElement, {
-
-          onShow:function(){
-            // do something
-          },
-          onClose:function(){
-            // do something
-          },
-          onRotate:function(){
-            // do something
-          },
-          onMoveStarted:function(){
-            // do something
-          },
-          onMovedCompleted:function(){
-            // do something
-          },
-          onMoving:function(){
-            // do something
-          },
-        });
-
-</script>
-
--->
-
-
 </main>
   <footer>
     <?php
