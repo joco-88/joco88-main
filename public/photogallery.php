@@ -11,9 +11,35 @@ include('/home/joco88.com/public_html/templates/header.php');
   </div>
 
 
+  	<p class="lead">A simple yet full-featured image viewer plugin that makes it easier to view, pan, zoom, and rotate your image in a fullscreen modal popup.</p>
+  	<div id="imgDiv">
+  		<img src="https://joco88.com/media/JustineDustinJoe.JPG" width="300px" />
+  	</div>
+  </div>
+
+  	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  	<script type="text/javascript" src="ezoom.js"></script>
+  	<script type="text/javascript">
+  		$(document).ready(function(){
+
+  			ezoom.onInit($('#imgDiv img'), {
+  				hideControlBtn: false,
+  				onClose: function (result) {
+  					console.log(result);
+  				},
+  				onRotate: function (result) {
+  					console.log(result);
+  				},
+  			});
+
+  		});
+  	</script>
+
+
+
 <script type="text/javacript">
         ezoom.onInit(domElement, {
-        src:'media/JustineDustinJoe.JPG'
+        src:'https://joco88.com/media/JustineDustinJoe.JPG'
         });
 
         ezoom.onInit(domElement, {
