@@ -13,7 +13,7 @@ include('/home/joco88.com/public_html/templates/header.php');
   </div>
 
 <center><div class="container-fluid">
-    <p class="lead"><i class="fa fa-image">&nbsp; &nbsp;</i>
+    <p class="lead"><i class="fa fa-image"></i>&nbsp; &nbsp;
               <div class="alert alert-primary" role="alert">
                   Click on the image below to view larger.
               </div>
