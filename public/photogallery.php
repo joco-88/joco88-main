@@ -37,7 +37,7 @@ include('/home/joco88.com/public_html/templates/header.php');
 </div>
 
 
-<script type="text/javacript">
+<!-- <script type="text/javacript">
         ezoom.onInit(domElement, {
         src:'https://joco88.com/media/JustineDustinJoe.JPG'
         });
@@ -70,7 +70,7 @@ include('/home/joco88.com/public_html/templates/header.php');
 
 </script>
 
-
+-->
 
 
 </main>
