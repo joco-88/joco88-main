@@ -16,7 +16,7 @@ include('/home/joco88.com/public_html/templates/header.php');
     <p class="lead"><i class="fa fa-file-image-o" aria-hidden="true">&nbsp; &nbsp;</i>
             Click the image below to view larger.<br>
               <div class="alert alert-info" role="alert">
-                  Use your mouse to zoom in/out.<br>
+                  <p>Use your mouse to zoom in/out.<br>
                   You can rotate the image with the "R" key, or by using the controls.</p>
               </div>
   	<div id="imgDiv">
