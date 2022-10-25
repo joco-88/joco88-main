@@ -17,8 +17,7 @@ include('/home/joco88.com/public_html/templates/header.php');
                   <i class="fa fa-5x fa-solid fa-image"></i><br>Click on the image below to view larger.
               </div>
               <div class="alert alert-info" role="alert">
-                <i class="fa fa-info-circle" aria-hidden="true"></i>
-
+                <i class="fa fa-info-circle" aria-hidden="true"></i><br>
                   Use your mouse to zoom in/out.<br>
                   You can rotate the image with the "R" key, or by using the controls.
               </div>
