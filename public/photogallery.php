@@ -9,11 +9,11 @@ include('/home/joco88.com/public_html/templates/header.php');
       <br><h1>Joe's Photo Viewer</h1>
       <p>This is my first test photo gallery.</p>
 <script>
-      ezoom.onInit($('media/JustineDustinJoe.JPG'), {
-      2
-        // options here
-      3
-      });
+        ezoom.onInit(domElement, {
+        2
+        src:'media/JustineDustinJoe.JPG'
+        3
+        });
 </script>
 
   </div>
