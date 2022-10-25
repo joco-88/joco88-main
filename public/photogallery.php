@@ -10,8 +10,8 @@ include('/home/joco88.com/public_html/templates/header.php');
       <p>This is my first test photo gallery.</p><br>
   </div>
 
-<?php
-echo '<script type="text/javacript">
+
+<script type="text/javacript">
         ezoom.onInit(domElement, {
         src:'media/JustineDustinJoe.JPG'
         });
@@ -42,8 +42,7 @@ echo '<script type="text/javacript">
           },
         });
 
-</script>';
-?>
+</script>
 
 
 
