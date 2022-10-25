@@ -10,7 +10,7 @@ include('/home/joco88.com/public_html/templates/header.php');
       <p>This is my first test photo gallery.</p>
   </div>
   <div class="container-fluid">
-      <?php
+      <script>
       // build images array
             var items = [
             {
@@ -32,7 +32,7 @@ include('/home/joco88.com/public_html/templates/header.php');
 
             // Initialize the plugin
             var photoviewer = new PhotoViewer(items, options);
-       ?>
+       </script>
   </div>
 </main>
   <footer>
