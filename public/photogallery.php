@@ -10,10 +10,9 @@ include('/home/joco88.com/public_html/templates/header.php');
       <p>This is my first test photo gallery.</p><br>
 
 <?php
-echo <script>
-        ezoom.onInit(domElement, {
-        src:'media/JustineDustinJoe.JPG'
-        });
+echo '<script>',
+        'ezoom.onInit(domElement, {',
+        'src:'media/JustineDustinJoe.JPG',
 
         ezoom.onInit(domElement, {
           hideControlBtn:false
