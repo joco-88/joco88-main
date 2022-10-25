@@ -23,8 +23,7 @@ include('/home/joco88.com/public_html/templates/header.php');
               </div>
   	<div id="imgDiv">
   		<img src="https://joco88.com/media/JustineDustinJoe.JPG" width="325px" />
-  	</div>
-    <div id="imgDiv">
+  	
   		<img src="https://joco88.com/media/keek.JPG" width="325px" />
   	</div>
   </div>
