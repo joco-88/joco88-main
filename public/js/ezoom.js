@@ -40,7 +40,7 @@ ezoom = {
 		var $ezoomWrap = $('<div id="zoomModal" class="modal" style="display:none;position:fixed;z-index: 1000000;padding:0px 0;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgba(0,0,0,0.8);transition:.3s"></div>'),
             $closeBtn = $('<span title="Close" class="fas fa-times" id="close" style="cursor:pointer;position:fixed;top:15px;right:35px;color:#b5b5b5;font-size:20px;font-weight:700;transition:.3s"></span>'),
             $rotateRightBtn = $('<span title="Rotate right" class="fa fa-redo" id="close" style="z-index:1;cursor:pointer;position:fixed;top:15px;right:70px;color:#b5b5b5;font-size:20px;font-weight:700;transition:.3s"></span>'),
-            $rotateLeftBtn = $('<span title="Rotate left" class="fas fa-undo" id="close" style="z-index:1;cursor:pointer;position:fixed;top:15px;right:105px;color:#b5b5b5;font-size:20px;font-weight:700;transition:.3s"></span>'),
+            $rotateLeftBtn = $('<span title="Rotate left" class="fa fa-undo" id="close" style="z-index:1;cursor:pointer;position:fixed;top:15px;right:105px;color:#b5b5b5;font-size:20px;font-weight:700;transition:.3s"></span>'),
 			$image = $('<img title="Please scroll the mouse pointer to zoom in/out the image." class="" style="border-radius:5px;cursor:move;margin:auto;display:block;max-width:100%;max-height:100%" id="zoomModalImg">');
 
 		if (!ezoom.options.hideControlBtn) {
