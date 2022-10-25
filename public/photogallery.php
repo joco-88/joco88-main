@@ -3,7 +3,9 @@ $PageTitle = "Photo Gallery";
 
 include('/home/joco88.com/public_html/templates/header.php');
 ?>
+
 <!-- Body starts here as body tag opens at end of Header.php file -->
+
 <main>
   <div class="container-fluid">
       <br><h1>Joe's Photo Viewer</h1>
