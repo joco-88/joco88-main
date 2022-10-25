@@ -30,19 +30,19 @@ ezoom = {
 		}
         ezoom.initMouseScrolling();
 		ezoom.initEvent();
-		
+
 	},
     createZoomModalTag: function() {
-		
+
 		// Use this if using `$('#zoomModal').hide();`
 		if ($('#zoomModal').length > 0) return;
 
 		var $ezoomWrap = $('<div id="zoomModal" class="modal" style="display:none;position:fixed;z-index: 1000000;padding:0px 0;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgba(0,0,0,0.8);transition:.3s"></div>'),
             $closeBtn = $('<span title="Close" class="fas fa-times" id="close" style="cursor:pointer;position:fixed;top:15px;right:35px;color:#b5b5b5;font-size:20px;font-weight:700;transition:.3s"></span>'),
-            $rotateRightBtn = $('<span title="Rotate right" class="fas fa-redo" id="close" style="z-index:1;cursor:pointer;position:fixed;top:15px;right:70px;color:#b5b5b5;font-size:20px;font-weight:700;transition:.3s"></span>'),
+            $rotateRightBtn = $('<span title="Rotate right" class="fa fa-redo" id="close" style="z-index:1;cursor:pointer;position:fixed;top:15px;right:70px;color:#b5b5b5;font-size:20px;font-weight:700;transition:.3s"></span>'),
             $rotateLeftBtn = $('<span title="Rotate left" class="fas fa-undo" id="close" style="z-index:1;cursor:pointer;position:fixed;top:15px;right:105px;color:#b5b5b5;font-size:20px;font-weight:700;transition:.3s"></span>'),
 			$image = $('<img title="Please scroll the mouse pointer to zoom in/out the image." class="" style="border-radius:5px;cursor:move;margin:auto;display:block;max-width:100%;max-height:100%" id="zoomModalImg">');
-		
+
 		if (!ezoom.options.hideControlBtn) {
 			$ezoomWrap.append($rotateRightBtn, $rotateLeftBtn);
 		}
@@ -52,13 +52,13 @@ ezoom = {
 
         ezoom.imgTag = $image;
 		ezoom.zoomModal = $ezoomWrap;
-		
+
         $closeBtn.on('click', ezoom.remove);
-        
+
 		$rotateRightBtn.on('click', function() {
 			ezoom.doRotate("right");
 		});
-        
+
         $rotateLeftBtn.on('click', function() {
 			ezoom.doRotate("left");
 		});
@@ -100,19 +100,19 @@ ezoom = {
 		var $image = ezoom.thisImg;
 		var	nWidth_  = $image[0].naturalWidth || +Infinity,
 			nHeight_ = $image[0].naturalHeight || +Infinity,
-			nWidth = d == 'odd' ? nHeight_ : nWidth_, 
-			nHeight = d == 'odd' ? nWidth_ : nHeight_, 
-			wWidth  = $(window).width(), 
+			nWidth = d == 'odd' ? nHeight_ : nWidth_,
+			nHeight = d == 'odd' ? nWidth_ : nHeight_,
+			wWidth  = $(window).width(),
 			wHeight = $(window).height(),
-			aWidth  = Math.min(nWidth, wWidth * 0.98), 
+			aWidth  = Math.min(nWidth, wWidth * 0.98),
 			aHeight = Math.min(nHeight, wHeight * 0.98),
 			scaleX  = aWidth / nWidth,
 			scaleY  = aHeight / nHeight,
-			scale   = Math.min(scaleX, scaleY); 
+			scale   = Math.min(scaleX, scaleY);
 
 		// console.log('nheight,wHeight,aHeight',nHeight,wHeight,aHeight);
         // console.log('nwidth,wWidth,aWidth',nWidth,wWidth,aWidth);
-        
+
 		// $('#zoomModal').css({
 		// 	'width': nWidth * scale,
 		// 	'height': nHeight * scale
@@ -121,7 +121,7 @@ ezoom = {
 		// 	'height': $(window).height(),
 		// 	'top': $(document).scrollTop()
         // });
-        
+
 	},
     setTransformOrigin: function(s, r, x, y) {
 		if (s) ezoom.scale = s;
@@ -195,7 +195,7 @@ ezoom = {
 		$(window).on('resize', ezoom.reposition);
 
 		$(document).on('scroll', ezoom.reposition);
-		
+
         ezoom.zoomModal.on('mousedown', function (e) {
 			e = e || window.event;
 			ezoom.grabbing = true;
@@ -223,12 +223,12 @@ ezoom = {
 				ezoom.options.onMovedCompleted(ezoom);
 			}
         });
-        
+
         $(document).on('mousemove', function (e) {
 			e = e || window.event;
 			if (ezoom.grabbing) {
-				var nowX = e.clientX; 
-				var nowY = e.clientY; 
+				var nowX = e.clientX;
+				var nowY = e.clientY;
 				var disX = nowX - startX;
 				var disY = nowY - startY;
 
@@ -249,7 +249,7 @@ ezoom = {
 			if (e.keyCode && ezoom.isShow) {
 				// console.log(e.keyCode);
 
-				if (!ezoom.options.hideControlBtn) { 
+				if (!ezoom.options.hideControlBtn) {
 					// Arrow direction key and the A D W S key
 					if(e.keyCode == 37 || e.keyCode == 65 ) { // left A
 						ezoom.setTransformOrigin(1, 270, 0, 0);
