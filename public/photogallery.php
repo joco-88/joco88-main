@@ -33,6 +33,9 @@ include('/home/joco88.com/public_html/templates/header.php');
             // Initialize the plugin
             var photoviewer = new PhotoViewer(items, options);
        </script>
+       <a data-gallery="manual" href="media/JustineDustinJoe.JPG">
+  <img src="media/JustineDustinJoe.JPG">
+</a>
   </div>
 </main>
   <footer>
