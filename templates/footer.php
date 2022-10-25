@@ -7,6 +7,6 @@
 
 <hr>
 <center>
-  <div class="container p-5 my-5 bg-primary text-white">
+  <div class="container p-5 my-5 bg-secondary text-white">
     &copy;<?php echo date("Y");?> - <a href="https://joco88.com/contactme.php">Joseph Condon</a> & <a href="https://joco88.com/">Joco88.com</a></p></center>
   </div>
