@@ -40,7 +40,7 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Projects</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="https://joco88.com/photoviewer.php">Photo Gallery</a></li>
+                  <li><a class="dropdown-item" href="https://joco88.com/photoviewer.php">Photo Viewer</a></li>
                   <li><a class="dropdown-item" href="#">Dropdown Link 2</a></li>
                   <li><a class="dropdown-item" href="#">Dropdown Link 3</a></li>
                 </ul>
