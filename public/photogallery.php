@@ -67,7 +67,7 @@ $('[data-gallery=manual]').click(function (e) {
     <h1></h1>
     <!-- Button trigger modal -->
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-      Launch demo modal</button>
+      View Image</button>
     <!-- Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
