@@ -10,7 +10,29 @@ include('/home/joco88.com/public_html/templates/header.php');
       <p>This is my first test photo gallery.</p>
   </div>
   <div class="container-fluid">
-      GALLERY HERE
+      <?php
+      // build images array
+            var items = [
+            {
+                src: 'path/to/image1.jpg', // path to image
+                title: 'Image Caption 1' // If you skip it, there will display the original image name(image1)
+            },
+            {
+                src: 'path/to/image2.jpg',
+                title: 'Image Caption 2'
+            }
+            ];
+
+            // define options (if needed)
+            var options = {
+            // optionName: 'option value'
+            // for example:
+            index: 0 // this option means you will start at first image
+            };
+
+            // Initialize the plugin
+            var photoviewer = new PhotoViewer(items, options);
+       ?>
   </div>
 </main>
   <footer>
