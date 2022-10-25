@@ -17,10 +17,10 @@ include('/home/joco88.com/public_html/templates/header.php');
                 src: 'path/to/image1.jpg', // path to image
                 title: 'Image Caption 1' // If you skip it, there will display the original image name(image1)
             },
-            {
-                src: 'path/to/image2.jpg',
-                title: 'Image Caption 2'
-            }
+            //{
+                //src: 'path/to/image2.jpg',
+                //title: 'Image Caption 2'
+            //}
             ];
 
             // define options (if needed)
