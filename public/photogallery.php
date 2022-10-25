@@ -9,7 +9,8 @@ include('/home/joco88.com/public_html/templates/header.php');
       <br><h1>Joe's Photo Viewer</h1>
       <p>This is my first test photo gallery.</p><br>
 
-<script>
+<?php
+echo <script>
         ezoom.onInit(domElement, {
         src:'media/JustineDustinJoe.JPG'
         });
@@ -41,7 +42,7 @@ include('/home/joco88.com/public_html/templates/header.php');
         });
 
 </script>
-
+?>
   </div>
 
 
