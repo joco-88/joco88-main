@@ -106,9 +106,9 @@ $('[data-gallery=manual]').click(function (e) {
   </footer>
   <!-- Installing test scripts for photo viewer, only on this page. -->
   <!-- Core JS file -->
-  <script src="js/photoviewer.js"></script>
-  <script src="js/photoviewer.common.js"></script>
-  <script src="js/photoviewer.esn.js"></script>
-  <script src="js/photoviewer.min.js"></script>
+  <script src="/js/photoviewer.js"></script>
+  <script src="/js/photoviewer.common.js"></script>
+  <script src="/js/photoviewer.esn.js"></script>
+  <script src="/js/photoviewer.min.js"></script>
 </body>
 </html>
