@@ -15,6 +15,6 @@ include('/home/joco88.com/public_html/templates/header.php');
       include('/home/joco88.com/public_html/templates/footer.php');
     ?>
   </footer>
-  // Installing test scripts for photo viewer, only on this page.
+  <!-- Installing test scripts for photo viewer, only on this page. -->
 </body>
 </html>
