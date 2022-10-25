@@ -40,7 +40,8 @@ echo '<script>',
           },
         });
 
-</script>
+'</script>'
+;
 ?>
   </div>
 
