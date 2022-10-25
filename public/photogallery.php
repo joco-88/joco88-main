@@ -14,7 +14,7 @@ include('/home/joco88.com/public_html/templates/header.php');
       // build images array
             var items = [
             {
-                src: 'media/JustineDustinJoe.JPG', // path to image
+                src: '/media/JustineDustinJoe.JPG', // path to image
                 title: 'Image Caption 1' // If you skip it, there will display the original image name(image1)
             },
             //{
