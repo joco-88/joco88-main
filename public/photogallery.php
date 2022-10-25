@@ -79,62 +79,13 @@ $('[data-gallery=manual]').click(function (e) {
           </div>
           <div class="modal-body">
             <div class="image-set">
-              <a data-gallery="photoviewer" data-title="Slipping Away by Jerry Fryer" data-group="a"
-                 href="https://farm1.staticflickr.com/313/31812080833_297acfbbd9_z.jpg">
-                <img src="https://farm1.staticflickr.com/313/31812080833_297acfbbd9_s.jpg" alt="">
-              </a>
-              <a data-gallery="photoviewer" data-title="Mi Fuego by albert dros" data-group="a"
-                 href="https://farm4.staticflickr.com/3804/33589584740_b0fbdcd4aa_z.jpg">
-                <img src="https://farm4.staticflickr.com/3804/33589584740_b0fbdcd4aa_s.jpg" alt="">
-              </a>
-              <a data-gallery="photoviewer" data-title="Winter Fairytale by Achim Thomae"
-                 data-group="a"
-                 href="https://farm1.staticflickr.com/470/31340603494_fb7228020d_z.jpg">
-                <img src="https://farm1.staticflickr.com/470/31340603494_fb7228020d_s.jpg" alt="">
-              </a>
-
-              <a data-gallery="photoviewer"
-                 href="https://farm5.staticflickr.com/4267/34162425794_1430f38362_z.jpg"
-                 data-group="b">
-                <img src="https://farm5.staticflickr.com/4267/34162425794_1430f38362_s.jpg" alt="">
-              </a>
-              <a data-gallery="photoviewer"
-                 href="https://farm1.staticflickr.com/4160/34418397675_18de1f7b9f_z.jpg"
-                 data-group="b">
-                <img src="https://farm1.staticflickr.com/4160/34418397675_18de1f7b9f_s.jpg" alt="">
-              </a>
-              <a data-gallery="photoviewer"
-                 href="https://farm1.staticflickr.com/512/32967783396_a6b4babd92_z.jpg"
-                 data-group="b">
-                <img src="https://farm1.staticflickr.com/512/32967783396_a6b4babd92_s.jpg" alt="">
+              <a data-gallery="photoviewer" data-title="Justine, Dustin and Joe atop a mounting." data-group="a"
+                 href="media/JustineDustinJoe.JPG">
+                <img src="media/JustineDustinJoe.JPG" alt="">
               </a>
             </div>
             <hr>
-            <h4>Overflowing text to show scroll behavior</h4>
-            <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
-              facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum
-              at eros.</p>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
-              lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-            <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
-              scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus
-              auctor fringilla.</p>
-            <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
-              facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum
-              at eros.</p>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
-              lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-            <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
-              scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus
-              auctor fringilla.</p>
-            <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
-              facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum
-              at eros.</p>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
-              lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-            <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
-              scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus
-              auctor fringilla.</p>
+            <h4>Test Image Info</h4>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
