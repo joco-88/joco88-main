@@ -10,10 +10,10 @@
         echo $extraStylesheet;
     } ?>
 
-    <!--- This is my Font Awesome Kit I made. Right now, just using hosted (free) fonts
+    <!--- This is my Font Awesome Kit I made. Right now, just using hosted (free) fonts and don't need to use it.
     <script src="https://kit.fontawesome.com/347bff65d7.js" crossorigin="anonymous"></script>
     --->
-    
+
     <title>
       <?php echo isset($PageTitle) ? $PageTitle . " | Joco88.com" : "Joco88.com"?>
     </title>
