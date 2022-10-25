@@ -1,6 +1,6 @@
 <?php
 $PageTitle = "Photo Gallery";
-$extraStylesheet = "<link href=\"/css/photoviewer.css\" rel=\"stylesheet\">";
+$extraStylesheet = "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css\">";
 include('/home/joco88.com/public_html/templates/header.php');
 ?>
 <!-- Body starts here as body tag opens at end of Header.php file -->
@@ -20,7 +20,6 @@ include('/home/joco88.com/public_html/templates/header.php');
   </footer>
   <!-- Installing test scripts for photo viewer, only on this page. -->
   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-  <script src="https://use.fontawesome.com/63008d17a6.js"></script>
   <script src="js/ezoom.js"></script>
 
 </body>
