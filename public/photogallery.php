@@ -8,6 +8,14 @@ include('/home/joco88.com/public_html/templates/header.php');
   <div class="container-fluid">
       <br><h1>Joe's Photo Viewer</h1>
       <p>This is my first test photo gallery.</p>
+<script>
+      ezoom.onInit($('media/JustineDustinJoe.JPG'), {
+      2
+        // options here
+      3
+      });
+</script>
+
   </div>
 
 
