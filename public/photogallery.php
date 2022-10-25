@@ -79,6 +79,10 @@ include('/home/joco88.com/public_html/templates/header.php');
     <?php
       include('/home/joco88.com/public_html/templates/footer.php');
     ?>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="/js/ezoom.js"></script>
+
   </footer>
   <!-- Installing test scripts for photo viewer, only on this page. -->
 
