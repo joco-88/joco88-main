@@ -9,6 +9,7 @@ include('/home/joco88.com/public_html/templates/header.php');
       <br><h1>Welcome!</h1>
       <p>Test Paragraph now that I have root access to public folder working.</p>
       <p>I am also testing out a navbar and bootstrap in general.</p>
+      <imgSrc = "/media/JustineDustinJoe.jpg">;
   </div>
 </main>
   <footer>
