@@ -15,7 +15,7 @@ include('/home/joco88.com/public_html/templates/header.php');
             var items = [
             {
                 src: '/media/JustineDustinJoe.JPG', // path to image
-                title: 'Image Caption 1' // If you skip it, there will display the original image name(image1)
+                title: 'Justine, Dustin and Joe, atop a mountain.' // If you skip it, there will display the original image name(image1)
             },
             //{
                 //src: 'path/to/image2.jpg',
