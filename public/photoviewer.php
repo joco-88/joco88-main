@@ -13,9 +13,9 @@ include('/home/joco88.com/public_html/templates/header.php');
   </div>
 
 <center><div class="container-fluid">
-    <i class="fa fa-5x fa-solid fa-image"></i>&nbsp; &nbsp;
+    <i class="fa fa-5x fa-solid fa-image"></i>
               <div class="alert alert-primary" role="alert">
-                  Click on the image below to view larger.
+                  <i class="fa fa-5x fa-solid fa-image"></i><br>Click on the image below to view larger.
               </div>
               <div class="alert alert-info" role="alert">
                   Use your mouse to zoom in/out.<br>
