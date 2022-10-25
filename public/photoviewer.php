@@ -27,7 +27,7 @@ include('/home/joco88.com/public_html/templates/header.php');
   </div>
 
   	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-  	<script type="text/javascript" src="ezoom.js"></script>
+  	<script type="text/javascript" src="js/ezoom.js"></script>
   	<script type="text/javascript">
   		$(document).ready(function(){
 
@@ -52,7 +52,7 @@ include('/home/joco88.com/public_html/templates/header.php');
     ?>
 
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-    <script src="js/ezoom.js"></script>
+    <script src="/js/ezoom.js"></script>
 
   </footer>
   <!-- Installing test scripts for photo viewer, only on this page. -->
