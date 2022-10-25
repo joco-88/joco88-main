@@ -8,6 +8,7 @@
     <?php if (isset($extraStylsheet)) {
         echo $extraStylsheet;
     }
+    ?>
   <title>
       <?php echo isset($PageTitle) ? $PageTitle . " | Joco88.com" : "Joco88.com"?>
   </title>
