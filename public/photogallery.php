@@ -10,7 +10,7 @@ include('/home/joco88.com/public_html/templates/header.php');
       <p>This is my first test photo gallery.</p><br>
   </div>
 
-<div class="container-fluid">
+<center><div class="container-fluid">
     <p class="lead"><i class="fa fa-file-image-o" aria-hidden="true">&nbsp; &nbsp;</i>Click the image below to view larger. You may zoom in/out with your mouse. Using the controls or "R" key will also rotate the photo.</p>
   	<div id="imgDiv">
   		<img src="https://joco88.com/media/JustineDustinJoe.JPG" width="300px" />
@@ -34,7 +34,7 @@ include('/home/joco88.com/public_html/templates/header.php');
 
   		});
   	</script>
-</div>
+</div></center>
 
 
 
