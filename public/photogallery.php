@@ -3,9 +3,6 @@ $PageTitle = "Photo Gallery";
 $extraStylesheet = "<link href=\"/css/photoviewer.css\" rel=\"stylesheet\">";
 include('/home/joco88.com/public_html/templates/header.php');
 ?>
-<!-- Installing test scripts for photo viewer, only on this page. -->
-<!-- Core JS file -->
-<script src="js/photoviewer.js"></script>
 <!-- Body starts here as body tag opens at end of Header.php file -->
 <main>
   <div class="container-fluid">
@@ -72,6 +69,8 @@ $('[data-gallery=manual]').click(function (e) {
       include('/home/joco88.com/public_html/templates/footer.php');
     ?>
   </footer>
-
+  <!-- Installing test scripts for photo viewer, only on this page. -->
+  <!-- Core JS file -->
+  <script src="js/photoviewer.js"></script>
 </body>
 </html>
