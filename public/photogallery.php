@@ -17,7 +17,7 @@ include('/home/joco88.com/public_html/templates/header.php');
   	</div>
   </div>
 
-  	<script src="https://code.jquery.com/jquery-3.6.1.min.js"</script>
+  	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
   	<script type="text/javascript" src="ezoom.js"></script>
   	<script type="text/javascript">
   		$(document).ready(function(){
