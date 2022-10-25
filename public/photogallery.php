@@ -22,14 +22,14 @@ include('/home/joco88.com/public_html/templates/header.php');
                 title: 'Same Image 2'
             }
             ];
-
+/*
             // define options (if needed)
             var options = {
             // optionName: 'option value'
             // for example:
             index: 0 // this option means you will start at first image
             };
-
+*/
             // Initialize the plugin
             var photoviewer = new PhotoViewer(items, options);
        </script>
