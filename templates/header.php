@@ -7,8 +7,8 @@
     <link href="/css/styles.css" rel="stylesheet">
     <?php if (isset($extraStylesheet)) {
         echo $extraStylesheet;
-    }
-    ?>
+    } ?>
+
   <title>
       <?php echo isset($PageTitle) ? $PageTitle . " | Joco88.com" : "Joco88.com"?>
   </title>
