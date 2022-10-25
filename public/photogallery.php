@@ -9,6 +9,9 @@ include('/home/joco88.com/public_html/templates/header.php');
       <br><h1>Welcome!</h1>
       <p>This is my first test photo gallery.</p>
   </div>
+  <div class="container-fluid">
+      GALLERY HERE
+  </div>
 </main>
   <footer>
     <?php
