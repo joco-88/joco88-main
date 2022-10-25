@@ -67,7 +67,7 @@ $('[data-gallery=manual]').click(function (e) {
     <h1></h1>
     <!-- Button trigger modal -->
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-      View Images</button>
+      View Image</button>
     <!-- Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
@@ -106,9 +106,9 @@ $('[data-gallery=manual]').click(function (e) {
   </footer>
   <!-- Installing test scripts for photo viewer, only on this page. -->
   <!-- Core JS file -->
-  <script src="/js/photoviewer.js"></script>
-  <script src="/js/photoviewer.common.js"></script>
-  <script src="/js/photoviewer.esn.js"></script>
-  <script src="/js/photoviewer.min.js"></script>
+  <script src="js/photoviewer.js"></script>
+  <script src="js/photoviewer.common.js"></script>
+  <script src="js/photoviewer.esn.js"></script>
+  <script src="js/photoviewer.min.js"></script>
 </body>
 </html>
