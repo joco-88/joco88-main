@@ -27,8 +27,6 @@ include('/home/joco88.com/public_html/templates/header.php');
     ?>
   </footer>
   <!-- Installing test scripts for photo viewer, only on this page. -->
-  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-  <script src="js/ezoom.js"></script>
 
 </body>
 </html>
