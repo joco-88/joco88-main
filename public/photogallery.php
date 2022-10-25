@@ -8,43 +8,42 @@ include('/home/joco88.com/public_html/templates/header.php');
   <div class="container-fluid">
       <br><h1>Joe's Photo Viewer</h1>
       <p>This is my first test photo gallery.</p><br>
-  </div>
-  
+
 <?php
-echo '<script>';
-        echo 'ezoom.onInit(domElement, {';
-        echo 'src:'media/JustineDustinJoe.JPG'';
-        echo '});';
+echo '<script type="javacript">
+        ezoom.onInit(domElement, {
+        src:'media/JustineDustinJoe.JPG'
+        });
 
-        echo 'ezoom.onInit(domElement, {';
-          echo 'hideControlBtn:false';
-        echo '});';
+        ezoom.onInit(domElement, {
+          hideControlBtn:false
+        });
 
-        echo 'ezoom.onInit(domElement, {';
+        ezoom.onInit(domElement, {
 
-          echo 'onShow:function(){';
+          onShow:function(){
             // do something
-          echo '},';
-          echo 'onClose:function(){';
+          },
+          onClose:function(){
             // do something
-          echo '},';
-          echo 'onRotate:function(){';
+          },
+          onRotate:function(){
             // do something
-          echo '},';
-          echo 'onMoveStarted:function(){';
+          },
+          onMoveStarted:function(){
             // do something
-          echo '},';
-          echo 'onMovedCompleted:function(){';
+          },
+          onMovedCompleted:function(){
             // do something
-          echo '},';
-          echo 'onMoving:function(){';
+          },
+          onMoving:function(){
             // do something
-          echo '},';
-        echo '});';
+          },
+        });
 
-echo '</script>';
+</script>';
 ?>
-
+  </div>
 
 
 
