@@ -2,4 +2,12 @@
 
 /* Header - Navigation Bar Styles */
 
+
+/* Footer - Styling */
+
+.container-fluid-footer:link {
+    color: #ffffff;
+   text-decoration: none;
+}
+
 /* Standard Font Styles */
