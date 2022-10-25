@@ -1,6 +1,6 @@
 <?php
 $PageTitle = "Photo Gallery";
-$extraStylesheet = "<link href="/css/photoviewer.css" rel="stylesheet">";
+$extraStylesheet = "<link href=\"/css/photoviewer.css\" rel="stylesheet\">";
 include('/home/joco88.com/public_html/templates/header.php');
 ?>
 <!-- Body starts here as body tag opens at end of Header.php file -->
