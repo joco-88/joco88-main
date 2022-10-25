@@ -10,38 +10,38 @@ include('/home/joco88.com/public_html/templates/header.php');
       <p>This is my first test photo gallery.</p><br>
 
 <?php
-echo '<script>',
-        'ezoom.onInit(domElement, {',
-        'src:'media/JustineDustinJoe.JPG',
+echo '<script>
+        echo 'ezoom.onInit(domElement, {';
+        echo 'src:'media/JustineDustinJoe.JPG'';
+        echo '});';
 
-        ezoom.onInit(domElement, {
-          hideControlBtn:false
-        });
+        echo 'ezoom.onInit(domElement, {';
+          echo 'hideControlBtn:false';
+        echo '});';
 
-        ezoom.onInit(domElement, {
+        echo 'ezoom.onInit(domElement, {';
 
-          onShow:function(){
+          echo 'onShow:function(){';
             // do something
-          },
-          onClose:function(){
+          echo '},';
+          echo 'onClose:function(){';
             // do something
-          },
-          onRotate:function(){
+          echo '},';
+          echo 'onRotate:function(){';
             // do something
-          },
-          onMoveStarted:function(){
+          echo '},';
+          echo 'onMoveStarted:function(){';
             // do something
-          },
-          onMovedCompleted:function(){
+          echo '},';
+          echo 'onMovedCompleted:function(){';
             // do something
-          },
-          onMoving:function(){
+          echo '},';
+          echo 'onMoving:function(){';
             // do something
-          },
-        });
+          echo '},';
+        echo '});';
 
-'</script>'
-;
+echo '</script>';
 ?>
   </div>
 
