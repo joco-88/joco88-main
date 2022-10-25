@@ -1,6 +1,6 @@
 <?php
 $PageTitle = "Photo Gallery";
-$extraStylesheet = "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css\">";
+
 include('/home/joco88.com/public_html/templates/header.php');
 ?>
 <!-- Body starts here as body tag opens at end of Header.php file -->
