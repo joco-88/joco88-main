@@ -11,7 +11,7 @@ include('/home/joco88.com/public_html/templates/header.php');
   </div>
 
 <div class="container-fluid">
-    <p class="lead"><i class="fa fa-file-image-o" aria-hidden="true"></i>&nbsp; Click the image below to view larger. You may zoom in/out with your mouse. Using the controls or "R" key will also rotate the photo.</p>
+    <p class="lead"><i class="fa fa-file-image-o" aria-hidden="true"></i>&nbsp;Click the image below to view larger. You may zoom in/out with your mouse. Using the controls or "R" key will also rotate the photo.</p>
   	<div id="imgDiv">
   		<img src="https://joco88.com/media/JustineDustinJoe.JPG" width="300px" />
   	</div>
