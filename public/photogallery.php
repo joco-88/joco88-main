@@ -8,7 +8,8 @@ include('/home/joco88.com/public_html/templates/header.php');
   <div class="container-fluid">
       <br><h1>Joe's Photo Viewer</h1>
       <p>This is my first test photo gallery.</p><br>
-
+  </div>
+  
 <?php
 echo '<script>';
         echo 'ezoom.onInit(domElement, {';
@@ -43,7 +44,7 @@ echo '<script>';
 
 echo '</script>';
 ?>
-  </div>
+
 
 
 
