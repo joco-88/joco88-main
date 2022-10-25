@@ -49,4 +49,3 @@
     </nav>
   </header>
 <body>
-<script src="https://use.fontawesome.com/63008d17a6.js"></script>
