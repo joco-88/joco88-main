@@ -11,7 +11,7 @@ include('/home/joco88.com/public_html/templates/header.php');
   </div>
 
 <div class="container-fluid">
-  	<p class="lead">A simple yet full-featured image viewer plugin that makes it easier to view, pan, zoom, and rotate your image in a fullscreen modal popup.</p>
+  	<p class="lead">Click the image below to view larger. You may zoom in/out with your moust.</p>
   	<div id="imgDiv">
   		<img src="https://joco88.com/media/JustineDustinJoe.JPG" width="300px" />
   	</div>
