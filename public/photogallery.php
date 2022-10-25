@@ -9,7 +9,7 @@ include('/home/joco88.com/public_html/templates/header.php');
       <br><h1>Joe's Photo Viewer</h1>
       <p>This is my first test photo gallery.</p>
   </div>
-  
+
 
 
   </div>
@@ -20,10 +20,6 @@ include('/home/joco88.com/public_html/templates/header.php');
     ?>
   </footer>
   <!-- Installing test scripts for photo viewer, only on this page. -->
-  <!-- Core JS file -->
-  <script src="js/photoviewer.js"></script>
-  <script src="js/photoviewer.common.js"></script>
-  <script src="js/photoviewer.esn.js"></script>
-  <script src="js/photoviewer.min.js"></script>
+
 </body>
 </html>
