@@ -7,5 +7,5 @@
 
 <center>
   <div class="container-fluid p-5 my-5 bg-secondary text-white">
-    &copy;<?php echo date("Y");?> - <a class="footerLinks" href="https://joco88.com/contactme.php">Joseph Condon</a> & <a href="https://joco88.com/">Joco88.com</a></p></center>
+    &copy;<?php echo date("Y");?> - <a class="footerLinks" href="https://joco88.com/contactme.php">Joseph Condon</a> & <a class="footerLinks" href="https://joco88.com/">Joco88.com</a></p></center>
   </div>
