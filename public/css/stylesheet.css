@@ -5,11 +5,11 @@
 
 /* Footer - Styling */
 
-#container-fluid-footer a:link {
+#container-fluid-footer p-5 my-5 bg-secondary text-white a:link {
     color: #ffffff;
     text-decoration: none;
 }
-#container-fluid-footer a:hover {
+#container-fluid-footer p-5 my-5 bg-secondary text-white a:hover {
     color: ##92E1F6;
 }
 /* Standard Font Styles */
