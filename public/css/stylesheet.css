@@ -7,7 +7,7 @@
 
 /* Unvisited Link */
 .footerLinks a:link {
-    color: #ffffff;
+    color: #EAF8FC;
     text-decoration: none;
 }
 /* Mouse Over Link */
@@ -17,12 +17,11 @@
 }
 /* Visited Link */
 .footerLinks a:visited {
-    color: #ffffff;
+    color: #EAF8FC;
     text-decoration: none;
 }
 /* selected link */
 a:active {
-  color: black;
-  text-decoration: underline;
+  color: #ffffff;
 }
 /* Standard Font Styles */
