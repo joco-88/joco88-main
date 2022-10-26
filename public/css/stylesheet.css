@@ -5,14 +5,21 @@
 
 /* Footer - Styling */
 
+/* Unvisited Link */
 .footerLinks a:link {
     color: #ffffff;
     text-decoration: none;
 }
+/* Mouse Over Link */
 .footerLinks a:hover {
-    color: #92E1F6;
+    color: #ffffff;
 }
+/* Visited Link */
 .footerLinks a:visited {
     color: #CFDEE3;
+}
+/* selected link */
+a:active {
+  color: yellow;
 }
 /* Standard Font Styles */
