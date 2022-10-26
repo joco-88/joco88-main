@@ -7,7 +7,7 @@
 
 .footerLinks a:link {
     color: #ffffff;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .footerLinks a:hover {
     color: #92E1F6;
