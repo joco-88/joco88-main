@@ -8,6 +8,6 @@
 <center>
   <div class="footerLinks">
   <div class="container-fluid p-5 my-5 bg-secondary text-white">
-    &copy;<?php echo date("Y");?> - <a href="https://joco88.com/contactme.php">Joseph Condon</a> & <a href="https://joco88.com/">Joco88.com</a></p></center>
+    &copy;<?php echo date("Y");?> - <a href="https://joco88.com/contactme.php"><strong>Joseph Condon</strong></a> & <a href="https://joco88.com/"><strong>Joco88.com</strong></a></p></center>
   </div>
   </div>
