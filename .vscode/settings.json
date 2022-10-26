@@ -6,6 +6,6 @@
     "git.alwaysShowStagedChangesResourceGroup": true,
     "git.allowForcePush": true,
     "git.allowNoVerifyCommit": true,
-    "gitdoc.enabled": true,
+    "gitdoc.enabled": false,
     "files.autoSave": "afterDelay"
 }
