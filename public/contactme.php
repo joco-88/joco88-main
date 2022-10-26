@@ -7,7 +7,7 @@ include('/home/joco88.com/public_html/templates/header.php');
 <main>
   <div class="container-fluid">
       <br><h1>Welcome!</h1>
-      <p>Here I will test a basic contact form with validations. Might try bootstrap styling. Also, I may add a captcha form to prevent more spam.</p>
+      <p>Here, I will test a basic contact form with validations. Might try bootstrap styling. Also, I may add a captcha form to prevent more spam.</p>
   </div>
 </main>
   <footer>
