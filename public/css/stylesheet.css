@@ -5,12 +5,11 @@
 
 /* Footer - Styling */
 
-.footerLinks a{
+.footerLinks a:active{
     color: #ffffff;
     text-decoration: none;
 }
-.footerLinks:hover
-    {
+.footerLinks a:hover {
       color:#fa5705;
     }
 /* Standard Font Styles */
