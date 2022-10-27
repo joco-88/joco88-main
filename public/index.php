@@ -32,6 +32,8 @@ include('../templates/header.php');
   </div>
 </main>
 
+<!-- Body starts here as body tag opens at end of Header.php file -->
+
   <footer>
     <?php
       include('../templates/footer.php');
