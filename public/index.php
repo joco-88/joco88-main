@@ -13,8 +13,7 @@ include('../templates/header.php');
         <li>Built out basic page framework and php file structure.</li>
         <li>Introduced Bootstrap and completed first Navbar with dropdown link integration..</li>
       </ol>
-      <p>Test Paragraph now that I have root access to public folder working.</p>
-      <p>I am also testing out a navbar and bootstrap in general.</p>
+   
       <p><strong>10/27/2022</strong></p>
       <ol>
           <li>Added new "SiteName" variable instead of hardcoding throughout site.</li>
