@@ -4,7 +4,7 @@ include('../templates/header.php');
 ?>
 
 <!-- Body starts here as body tag opens at end of Header.php file -->
-<!-- The Content below this can be copied from my main
+<!-- The Content below this can be copied from my main site as it will stay the same
 <main>
   <div class="container-fluid">
     <br><h1>Welcome!</h1>
