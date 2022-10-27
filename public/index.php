@@ -6,8 +6,8 @@ include('../templates/header.php');
 <!-- Body starts here as body tag opens at end of Header.php file -->
 <main>
   <div class="container-fluid">
-      <br><h1>Welcome!</h1>
-      <h3>Changelog</h3>
+    <br><h1>Welcome!</h1>
+    <h3>Changelog</h3>
       <p><strong>10/24/2022</strong></p>
       <ol>
           <li>Built out basic page framework and php file structure.</li>
