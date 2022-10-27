@@ -10,7 +10,8 @@ include('../templates/header.php');
       <p>Test Paragraph now that I have root access to public folder working.</p>
       <p>I am also testing out a navbar and bootstrap in general.</p>
       <p><strong>10/27/2022</strong></p>
-      
+      <ol>
+          <li>Added new
   </div>
 </main>
   <footer>
