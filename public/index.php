@@ -15,7 +15,7 @@ include('../templates/header.php');
       </ol>
     <p><strong>10/25/2022</strong></p>
       <ol>
-        <li>Built out basic page framework and php file structure.</li>
+        <li>Implemented first JavaScript.</li>
         <li>Introduced Bootstrap and completed first Navbar with dropdown link integration..</li>   
     <p><strong>10/27/2022</strong></p>
       <ol>
