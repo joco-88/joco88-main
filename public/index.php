@@ -31,6 +31,7 @@ include('../templates/header.php');
       </ol>
   </div>
 </main>
+
   <footer>
     <?php
       include('../templates/footer.php');
