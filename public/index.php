@@ -7,7 +7,7 @@ include('../templates/header.php');
 <main>
   <div class="container-fluid">
     <br><h1>Welcome!</h1>
-    <h3>Changelog</h3>
+    <h4>Changelog</h4>
     <p><strong>10/24/2022</strong></p>
       <ol>
         <li>Built out basic page framework and php file structure.</li>
