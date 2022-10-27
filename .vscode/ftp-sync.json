@@ -1,8 +1,8 @@
 {
     "remotePath": "/public_html/",
     "host": "191.101.233.218",
-    "username": "username",
-    "password": "password",
+    "username": "admin_jcondontest",
+    "password": "DLE@85@Kuc6T",
     "port": 21,
     "secure": false,
     "protocol": "ftp",
