@@ -11,7 +11,8 @@ include('../templates/header.php');
       <p>I am also testing out a navbar and bootstrap in general.</p>
       <p><strong>10/27/2022</strong></p>
       <ol>
-          <li>Added new "SiteName" variable instead of hardcoding throughout site.
+          <li>Added new "SiteName" variable instead of hardcoding throughout site.</li>
+          
   </div>
 </main>
   <footer>
