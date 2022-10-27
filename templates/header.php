@@ -9,7 +9,7 @@
     <?php if (isset($extraStylesheet)) {
         echo $extraStylesheet;
       }
-      $SiteName="Joco88";
+$SiteName="Joco88";
     ?>
 
     <!--- This is my Font Awesome Kit I made. Right now, just using hosted (free) fonts and don't need to use it.
