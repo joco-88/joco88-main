@@ -4,7 +4,8 @@ include('../templates/header.php');
 ?>
 
 <!-- Body starts here as body tag opens at end of Header.php file -->
-<!-- The Content below this can be copied from my main site as it will stay the same regardless of domain name -->$_COOKIE
+<!-- The Content below this can be copied from my main site as it will stay the same regardless of domain name -->
+
 <main>
   <div class="container-fluid">
     <br><h1>Welcome!</h1>
