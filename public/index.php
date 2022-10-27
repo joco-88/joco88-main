@@ -10,7 +10,7 @@ include('../templates/header.php');
       <h3>Changelog</h3>
       <p><strong>10/24/2022</strong></p>
       <ol>
-          <li>Added new "SiteName" variable instead of hardcoding throughout site.</li>
+          <li>Built out basic page framework</li>
           <li>Added new "SiteName" variable instead of hardcoding throughout site.</li>
       <ol>
       <p>Test Paragraph now that I have root access to public folder working.</p>
