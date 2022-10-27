@@ -18,7 +18,7 @@ include('../templates/header.php');
         <li>Implemented first JavaScript / jquery script to website.</li>
         <li>Implemented FrontAwesome stylesheets and utilzied them in photoviewr.</li>
         <li>Successfully added photo viewer to website which allows for zooming and rotating of images</li>
-            <ol>Added this under a new menu item (Projects)   
+            <ol>Added this under a new menu item (Projects)</ol>   
     <p><strong>10/27/2022</strong></p>
       <ol>
         <li>Added new "SiteName" variable instead of hardcoding throughout site.</li>
