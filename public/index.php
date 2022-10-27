@@ -32,7 +32,7 @@ include('../templates/header.php');
   </div>
 </main>
 
-<!-- End of main content -  -->
+<!-- End of main content - footer will start below. -->
 
   <footer>
     <?php
