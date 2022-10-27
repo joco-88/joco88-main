@@ -17,7 +17,7 @@
     --->
 
     <title>
-      <?php echo isset($PageTitle) ? $PageTitle . " | Joco88.com" : "Joco88.com"?>
+    <?php echo isset($PageTitle) ? $PageTitle . " | $SiteName.com" : "$SiteName.com"?>
     </title>
     <link rel="icon" type="image/x-icon" href="/media/favicon.ico">
 
