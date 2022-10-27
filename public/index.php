@@ -19,7 +19,7 @@ include('../templates/header.php');
       <ol>
           <li>Added new "SiteName" variable instead of hardcoding throughout site.</li>
 
-      <ol>
+    </ol>
   </div>
 </main>
   <footer>
