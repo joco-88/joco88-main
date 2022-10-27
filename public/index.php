@@ -20,7 +20,8 @@ include('../templates/header.php');
         <li>Successfully added photo viewer to website which allows for zooming and rotating of images</li>
             <ul><li>Added this under a new menu item (Projects)</li>
                 <li>Ported this to Webpoint production site with Dustin</li>
-            </ul>   
+            </ul>
+</ol>   
     <p><strong>10/27/2022</strong></p>
       <ol>
         <li>Added new "SiteName" variable instead of hardcoding throughout site.</li>
