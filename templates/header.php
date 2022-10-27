@@ -23,7 +23,7 @@ $SiteName="Joco88";
 
 </head>
     <header>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <nav class="navbar navbar-expand-sm bg-blue navbar-dark">
             <div class="container-fluid">
             <a class="navbar-brand" href="/"> <?php echo $SiteName; ?> </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
