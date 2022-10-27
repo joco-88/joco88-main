@@ -1,7 +1,7 @@
 <?php
 $PageTitle = "Photo Gallery";
 
-include('/home/joco88.com/public_html/templates/header.php');
+include('../templates/header.php');
 ?>
 
 <!-- Body starts here as body tag opens at end of Header.php file -->
