@@ -32,7 +32,7 @@ include('../templates/header.php');
   </div>
 </main>
 
-<!-- Body starts here as body tag opens at end of Header.php file -->
+<!-- End of main content -  -->
 
   <footer>
     <?php
