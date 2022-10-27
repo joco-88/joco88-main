@@ -16,7 +16,7 @@ include('../templates/header.php');
     <p><strong>10/25/2022</strong></p>
       <ol>
         <li>Implemented first JavaScript / jquery script to website.</li>
-        <li>Introduced Bootstrap and completed first Navbar with dropdown link integration..</li>   
+        <li>Implemented FrontAwesome</li>   
     <p><strong>10/27/2022</strong></p>
       <ol>
         <li>Added new "SiteName" variable instead of hardcoding throughout site.</li>
