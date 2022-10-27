@@ -8,7 +8,7 @@ include('../templates/header.php');
   <div class="container-fluid">
       <br><h1>Welcome!</h1>
       <h3>Changelog</h3>
-      <p><strong>10/
+      <p><strong>10/24/2022
       <ol>
           <li>Added new "SiteName" variable instead of hardcoding throughout site.</li>
 
