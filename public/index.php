@@ -12,7 +12,8 @@ include('../templates/header.php');
       <p><strong>10/27/2022</strong></p>
       <ol>
           <li>Added new "SiteName" variable instead of hardcoding throughout site.</li>
-          
+
+      <ol>
   </div>
 </main>
   <footer>
