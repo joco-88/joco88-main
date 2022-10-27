@@ -9,6 +9,7 @@ include('../templates/header.php');
       <br><h1>Welcome!</h1>
       <p>Test Paragraph now that I have root access to public folder working.</p>
       <p>I am also testing out a navbar and bootstrap in general.</p>
+      <p>I am also testing out a navbar and bootstrap in general.</p>
   </div>
 </main>
   <footer>
