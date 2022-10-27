@@ -13,7 +13,7 @@ include('/home/joco88.com/public_html/templates/header.php');
 </main>
   <footer>
     <?php
-      include('/home/joco88.com/public_html/templates/footer.php');
+      include('../templates/footer.php');
     ?>
   </footer>
 </body>
