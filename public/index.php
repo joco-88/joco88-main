@@ -7,6 +7,10 @@ include('../templates/header.php');
 <main>
   <div class="container-fluid">
       <br><h1>Welcome!</h1>
+      <ol>
+          <li>Added new "SiteName" variable instead of hardcoding throughout site.</li>
+
+      <ol>
       <p>Test Paragraph now that I have root access to public folder working.</p>
       <p>I am also testing out a navbar and bootstrap in general.</p>
       <p><strong>10/27/2022</strong></p>
