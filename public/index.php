@@ -23,11 +23,16 @@ include('../templates/header.php');
             <ul><li>Added this under a new menu item (Projects)</li>
                 <li>Ported this to Webpoint production site with Dustin</li>
             </ul>
-      </ol>   
+      </ol>
     <p><strong>10/27/2022</strong></p>
       <ol>
         <li>Added new "SiteName" variable instead of hardcoding throughout site.</li>
         <li>Added this changelog list :)</li>
+      </ol>
+    <p><strong>11/04/2022</strong></p>
+      <ol>
+        <li>Got rid of FTP</li>
+        <li>Trying to figure out what I'm doing in general....</li>
       </ol>
   </div>
 </main>
