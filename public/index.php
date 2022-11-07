@@ -29,10 +29,13 @@ include('../templates/header.php');
         <li>Added new "SiteName" variable instead of hardcoding throughout site.</li>
         <li>Added this changelog list :)</li>
       </ol>
-    <p><strong>11/04/2022</strong></p>
+    <p><strong>11/07/2022</strong></p>
       <ol>
-        <li>Got rid of FTP</li>
-        <li>Trying to figure out what I'm doing in general....</li>
+        <li>Added a Contact Me page</li>
+        <li>Created a contact form using HTML & PHP</li>
+          <ul><li>Successfully used PHP to run conditional statement for when form is submitted, but now need to
+            figure out how to store data in database and fire off an email notification.</li>
+          </ul>
       </ol>
   </div>
 </main>
