@@ -8,7 +8,7 @@ include('../templates/header.php');
     {
         $fname = $_POST['fname'];
         echo "<main><center><div class='container-fluid'><br><h1>Success!</h1>";
-        echo "Hello, ' . '$fname' . '!</b>";
+        echo "Hello, $fname!</b>";
         echo "<br>We have received your message and will get back to you as soon as possible.</center></div></main>";
     } else {
 
