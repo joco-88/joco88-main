@@ -40,7 +40,7 @@ Once I have reviewed your message, we will reach out to you at the email address
 </strong>
 <br>
 <br>
-Have a great day!<br>
+Have a great day!<br><hr>
 <div>
 </main>
 
