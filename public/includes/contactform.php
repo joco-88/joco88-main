@@ -2,7 +2,7 @@
 $PageTitle="Contact Form Submitted";
 include ('../templates/header.php');
 ?>
-<?php echo "testing"; ?>
+<?php echo "Testing"; ?>
 <main>
 <div class="container-fluid">
 Hello,&nbsp<?php echo $_POST["fname"]; ?>!<br><br>
