@@ -7,27 +7,14 @@ $lname = $_POST['lname'];
 $phone = $_POST['phone'];
 $contactReason = $_POST['contact_reason'];
 mail("jocodigitalweb@gmail.com", "Joco88 Contact Form Submission",
-$_POST["$customer_message"]. "From: an@email.address");
+$_POST["customer_message"]. "From: $fname $lname");
 }
 ?>
 
 <?php
 $PageTitle="Home";
 include('../templates/header.php');
-
-// The code now says IF form info has been passed, show success message ELSE, show contact form and normal page
-
-    if(isset($_POST['submit']))
-    {
-        $fname = $_POST['fname'];
-        echo "<main><center><div class='container-fluid'><br><h1>Success!</h1>";
-        echo "Hello, $fname!</b>";
-        echo "<br>We have received your message and will get back to you as soon as possible.</center></div></main>";
-    } else {
-
 ?>
-
-<!-- Body starts here as body tag opens at end of Header.php file -->
 
   <main>
     <div class="container-fluid">
