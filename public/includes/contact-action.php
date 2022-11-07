@@ -16,8 +16,8 @@ $contactReason = $_POST['contact_reason'];
 	$email_subject = "Joco88 - New Form Submission";
 
 	$email_body = "You have received a new message from the user $fname.\n".
-                            "Here is the message:\n $customerMessage.\n".
-                            "The contact reason is:\n $contactReason";
+                            "Here is the message:\n $customerMessage.\n".;
+                            //"The contact reason is:\n $contactReason";
 ?>
 
 <?php
