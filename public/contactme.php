@@ -29,7 +29,7 @@ include('../templates/header.php');
       <fieldset>
         <legend><br>Additional Info:</legend>
               <br><p>Please specifiy your reason for reaching out:</p>
-              <input type="radio" id="question" name="contact_reason" value="General Question">
+              <input type="radio" id="question" name="contact_reason" value="General Question" checked="true">
               <label for="question">General Question</label><br>
               <input type="radio" id="website_issue" name="contact_reason" value="Website Issue">
               <label for="website_issue">Website Issue</label><br>
