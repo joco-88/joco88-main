@@ -15,7 +15,7 @@ include('../templates/header.php');
 <!-- Contact form will go below this -->
   <div contactForm>
     <div class="container-fluid">
-    <form action="/includes/contactform.php" method="post" autocomplete="on" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" formtarget="_self">
+    <form action="/includes/contact-action.php" method="post" autocomplete="on" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" formtarget="_self">
       <fieldset>
         <legend><br>Enter Your Contact Info:</legend>
         <label for="fname">First Name:</label><br>
