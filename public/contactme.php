@@ -10,6 +10,17 @@ include('../templates/header.php');
       <p>On this page, I will test a basic contact form with validations. Might try bootstrap styling.</p>
       <p> Also, I may add a captcha field to prevent more spam. Test</p>
   </div>
+
+<?php
+//Contact form will go below this
+  <div contactForm>
+    <form>
+      .
+      form elements
+      .
+    </form>
+?>
+
 </main>
   <footer>
     <?php
