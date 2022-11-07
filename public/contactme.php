@@ -18,11 +18,11 @@ include('../templates/header.php');
       <label for="fname">First Name:</label><br>
       <input type="text" id="fname" name="fname"><br>
       <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname">
+      <input type="text" id="lname" name="lname"><br>
       <label for="email">Email:</label><br>
-      <input type="email" id="email" name="email">
+      <input type="email" id="email" name="email"><br>
       <label for="phone">Phone:</label><br>
-      <input type="phone" id="phone" name="phone">
+      <input type="phone" id="phone" name="phone"><br>
     </form>
     </div>
   </div>
