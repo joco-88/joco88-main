@@ -11,15 +11,13 @@ include('../templates/header.php');
       <p> Also, I may add a captcha field to prevent more spam. Test</p>
   </div>
 
-<?php
-//Contact form will go below this
+<!-- Contact form will go below this -->
   <div contactForm>
     <form>
       .
       form elements
       .
     </form>
-?>
 
 </main>
   <footer>
