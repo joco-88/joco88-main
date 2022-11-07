@@ -23,7 +23,7 @@ include('../templates/header.php');
       <input type="email" id="email" name="email"><br>
       <label for="phone">Phone:</label><br>
       <input type="phone" id="phone" name="phone"><br>
-        <p>Reason for reaching out:</p>
+        <br><p>Reason for reaching out:</p>
             <input type="radio" id="question" name="contact_reason" value="General Question">
             <label for="question">General Question</label><br>
             <input type="radio" id="website_issue" name="contact_reason" value="Website Issue">
