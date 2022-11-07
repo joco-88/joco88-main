@@ -14,11 +14,11 @@ $contactReason = $_POST['contact_reason'];
 
 	$email_subject = "Joco88 - New Form Submission";
 
-	$email_body = "You have received a new message from the user $fullName.\n".
-                            "Here is the message:\n $customerMessage.\n\n\n".
-                            "The contact reason is:  $contactReason.\n".
-                            "The customer email is:  $customerEmail.\n".
-                            "The customer phone number is:\n $phone.\n";
+	$email_body = "<strong>You have received a new message from the following user:</strong> $fullName.\n".
+                            "<strong>Here is the message:</strong>\n $customerMessage.\n\n\n".
+                            "<strong>The contact reason is:</strong>  $contactReason.\n".
+                            "<strong>The customer email is:</strong>  $customerEmail.\n".
+                            "<strong>The customer phone number is:</strong>\n $phone.\n";
 
 ?>
 
