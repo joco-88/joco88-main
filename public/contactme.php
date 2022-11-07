@@ -38,7 +38,7 @@ include('../templates/header.php');
               <label for="reqeust">Request</label><br><br>
             <input type="textarea" id="customer_message" name="customer_message" rows="5" cols="50" required><br>
             <label for="customer_message">Your Message or Question:</label><br>
-        <input type="submit" value="Submit"> <br><br> -- or -- <br><br> <input type="reset" value="Reset Form">
+        <input type="submit" value="Submit"> <br><br> <input type="reset" value="Reset Form">
       </fieldset>
     </form>
     </div>
