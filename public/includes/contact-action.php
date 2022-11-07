@@ -1,6 +1,6 @@
 <?php
 
-$fname = $_POST['fname'];
+$fname = .htmlspecialchars($_POST['fname']);
 $lname = $_POST['lname'];
 $fullName = "$fname $lname";
 $customerMessage = $_POST['customer_message'];
