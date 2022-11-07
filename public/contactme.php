@@ -24,7 +24,7 @@ include('../templates/header.php');
         <label for="email">Email:</label><br>
         <input type="email" id="email" name="email" required="true"><br>
         <label for="phone">Phone:</label><br>
-        <input type="number" id="phone" name="phone" required="false" min="10"><br>
+        <input type="number" id="phone" name="phone"  min="10" max="11" required="false"><br>
       </fieldset>
       <fieldset>
         <legend><br>Additional Info:</legend>
