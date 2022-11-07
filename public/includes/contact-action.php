@@ -1,12 +1,12 @@
 <?php
 
 $fname = htmlspecialchars($_POST['fname']);
-$lname = $_POST['lname'];
-$fullName = "$fname $lname";
-$customerMessage = $_POST['customer_message'];
-$customerEmail = $_POST['email'];
-$phone = $_POST['phone'];
-$contactReason = $_POST['contact_reason'];
+$lname = htmlspecialchars($_POST['lname']);
+$fullName = "$fname $lname");
+$customerMessage = htmlspecialchars($_POST['customer_message']);
+$customerEmail = htmlspecialchars($_POST['email']);
+$phone = htmlspecialchars($_POST['phone']);
+$contactReason = htmlspecialchars($_POST['contact_reason']);
 ?>
 
 <?php
