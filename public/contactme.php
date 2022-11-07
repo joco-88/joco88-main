@@ -7,7 +7,7 @@ $lname = $_POST['lname'];
 $phone = $_POST['phone'];
 $contactReason = $_POST['contact_reason'];
 mail("jocodigitalweb@gmail.com", "Joco88 Contact Form Submission",
-$_POST["customer_message"]. "From: $fname $lname");
+$customerMessage . "From: $email");
 }
 ?>
 
