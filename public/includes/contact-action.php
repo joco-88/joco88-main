@@ -22,7 +22,7 @@ $fullEmail = "Message from $fullName - Message: $customerMessage";
 
 <?php
   $to = "jocodigitalweb@gmail.com";
-  $headers = "From: mail@joco88.com \r\n";
+  $headers = "From: $email_from \r\n";
   $headers .= "Reply-To: $customerEmail \r\n";
   mail($to,$email_subject,$email_body,$headers);
  ?>
