@@ -63,9 +63,6 @@ include('../templates/header.php');
     </div>
   </div>
 
-<?php
-}
-  ?>
 
 </main>
   <footer>
