@@ -26,9 +26,11 @@ include('../templates/header.php');
 
 <!-- Contact form will go below this -->
 
+<!-- Need to remember to make the link safe by somehow including this: echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" -->
+
 <div contactForm>
     <div class="container-fluid">
-    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" autocomplete="on">
+    <form method="post" action="/includes/contact-action.php" autocomplete="on">
       <fieldset>
         <legend><br>Enter Your Contact Info:</legend>
         <label for="fname">First Name:</label><br>
