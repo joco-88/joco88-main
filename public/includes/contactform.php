@@ -3,7 +3,9 @@ $PageTitle="Contact Form Submitted";
 include ('../templates/header.php');
 
 
-echo "Testing"; ?>
+echo "Testing";
+echo $PageTitle;
+?>
 
 <main>
 
