@@ -45,12 +45,12 @@ Have a great day!<br>
 </main>
 
 <?php
-echo $fname .\n;
-echo $lname .\n;
+echo "$fname <br>";
+echo "$lname <br>";
 //echo $fullName;
-echo $customerMessage .\n;
-echo $customerEmail;
-echo $phone;
+echo "$customerMessage <br>";
+echo "$customerEmail <br>";
+echo "$phone <br>";
 //echo $contact_reason;
 //echo $fullEmail;
 
