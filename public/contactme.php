@@ -31,6 +31,7 @@ include('../templates/header.php');
             <input type="radio" id="request" name="contact_reason" value="Request">
             <label for="reqeust">Request</label><br><br>
       <input type="submit" value="Submit">
+    </form>
     </div>
   </div>
 </main>
