@@ -6,7 +6,7 @@ $fullName = "$fname $lname";
 $customerMessage = $_POST['customer_message'];
 $customerEmail = $_POST['email'];
 $phone = $_POST['phone'];
-//$contactReason = $_POST['contact_reason'];
+$contactReason = $_POST['contact_reason'];
 //$fullEmail = "Message from $fname - Message: $customerMessage";
 ?>
 
@@ -51,6 +51,7 @@ echo "Full Name: $fullName <br>";
 echo "Customer Message: $customerMessage <br>";
 echo "Customer Email: $customerEmail <br>";
 echo "Customer Phone: $phone <br>";
+echo "Contact Reason: $contactReason <br>"
 
  ?>
 
