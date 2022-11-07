@@ -43,12 +43,12 @@ Have a great day!<br>
 <?php
 echo $fname\n;
 echo $lname;
-echo $fullName;
+//echo $fullName;
 echo $customerMessage;
 echo $customerEmail;
 echo $phone;
 echo $contact_reason;
-echo $fullEmail;
+//echo $fullEmail;
 
  ?>
 
