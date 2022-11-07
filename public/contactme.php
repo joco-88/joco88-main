@@ -1,18 +1,4 @@
 <?php
-if($_POST["submit"]) {
-$fname = $_POST['fname'];
-$customerMessage = $_POST['customer_message'];
-$email = $_POST['email'];
-$lname = $_POST['lname'];
-$phone = $_POST['phone'];
-$contactReason = $_POST['contact_reason'];
-$fullEmail = "Message from $fname $lname - Message: $customerMessage";
-mail("jocodigitalweb@gmail.com", "Joco88 Contact Form Submission",
-$fullEmail);
-}
-?>
-
-<?php
 $PageTitle="Home";
 include('../templates/header.php');
 ?>
