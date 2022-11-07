@@ -2,7 +2,7 @@
 
 $fname = htmlspecialchars($_POST['fname']);
 $lname = htmlspecialchars($_POST['lname']);
-$fullName = "$fname $lname");
+$fullName = "$fname $lname";
 $customerMessage = htmlspecialchars($_POST['customer_message']);
 $customerEmail = htmlspecialchars($_POST['email']);
 $phone = htmlspecialchars($_POST['phone']);
