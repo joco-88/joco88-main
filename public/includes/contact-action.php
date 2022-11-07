@@ -2,12 +2,12 @@
 
 $fname = $_POST['fname'];
 $lname = $_POST['lname'];
-$fullName = "$fname . $lname";
+//$fullName = "$fname . $lname";
 $customerMessage = $_POST['customer_message'];
 $customerEmail = $_POST['email'];
 $phone = $_POST['phone'];
 $contactReason = $_POST['contact_reason'];
-$fullEmail = "Message from $fullName - Message: $customerMessage";
+//$fullEmail = "Message from $fname - Message: $customerMessage";
 ?>
 
 <?php
@@ -15,7 +15,7 @@ $fullEmail = "Message from $fullName - Message: $customerMessage";
 
 	$email_subject = "Joco88 - New Form Submission";
 
-	$email_body = "You have received a new message from the user $Fullname.\n".
+	$email_body = "You have received a new message from the user $fname.\n".
                             "Here is the message:\n $customerMessage.\n".
                             "The contact reason is:\n $contactReason";
 ?>
