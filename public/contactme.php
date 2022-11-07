@@ -15,22 +15,24 @@ include('../templates/header.php');
   <div contactForm>
     <div class="container-fluid">
     <form action="../app/events/contact-form.php" target="_self" method="post" autocomplete="on">
-      <label for="fname">First Name:</label><br>
-      <input type="text" id="fname" name="fname"><br>
-      <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname"><br>
-      <label for="email">Email:</label><br>
-      <input type="email" id="email" name="email"><br>
-      <label for="phone">Phone:</label><br>
-      <input type="phone" id="phone" name="phone"><br>
-        <br><p>Reason for reaching out:</p>
-            <input type="radio" id="question" name="contact_reason" value="General Question">
-            <label for="question">General Question</label><br>
-            <input type="radio" id="website_issue" name="contact_reason" value="Website Issue">
-            <label for="website_issue">Website Issue</label><br>
-            <input type="radio" id="request" name="contact_reason" value="Request">
-            <label for="reqeust">Request</label><br><br>
-      <input type="submit" value="Submit">
+      <fieldset>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="phone">Phone:</label><br>
+        <input type="phone" id="phone" name="phone"><br>
+          <br><p>Reason for reaching out:</p>
+              <input type="radio" id="question" name="contact_reason" value="General Question">
+              <label for="question">General Question</label><br>
+              <input type="radio" id="website_issue" name="contact_reason" value="Website Issue">
+              <label for="website_issue">Website Issue</label><br>
+              <input type="radio" id="request" name="contact_reason" value="Request">
+              <label for="reqeust">Request</label><br><br>
+        <input type="submit" value="Submit">
+      </fieldset>
     </form>
     </div>
   </div>
