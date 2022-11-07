@@ -1,5 +1,5 @@
 <?php
-if($_POST["customer_message"]) {
+if($_POST["submit"]) {
 $fname = $_POST['fname'];
 $customerMessage = $_POST['customer_message'];
 $email = $_POST['email'];

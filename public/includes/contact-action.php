@@ -1,17 +1,31 @@
 <?php
-if($_POST["submit"]) {
+
 $fname = $_POST['fname'];
-$customerMessage = $_POST['customer_message'];
-$email = $_POST['email'];
 $lname = $_POST['lname'];
+$fullName = "$fname . $lname";
+$customerMessage = $_POST['customer_message'];
+$customerEmail = $_POST['email'];
 $phone = $_POST['phone'];
 $contactReason = $_POST['contact_reason'];
-$fullEmail = "Message from $fname $lname - Message: $customerMessage";
-mail("jocodigitalweb@gmail.com", "Joco88 Contact Form Submission",
-$fullEmail);
-}
+$fullEmail = "Message from $fullName - Message: $customerMessage";
 ?>
 
+<?php
+	$email_from = 'mail@joco88.com';
+
+	$email_subject = "Joco88 - New Form Submission";
+
+	$email_body = "You have received a new message from the user $Fullname.\n".
+                            "Here is the message:\n $customerMessage.\n".
+                            "The contact reason is:\n $contactReason";
+?>
+
+<?php
+  $to = "jocodigitalweb@gmail.com";
+  $headers = "From: mail@joco88.com \r\n";
+  $headers .= "Reply-To: $customerEmail \r\n";
+  mail($to,$email_subject,$email_body,$headers);
+ ?>
 
 <?php
 $PageTitle="Contact Form Submitted";
