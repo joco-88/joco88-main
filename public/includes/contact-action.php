@@ -21,10 +21,10 @@ $contactReason = $_POST['contact_reason'];
 ?>
 
 <?php
-  $to = "jocodigitalweb@gmail.com";
+  $emailTo = "mail@joco88.com";
   $headers = "From: $email_from \r\n";
   $headers .= "Reply-To: $customerEmail \r\n";
-  mail($to,$email_subject,$email_body,$headers);
+  mail($emailTo,$email_subject,$email_body,$headers);
  ?>
 
 
