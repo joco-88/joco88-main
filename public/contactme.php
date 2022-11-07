@@ -13,12 +13,14 @@ include('../templates/header.php');
 
 <!-- Contact form will go below this -->
   <div contactForm>
+    <div class="container-fluid">
     <form>
       .
       form elements
       .
     </form>
-
+    </div>
+  </div>
 </main>
   <footer>
     <?php
