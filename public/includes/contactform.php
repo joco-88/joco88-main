@@ -1,8 +1,8 @@
 <?php
 $PageTitle="Contact Form Submitted";
-include_once ('header.php');
+include ('templates/header.php');
 ?>
-<?php echo "testing"; ?>
+<?php echo "testings"; ?>
 <main>
 <div class="container-fluid">
 Hello,&nbsp<?php echo $_POST["fname"]; ?>!<br><br>
