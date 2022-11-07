@@ -36,8 +36,8 @@ include('../templates/header.php');
               <label for="website_issue">Website Issue</label><br>
               <input type="radio" id="request" name="contact_reason" value="Request">
               <label for="reqeust">Request</label><br><br>
-            <input type="textarea" id="customer_message" name="customer_message" rows="5" cols="50" required><br>
-            <label for="customer_message">Your Message or Question:</label><br>
+            <input type="textarea" id="customer_message" name="customer_message" value="Your Message" rows="5" cols="50" required><br>
+            <label for="customer_message">Your Message or Question:</label><br><br>
         <input type="submit" value="Submit"> <br><br> <input type="reset" value="Reset Form">
       </fieldset>
     </form>
