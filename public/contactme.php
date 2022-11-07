@@ -42,7 +42,7 @@ include('../templates/header.php');
         <legend>Provide A Message:</legend>
             <label for="customer_message"></label><br><br>
             <textarea id="customer_message" name="customer_message" placeholder="Enter your message here..." rows="5" cols="50" required></textarea><br><br>
-         <input type="reset" value="Start Over"> -- <input type="submit" name="submit" value="Submit Your Message"> <br>
+         <input type="submit" name="submit" value="Submit Your Message"> <br>
       </fieldset>
     </form>
     </div>
