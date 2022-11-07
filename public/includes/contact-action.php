@@ -2,7 +2,7 @@
 
 $fname = $_POST['fname'];
 $lname = $_POST['lname'];
-//$fullName = "$fname . $lname";
+$fullName = "$fname . $lname";
 $customerMessage = $_POST['customer_message'];
 $customerEmail = $_POST['email'];
 $phone = $_POST['phone'];
