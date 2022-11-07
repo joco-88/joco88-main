@@ -18,13 +18,13 @@ include('../templates/header.php');
       <fieldset>
         <legend><br>Enter Your Contact Info:</legend>
         <label for="fname">First Name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
+        <input type="text" id="fname" name="fname" required="true"><br>
         <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname"><br>
+        <input type="text" id="lname" name="lname" required="true"><br>
         <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br>
+        <input type="email" id="email" name="email" required="true"><br>
         <label for="phone">Phone:</label><br>
-        <input type="number" id="phone" name="phone"><br>
+        <input type="number" id="phone" name="phone" required="false"><br>
       </fieldset>
       <fieldset>
         <legend><br>Additional Info:</legend>
