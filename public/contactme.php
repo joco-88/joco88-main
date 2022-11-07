@@ -19,11 +19,11 @@ include('../templates/header.php');
       <fieldset>
         <legend><br>Enter Your Contact Info:</legend>
         <label for="fname">First Name:</label><br>
-        <input type="text" id="fname" name="fname" required="true"><br>
+        <input type="text" id="fname" name="fname" required<br>
         <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" required="true"><br>
+        <input type="text" id="lname" name="lname" required<br>
         <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" size="30 required="true"><br>
+        <input type="email" id="email" name="email" size="30" required<br>
         <label for="phone">Phone:</label><br>
         <input type="tel" id="phone" name="phone" placeholder="123-456-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="true"><br>
           <small>Necessary phone number format: 123-456-7890</small><br>
