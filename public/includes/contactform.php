@@ -1,5 +1,5 @@
 <?php
-$PageTitle="Home";
+$PageTitle="Contact Form Submitted";
 include('../templates/header.php');
 ?>
 
