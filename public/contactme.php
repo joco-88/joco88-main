@@ -35,7 +35,7 @@ include('../templates/header.php');
               <label for="website_issue">Website Issue</label><br>
               <input type="radio" id="request" name="contact_reason" value="Request">
               <label for="reqeust">Request</label><br><br>
-        <input type="submit" value="Submit"> - <input type="reset">
+        <input type="submit" value="Submit"> <br> -- or -- <br> <input type="reset" value="Reset Form">
       </fieldset>
     </form>
     </div>
