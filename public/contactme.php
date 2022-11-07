@@ -1,28 +1,31 @@
 <?php
 $PageTitle="Home";
 include('../templates/header.php');
-?>
 
-<!-- Body starts here as body tag opens at end of Header.php file -->
-<main>
-  <div class="container-fluid">
-      <br><h1>Contact Me</h1>
-      <p>On this page, I will test a basic contact form with validations. Might try bootstrap styling.</p>
-      <p> Also, I may add a captcha field to prevent more spam.</p>
-      <hr>
-  </div>
+// The code now says IF form info has been passed, show success message ELSE, show contact form and normal page
 
-<!-- Contact form will go below this -->
-  <div contactForm>
-
-    <?php
     if(isset($_POST['submit']))
     {
         $fname = $_POST['fname'];
         echo '<div class="container-fluid"><center>Hello, ' . "$fname" . '!</b>';
         echo "<br>We have received your message and will get back to you as soon as possible.</center></div>";
-    } else { ?>
+    } else {
 
+?>
+
+<!-- Body starts here as body tag opens at end of Header.php file -->
+
+  <main>
+    <div class="container-fluid">
+        <br><h1>Contact Me</h1>
+        <p>On this page, I will test a basic contact form with validations. Might try bootstrap styling.</p>
+        <p> Also, I may add a captcha field to prevent more spam.</p>
+        <hr>
+    </div>
+
+<!-- Contact form will go below this -->
+
+<div contactForm>
     <div class="container-fluid">
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" autocomplete="on">
       <fieldset>
