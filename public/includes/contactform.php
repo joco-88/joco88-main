@@ -1,8 +1,4 @@
-<?php
-$PageTitle="Contact Form Submitted";
-include('../templates/header.php');
 
-?>
 
 
 <!doctype html>
@@ -17,7 +13,12 @@ include('../templates/header.php');
         echo $extraStylesheet;
       }
 $SiteName="Joco88";
-    ?>
+
+
+$PageTitle="Contact Form Submitted";
+include('../templates/header.php');
+
+?>
 
     <title>
     <?php echo isset($PageTitle) ? $PageTitle . " | $SiteName.com" : "$SiteName.com"?>
