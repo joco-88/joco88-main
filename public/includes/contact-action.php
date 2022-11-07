@@ -27,10 +27,6 @@ $fullEmail = "Message from $fullName - Message: $customerMessage";
   mail($to,$email_subject,$email_body,$headers);
  ?>
 
-<?php
-$PageTitle="Contact Form Submitted";
-include('../templates/header.php');
-?>
 
 <main>
 
