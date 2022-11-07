@@ -19,10 +19,8 @@ include('../templates/header.php');
     if(isset($_POST['submit']))
     {
         $fname = $_POST['fname'];
-        //echo "<div class="container-fluid">";
         echo '<div class="container-fluid">Hello, $fname!</b>';
         echo "<br>We have received your message and will get back to you as soon as possible.</div>";
-        //echo "</div>";
     } else { ?>
 
     <div class="container-fluid">
