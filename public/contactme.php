@@ -16,7 +16,7 @@ include('../templates/header.php');
     <div class="container-fluid">
     <form action="../app/events/contact-form.php" target="_self" method="post" autocomplete="on">
       <fieldset>
-        <legend>Enter Your Contact Info:</legend>
+        <legend><br>Enter Your Contact Info:</legend>
         <label for="fname">First Name:</label><br>
         <input type="text" id="fname" name="fname"><br>
         <label for="lname">Last name:</label><br>
@@ -27,7 +27,7 @@ include('../templates/header.php');
         <input type="phone" id="phone" name="phone"><br>
       </fieldset>
       <fieldset>
-        <legend>Additional Info:</legend>
+        <legend><br>Additional Info:</legend>
               <br><p>Reason for reaching out:</p>
               <input type="radio" id="question" name="contact_reason" value="General Question">
               <label for="question">General Question</label><br>
