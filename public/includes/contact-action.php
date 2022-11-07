@@ -10,7 +10,7 @@ $contactReason = $_POST['contact_reason'];
 ?>
 
 <?php
-	$email_from = 'mail@joco88.com';
+	$email_from = "mail@joco88.com";
 
 	$email_subject = "Joco88 - New Form Submission";
 
