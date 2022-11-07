@@ -6,8 +6,9 @@ $email = $_POST['email'];
 $lname = $_POST['lname'];
 $phone = $_POST['phone'];
 $contactReason = $_POST['contact_reason'];
+$fullEmail = "Message from $fname $lname - Message: $customerMessage";
 mail("jocodigitalweb@gmail.com", "Joco88 Contact Form Submission",
-$customerMessage . "From: $email");
+$fullEmail);
 }
 ?>
 
