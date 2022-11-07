@@ -30,6 +30,7 @@ include('../templates/header.php');
             <label for="website_issue">Website Issue</label><br>
             <input type="radio" id="request" name="contact_reason" value="Request">
             <label for="reqeust">Request</label><br>
+      <input type="submit" value="Submit">
     </div>
   </div>
 </main>
