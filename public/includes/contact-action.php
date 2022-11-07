@@ -1,13 +1,14 @@
 <?php
-if($_POST["customer_message"]) {
+if($_POST["submit"]) {
 $fname = $_POST['fname'];
 $customerMessage = $_POST['customer_message'];
 $email = $_POST['email'];
 $lname = $_POST['lname'];
 $phone = $_POST['phone'];
 $contactReason = $_POST['contact_reason'];
+$fullEmail = "Message from $fname $lname - Message: $customerMessage";
 mail("jocodigitalweb@gmail.com", "Joco88 Contact Form Submission",
-$customerMessage . "From: $email");
+$fullEmail);
 }
 ?>
 
