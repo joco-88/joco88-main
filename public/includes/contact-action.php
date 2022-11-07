@@ -29,7 +29,7 @@ $contactReason = htmlspecialchars($_POST['contact_reason']);
   $headers[] = "To: $emailTo";
   $headers[] = "From: $email_from";
   $headers[] = "Reply-To: $customerEmail";
-  mail($emailTo,$email_subject,$email_body,$headers);
+  mail($emailTo, $email_subject, $email_body, implode("\r\n", $headers));
  ?>
 
 
