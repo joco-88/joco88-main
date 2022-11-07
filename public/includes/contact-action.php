@@ -40,6 +40,17 @@ Have a great day!<br>
 <div>
 </main>
 
+<?php
+echo $fname;
+echo $lname;
+echo $fullName;
+echo $customerMessage;
+echo $customerEmail;
+echo $phone;
+echo $contact_reason;
+echo $fullEmail;
+
+ ?>
 
 
 <!-- End of main content - footer will start below. -->
