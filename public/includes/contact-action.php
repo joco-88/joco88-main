@@ -47,7 +47,7 @@ echo $lname;
 echo $customerMessage;
 echo $customerEmail;
 echo $phone;
-echo $contact_reason;
+//echo $contact_reason;
 //echo $fullEmail;
 
  ?>
