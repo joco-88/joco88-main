@@ -48,7 +48,7 @@ Have a great day!<br>
 echo $fname .\n;
 echo $lname .\n;
 //echo $fullName;
-echo $customerMessage\n;
+echo $customerMessage . \n;
 echo $customerEmail;
 echo $phone;
 //echo $contact_reason;
