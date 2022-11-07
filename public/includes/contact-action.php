@@ -41,7 +41,7 @@ Have a great day!<br>
 </main>
 
 <?php
-echo $fname\n;
+echo $fname;
 echo $lname;
 //echo $fullName;
 echo $customerMessage;
