@@ -14,7 +14,7 @@ include('../templates/header.php');
 <!-- Contact form will go below this -->
   <div contactForm>
     <div class="container-fluid">
-    <form action="../app/events/contact-form.php">
+    <form action="../app/events/contact-form.php" target="_self">
       <label for="fname">First Name:</label><br>
       <input type="text" id="fname" name="fname"><br>
       <label for="lname">Last name:</label><br>
