@@ -47,12 +47,10 @@ Have a great day!<br>
 <?php
 echo "$fname <br>";
 echo "$lname <br>";
-//echo $fullName;
+echo "$fullName <br>";
 echo "$customerMessage <br>";
 echo "$customerEmail <br>";
 echo "$phone <br>";
-//echo $contact_reason;
-//echo $fullEmail;
 
  ?>
 
