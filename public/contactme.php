@@ -6,7 +6,7 @@ include('../templates/header.php');
 <!-- Body starts here as body tag opens at end of Header.php file -->
 <main>
   <div class="container-fluid">
-      <br><h1>Contact Me!</h1>
+      <br><h1>Contact Me.</h1>
       <p>On this page, I will test a basic contact form with validations. Might try bootstrap styling.</p>
       <p> Also, I may add a captcha field to prevent more spam. Test</p>
   </div>
@@ -16,7 +16,7 @@ include('../templates/header.php');
     <div class="container-fluid">
     <form action="../app/events/contact-form.php" target="_self" method="post" autocomplete="on">
       <fieldset>
-        <legend>Your Contact Information</legend>
+        <legend>Enter Your Contact Info:</legend>
         <label for="fname">First Name:</label><br>
         <input type="text" id="fname" name="fname"><br>
         <label for="lname">Last name:</label><br>
@@ -27,7 +27,7 @@ include('../templates/header.php');
         <input type="phone" id="phone" name="phone"><br>
       </fieldset>
       <fieldset>
-        <legend>Additional Info</legend>
+        <legend>Additional Info:</legend>
               <br><p>Reason for reaching out:</p>
               <input type="radio" id="question" name="contact_reason" value="General Question">
               <label for="question">General Question</label><br>
