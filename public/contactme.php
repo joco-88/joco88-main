@@ -19,10 +19,10 @@ include('../templates/header.php');
     if(isset($_POST['submit']))
     {
         $fname = $_POST['fname'];
-        echo "<div class="container-fluid">";
+        //echo "<div class="container-fluid">";
         echo "Hello, $fname! </b>";
         echo "<br>We have received your message and will get back to you as soon as possible.";
-        echo "</div>";
+        //echo "</div>";
     } else { ?>
 
     <div class="container-fluid">
@@ -58,9 +58,11 @@ include('../templates/header.php');
     </form>
     </div>
   </div>
+
 <?php
 }
   ?>
+
 </main>
   <footer>
     <?php
