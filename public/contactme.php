@@ -3,6 +3,15 @@ $PageTitle="Home";
 include('../templates/header.php');
 ?>
 
+<?php
+if(isset($_POST['submit'])) 
+{
+    $fname = $_POST['fname'];
+    echo "User Has submitted the form and entered this name : <b> $fname </b>";
+    echo "<br>You can use the following form again to enter a new name.";
+}
+?>
+
 <!-- Body starts here as body tag opens at end of Header.php file -->
 <main>
   <div class="container-fluid">
