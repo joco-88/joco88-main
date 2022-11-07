@@ -21,9 +21,8 @@ include('../templates/header.php');
         $fname = $_POST['fname'];
         echo "User Has submitted the form and entered this name : <b> $fname </b>";
         echo "<br>You can use the following form again to enter a new name.";
-    } else {
+    } else { ?>
 
-    echo "
     <div class="container-fluid">
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" autocomplete="on">
       <fieldset>
@@ -57,7 +56,7 @@ include('../templates/header.php');
     </form>
     </div>
   </div>
-;"
+<?php
 }
   ?>
 </main>
