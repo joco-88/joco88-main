@@ -23,7 +23,7 @@ include('../templates/header.php');
         <label for="lname">Last name:</label><br>
         <input type="text" id="lname" name="lname" required="true"><br>
         <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" size="35 required="true"><br>
+        <input type="email" id="email" name="email" size="30 required="true"><br>
         <label for="phone">Phone:</label><br>
         <input type="tel" id="phone" name="phone" placeholder="123-456-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="true"><br>
           <small>Necessary phone number format: 123-456-7890</small><br>
