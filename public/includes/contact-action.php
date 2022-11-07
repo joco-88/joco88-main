@@ -7,7 +7,6 @@ $customerMessage = $_POST['customer_message'];
 $customerEmail = $_POST['email'];
 $phone = $_POST['phone'];
 $contactReason = $_POST['contact_reason'];
-//$fullEmail = "Message from $fname - Message: $customerMessage";
 ?>
 
 <?php
