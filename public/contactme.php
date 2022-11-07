@@ -15,9 +15,14 @@ include('../templates/header.php');
   <div contactForm>
     <div class="container-fluid">
     <form>
-      .
-      form elements
-      .
+      <label for="fname">First Name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname">
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email">
+      <label for="phone">Phone:</label><br>
+      <input type="phone" id="phone" name="phone">
     </form>
     </div>
   </div>
