@@ -19,7 +19,12 @@ include('../templates/header.php');
 $SiteName="Joco88";
     ?>
 
+    <title>
+    <?php echo isset($PageTitle) ? $PageTitle . " | $SiteName.com" : "$SiteName.com"?>
+    </title>
+    <link rel="icon" type="image/x-icon" href="/media/favicon.ico">
 
+</head>
 
 <header>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
