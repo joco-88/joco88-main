@@ -51,6 +51,7 @@ echo "Customer Message: $customerMessage <br>";
 echo "Customer Email: $customerEmail <br>";
 echo "Customer Phone: $phone <br>";
 echo "Contact Reason: $contactReason <br>"
+echo "Email will be sent to: $contactReason <br>"
 
  ?>
 
