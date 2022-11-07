@@ -38,7 +38,8 @@ include('../templates/header.php');
               <label for="reqeust">Request</label><br><br>
       </fieldset>
       <fieldset>
-            <label for="customer_message">Your Message or Question:</label><br><br>
+        <legend>Provide A Message:</legend>
+            <label for="customer_message"></label><br><br>
             <input type="textarea" id="customer_message" name="customer_message" placeholder="Enter your message here..." rows="5" cols="50" required><br>
         <input type="submit" value="Submit"> <br><br> <input type="reset" value="Reset Form">
       </fieldset>
