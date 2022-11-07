@@ -10,5 +10,14 @@ Once we have reviewed your message, we will reach out to you at the email addres
 <br>
 Have a great day!<br>
 
+
+
+<!-- End of main content - footer will start below. -->
+
+  <footer>
+    <?php
+      include('../templates/footer.php');
+    ?>
+  </footer>
 </body>
 </html>
