@@ -18,7 +18,7 @@ $contactReason = $_POST['contact_reason'];
                             "<strong>Here is the message:</strong>\n $customerMessage.\n\n\n".
                             "<strong>The contact reason is:</strong>  $contactReason.\n".
                             "<strong>The customer email is:</strong>  $customerEmail.\n".
-                            "<strong>The customer phone number is:</strong>\n $phone.\n";
+                            "<strong>The customer phone number is:</strong> $phone.\n";
 
 ?>
 
