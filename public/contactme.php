@@ -19,8 +19,10 @@ include('../templates/header.php');
     if(isset($_POST['submit']))
     {
         $fname = $_POST['fname'];
-        echo "User Has submitted the form and entered this name : <b> $fname </b>";
-        echo "<br>You can use the following form again to enter a new name.";
+        echo "<div class="container-fluid">";
+        echo "Hello, $fname! </b>";
+        echo "<br>We have received your message and will get back to you as soon as possible.";
+        echo "</div>";
     } else { ?>
 
     <div class="container-fluid">
