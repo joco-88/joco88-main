@@ -1,7 +1,6 @@
 <?php
 $PageTitle="Contact Form Submitted";
-include ("/includes/contact-header.php");
-
+include('../templates/header.php');
 
 echo "Testing";
 
