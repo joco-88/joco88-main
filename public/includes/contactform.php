@@ -4,7 +4,7 @@ include ('/includes/contact-header.php');
 
 
 echo "Testing";
-echo $PageTitle;
+
 ?>
 
 <main>
