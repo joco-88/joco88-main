@@ -51,7 +51,10 @@ echo "Customer Message: $customerMessage <br>";
 echo "Customer Email: $customerEmail <br>";
 echo "Customer Phone: $phone <br>";
 echo "Contact Reason: $contactReason <br>"
-echo "Email will be sent to: $contactReason <br>"
+echo "Email will be sent to: $emailTo <br>"
+echo "Email Subject is: $email_subject <br>"
+echo "Email Headers are: $headers <br>"
+echo "Email full body is: $email_body <br>"
 
  ?>
 
