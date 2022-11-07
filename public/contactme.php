@@ -24,7 +24,8 @@ include('../templates/header.php');
         <label for="email">Email:</label><br>
         <input type="email" id="email" name="email" required="true"><br>
         <label for="phone">Phone:</label><br>
-        <input type="number" id="phone" name="phone"  min="10" max="11" value="0000000000" required="false"><br>
+        <input type="tel" id="phone" name="phone"  min="10" max="11" placeholder="123-456-000" required="false"><br>
+          <small>Phone # format: 123-456-7890</small><br>
       </fieldset>
       <fieldset>
         <legend><br>Additional Info:</legend>
