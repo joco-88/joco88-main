@@ -30,7 +30,7 @@ $SiteName="Joco88";
                 <span class="navbar-toggler-icon"></span>
               </button>
                 <li class="nav-item">
-                  <a class="nav-link" href="/index.php">\<- Go Back to the Home Page</a>
+                  <a class="nav-link" href="/index.php"><\- Go Back to the Home Page</a>
               </li>
             </ul>
           </div>
