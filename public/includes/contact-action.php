@@ -14,11 +14,11 @@ $contactReason = htmlspecialchars($_POST['contact_reason']);
 
 	$email_subject = "Joco88 - New Form Submission";
 
-	$email_body = "<strong>You have received a new message from the following user:</strong> $fullName.\n".
-                            "<strong>Here is the message:</strong>\n $customerMessage.\n\n\n".
-                            "<strong>The contact reason is:</strong>  $contactReason.\n\n".
-                            "<strong>The customer email is:</strong>  $customerEmail.\n\n".
-                            "<strong>The customer phone number is:</strong> $phone.\n\n";
+	$email_body = "<b>You have received a new message from the following user:</b> $fullName.\n".
+                            "<b>Here is the message:</b>\n $customerMessage.\n\n\n".
+                            "<b>The contact reason is:</b>  $contactReason.\n\n".
+                            "<b>The customer email is:</b>  $customerEmail.\n\n".
+                            "<b>The customer phone number is:</b> $phone.\n\n";
 
 ?>
 
