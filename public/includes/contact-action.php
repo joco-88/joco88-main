@@ -15,7 +15,7 @@ $contactReason = htmlspecialchars($_POST['contact_reason']);
 	$email_subject = "Joco88 - New Form Submission";
 
 	$email_body = "<b>You have received a new message from the following user:</b> $fullName.\n".
-                            "<b>Here is the message:</b><br> $customerMessage<br><br>".
+                            "<b>Here is the message:</b><br> <q>$customerMessage</q><br><br>".
                             "<b>The contact reason is:</b>  $contactReason<br>".
                             "<b>The customer email is:</b>  $customerEmail<br>".
                             "<b>The customer phone number is:</b> $phone<br>";
@@ -47,17 +47,17 @@ Have a great day!<br><hr>
 </main>
 
 <?php
-echo "First Name: $fname <br>";
-echo "Last Name: $lname <br>";
-echo "Full Name: $fullName <br>";
-echo "Customer Message: $customerMessage <br>";
-echo "Customer Email: $customerEmail <br>";
-echo "Customer Phone: $phone <br>";
-echo "Contact Reason: $contactReason <br>";
-echo "Email will be sent to: $emailTo <br>";
-echo "Email Subject is: $email_subject <br>";
-echo "Email Headers are: $headers <br>";
-echo "Email full body is: $email_body <br>";
+echo "<strong>First Name:</strong> $fname <br>";
+echo "<strong>Last Name:</strong> $lname <br>";
+echo "<strong>Full Name:</strong> $fullName <br>";
+echo "<strong>Customer Message:</strong> $customerMessage <br>";
+echo "<strong>Customer Email:</strong> $customerEmail <br>";
+echo "<strong>Customer Phone:</strong> $phone <br>";
+echo "<strong>Contact Reason:</strong> $contactReason <br>";
+echo "<strong>Email will be sent to:</strong> $emailTo <br>";
+echo "<strong>Email Subject is:</strong> $email_subject <br>";
+echo "<strong>Email Headers are:</strong> $headers <br>";
+echo "<strong>Email full body is:</strong><br> $email_body <br>";
 
  ?>
 
