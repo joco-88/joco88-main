@@ -28,7 +28,7 @@ $contactReason = htmlspecialchars($_POST['contact_reason']);
   $headers[] = 'Content-type: text/html; charset=iso-8859-1';
   $headers[] = "To: $emailTo <$emailTo>";
   $headers[] = "From: Joco88 Contact Form <$email_from>";
-  $headers[] = "Reply-To: $customerEmail '<'.$customerEmail.'>' ";
+  $headers[] = "Reply-To: $fullName \<$customerEmail\> ";
   mail($emailTo, $email_subject, $email_body, implode("\r\n", $headers));
  ?>
 
