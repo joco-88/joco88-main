@@ -125,7 +125,7 @@ Have a great day!<br><hr>
 <?php } else {
   echo "<div class='container-fluid'>";
   echo "<h2>Invalid Submission<br></h2>";
-  "The contact form was not correctly filled out. Please visit the Contact page to complete the form";
+  echo "The contact form was not correctly filled out. Please visit the Contact page to complete the form";
 }
 ?>
 
