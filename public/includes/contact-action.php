@@ -25,7 +25,7 @@ $contactReason = htmlspecialchars($_POST['contact_reason']);
 <?php
   $emailTo = "mail@joco88.com";
   $headers = "Content-type: text/html; charset=iso-8859-1 \r\n";
-  $headers .= "From: Joco88.com Contact Page $email_from \r\n";
+  $headers .= "From: Joco88.com Contact Page Submission $email_from \r\n";
   $headers .= "Reply-To: $customerEmail \r\n";
   mail($emailTo,$email_subject,$email_body,$headers);
  ?>
