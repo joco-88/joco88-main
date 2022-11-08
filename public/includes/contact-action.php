@@ -29,27 +29,8 @@ $SiteName="Joco88";
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link 1</a>
-                </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Link 2</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link 3</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Projects</a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="/photoviewer.php">Photo Viewer</a></li>
-                    <li><a class="dropdown-item" href="#">Dropdown Link 2</a></li>
-                    <li><a class="dropdown-item" href="#">Dropdown Link 3</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/contactme.php">Contact Me</a>
+                  <a class="nav-link" href="/index.php">\<- Go Back to the Home Page</a>
               </li>
             </ul>
           </div>
