@@ -85,12 +85,6 @@ $contactReason = htmlspecialchars($_POST['contact_reason']);
                             "<b>The customer email is:</b>  $customerEmail<br><br>".
                             "<b>The customer phone number is:</b> $phone<br>";
 ?>
-<?php
-} else {
-  echo "The contact form was not filled out correctly";
-}
-?>
-
 
 <?php
   $emailTo = "mail@joco88.com";
