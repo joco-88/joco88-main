@@ -10,15 +10,15 @@ $contactReason = htmlspecialchars($_POST['contact_reason']);
 ?>
 
 <?php
-	$email_from = "mail@joco88.com";
+	$email_from = "<mail@joco88.com>";
 
 	$email_subject = "Joco88 - New Form Submission";
 
 	$email_body = "<b>You have received a new message from the following user:</b> $fullName.\n".
-                            "<b>Here is the message:</b>\n $customerMessage.\n\n\n".
-                            "<b>The contact reason is:</b>  $contactReason.\n\n".
-                            "<b>The customer email is:</b>  $customerEmail.\n\n".
-                            "<b>The customer phone number is:</b> $phone.\n\n";
+                            "<b>Here is the message:</b><br> $customerMessage<br><br>".
+                            "<b>The contact reason is:</b>  $contactReason<br>".
+                            "<b>The customer email is:</b>  $customerEmail<br>".
+                            "<b>The customer phone number is:</b> $phone<br>";
 
 ?>
 
