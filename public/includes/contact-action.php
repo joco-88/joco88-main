@@ -7,6 +7,7 @@ $customerMessage = htmlspecialchars($_POST['customer_message']);
 $customerEmail = htmlspecialchars($_POST['email']);
 $phone = htmlspecialchars($_POST['phone']);
 $contactReason = htmlspecialchars($_POST['contact_reason']);
+$fromName = "Joco88 Contact Form";
 ?>
 
 <?php
@@ -27,8 +28,8 @@ $contactReason = htmlspecialchars($_POST['contact_reason']);
   $headers[] = 'MIME-Version: 1.0';
   $headers[] = 'Content-type: text/html; charset=iso-8859-1';
   $headers[] = "To: $emailTo <$emailTo>";
-  $headers[] = "From: Joco88 Contact Form <$email_from>";
-  $headers[] = "Reply-To: $fullName \<$customerEmail\> ";
+  $headers[] = 'From: '.$fromName.'<'.$email_from.'>';
+  $headers[] = 'Reply-To: '.$fullName.'<'.$customerEmail.'>';
   mail($emailTo, $email_subject, $email_body, implode("\r\n", $headers));
  ?>
 
