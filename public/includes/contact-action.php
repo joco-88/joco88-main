@@ -73,6 +73,8 @@ $contactReason = htmlspecialchars($_POST['contact_reason']);
 ?>
 
 <?php
+
+
 	$email_from = "<mail@joco88.com>";
 
 	$email_subject = "Joco88 - New Form Submission";
@@ -82,7 +84,9 @@ $contactReason = htmlspecialchars($_POST['contact_reason']);
                             "<b>The contact reason is:</b>  $contactReason<br><br>".
                             "<b>The customer email is:</b>  $customerEmail<br><br>".
                             "<b>The customer phone number is:</b> $phone<br>";
-
+} else {
+  echo "The contact form was not filled out correctly"
+}
 ?>
 
 <?php
@@ -93,6 +97,8 @@ $contactReason = htmlspecialchars($_POST['contact_reason']);
   mail($emailTo,$email_subject,$email_body,$headers);
  ?>
 
+<?php
+if isset($customerMessage) { ?>
 
 <div class="container-fluid">
 Hello,&nbsp
@@ -108,6 +114,11 @@ Once we have reviewed your message, we will reach out to you at the email addres
 Have a great day!<br><hr>
 <div>
 </main>
+
+<?php } else {
+  echo "The contact form was not correctly filled out. Please visit the Contact page to complete the form";
+}
+
 
 <?php
 echo "<strong>First Name:</strong> $fname <br>";
