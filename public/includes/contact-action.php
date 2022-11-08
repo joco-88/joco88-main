@@ -97,12 +97,12 @@ if (isset($customerMessage)) { ?>
 !<br><br>
 Thanks for reaching out.<br>
 Once we have reviewed your message, we will reach out to you at the email address you provided, which is:
-<strong></center>
+<strong>
   <?php echo $_POST["email"]; ?>
 </strong>
 <br>
 <br>
-Have a great day!<br><hr>
+Have a great day!</center><br><hr>
 <div>
 </main>
 
