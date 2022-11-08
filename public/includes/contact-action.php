@@ -104,7 +104,7 @@ Once we have reviewed your message, we will reach out to you at the email addres
 <br>
 Have a great day!<br><hr>
 
-<ul class="nav justify-content-center navbar-dark">
+<ul class="nav justify-content-center">
   <li class="nav-item">
     <a class="nav-link active" href="/">&#x2190;&nbspGo Back to the Home Page</a>
   </li>
