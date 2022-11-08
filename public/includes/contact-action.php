@@ -95,7 +95,7 @@ $contactReason = htmlspecialchars($_POST['contact_reason']);
  ?>
 
 <?php
-if isset($customerMessage) { ?>
+if (isset($customerMessage)) { ?>
 
 <div class="container-fluid">
 Hello,&nbsp
