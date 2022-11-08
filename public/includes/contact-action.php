@@ -115,7 +115,7 @@ Have a great day!<br><hr>
 <?php } else {
   echo "The contact form was not correctly filled out. Please visit the Contact page to complete the form";
 }
-
+?>
 
 <?php
 echo "<strong>First Name:</strong> $fname <br>";
