@@ -1,4 +1,8 @@
 <?php
+  include('../templates/header.php');
+?>
+
+<?php
 
 $fname = htmlspecialchars($_POST['fname']);
 $lname = htmlspecialchars($_POST['lname']);
