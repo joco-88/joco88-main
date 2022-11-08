@@ -66,10 +66,16 @@ $SiteName="Joco88";
 $fname = htmlspecialchars($_POST['fname']);
 $lname = htmlspecialchars($_POST['lname']);
 $fullName = "$fname $lname";
-$customerMessage = htmlspecialchars($_POST['customer_message']);
+//$customerMessage = htmlspecialchars($_POST['customer_message']);
 $customerEmail = htmlspecialchars($_POST['email']);
 $phone = htmlspecialchars($_POST['phone']);
 $contactReason = htmlspecialchars($_POST['contact_reason']);
+
+if (isset($_POST['customer_message'])) {
+  $customerMessage = htmlspecialchars($_POST['customer_message']);
+} else {
+  $customerMessage=NULL;
+}
 ?>
 
 <?php
