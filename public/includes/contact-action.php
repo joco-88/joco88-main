@@ -102,7 +102,23 @@ Once we have reviewed your message, we will reach out to you at the email addres
 </strong>
 <br>
 <br>
-Have a great day!</center><br><hr>
+Have a great day!<br><hr>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+    <!--<a class="navbar-brand" href="/"> <?php echo $SiteName; ?> </a> -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/">&#x2190;&nbspGo Back to the Home Page</a>
+    </li>
+  </ul>
+</div>
+</div>
+</nav>
+</center>
 <div>
 </main>
 
