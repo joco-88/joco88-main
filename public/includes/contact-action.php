@@ -92,7 +92,7 @@ if (isset($customerMessage)) { ?>
 
 <div class="container-fluid">
   <br><br><center><h2>Message Sent!</h2>
-<br>Hello,&nbsp
+<br>Hello, 
 <?php echo $_POST["fname"]; ?>
 !<br><br>
 Thanks for reaching out.<br>
