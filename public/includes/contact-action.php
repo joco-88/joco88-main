@@ -60,6 +60,8 @@ echo "Email will be sent to: $emailTo <br>";
 echo "Email Subject is: $email_subject <br>";
 echo "Email Headers are: implode('\r\n', $headers <br>";
 echo "Email full body is: $email_body <br>";
+echo implode("\r\n", $headers);
+
 
  ?>
 
