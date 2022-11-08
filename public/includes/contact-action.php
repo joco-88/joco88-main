@@ -112,7 +112,7 @@ Have a great day!<br><hr>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="/">&#x2190;&nbspGo Back to the Home Page</a>
+        <a class="nav-link" href="/"><center>&#x2190;&nbspGo Back to the Home Page</center></a>
     </li>
   </ul>
 </div>
