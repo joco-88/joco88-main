@@ -7,7 +7,6 @@ $customerMessage = htmlspecialchars($_POST['customer_message']);
 $customerEmail = htmlspecialchars($_POST['email']);
 $phone = htmlspecialchars($_POST['phone']);
 $contactReason = htmlspecialchars($_POST['contact_reason']);
-$fromName = "Joco88 Contact Form";
 ?>
 
 <?php
@@ -15,9 +14,9 @@ $fromName = "Joco88 Contact Form";
 
 	$email_subject = "Joco88 - New Form Submission";
 
-	$email_body = "<strong>You have received a new message from the following user:</strong> $fullName <br>".
-                            "<strong>Here is the message:<br></strong>\n $customerMessage<br><br>".
-                            "<strong>The contact reason is:</strong>  $contactReason<br>".
+	$email_body = "<strong>You have received a new message from the following user:</strong> $fullName.\n".
+                            "<strong>Here is the message:</strong>\n $customerMessage.\n\n\n".
+                            "<strong>The contact reason is:</strong>  $contactReason.\n\n".
                             "<strong>The customer email is:</strong>  $customerEmail.\n\n".
                             "<strong>The customer phone number is:</strong> $phone.\n\n";
 
@@ -25,12 +24,9 @@ $fromName = "Joco88 Contact Form";
 
 <?php
   $emailTo = "mail@joco88.com";
-  $headers[] = 'MIME-Version: 1.0';
-  $headers[] = 'Content-type: text/html; charset=iso-8859-1';
-  $headers[] = "To: $emailTo <$emailTo>";
-  $headers[] = 'From: '.$fromName.'<'.$email_from.'>';
-  $headers[] = 'Reply-To: '.$fullName.'<'.$customerEmail.'>';
-  mail($emailTo, $email_subject, $email_body, implode("\r\n", $headers));
+  $headers = "From: $email_from \r\n";
+  $headers .= "Reply-To: $customerEmail \r\n";
+  mail($emailTo,$email_subject,$email_body,$headers);
  ?>
 
 
@@ -59,10 +55,8 @@ echo "Customer Phone: $phone <br>";
 echo "Contact Reason: $contactReason <br>";
 echo "Email will be sent to: $emailTo <br>";
 echo "Email Subject is: $email_subject <br>";
-echo "Email Headers are: implode('\r\n', $headers <br>";
+echo "Email Headers are: $headers <br>";
 echo "Email full body is: $email_body <br>";
-echo implode("\r\n", $headers);
-
 
  ?>
 
