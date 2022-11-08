@@ -32,7 +32,7 @@ $SiteName="Joco88";
               <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="/index.php">Go Back to the Home Page</a>
+                  <a class="nav-link" href="/">&#x2190;Go Back to the Home Page</a>
               </li>
             </ul>
           </div>
