@@ -92,12 +92,16 @@ if (isset($_POST['customer_message'])) {
                             "<b>The customer phone number is:</b> $phone<br>";
 ?>
 
+<!-- This is where the email is actually sent, but only if customermessage is set -->
+
 <?php
+if (isset($customerMessage)) {
   $emailTo = "mail@joco88.com";
   $headers = "Content-type: text/html; charset=iso-8859-1 \r\n";
   $headers .= "From: Joco88.com Contact Page Submission $email_from \r\n";
   $headers .= "Reply-To: $customerEmail \r\n";
   mail($emailTo,$email_subject,$email_body,$headers);
+}
  ?>
 
 <?php
@@ -119,7 +123,9 @@ Have a great day!<br><hr>
 </main>
 
 <?php } else {
-  echo "The contact form was not correctly filled out. Please visit the Contact page to complete the form";
+  echo "<div class='container-fluid'>";
+  echo "<h2>Invalid Submission<br></h2>";
+  "The contact form was not correctly filled out. Please visit the Contact page to complete the form";
 }
 ?>
 
