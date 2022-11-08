@@ -1,5 +1,5 @@
 <?php
-    include($_SERVER['DOCUMENT_ROOT']."/templates/header.php");
+    include('../templates/header.php');
 ?>
 
 <?php
