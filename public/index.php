@@ -37,6 +37,15 @@ include('../templates/header.php');
             figure out how to store data in database and fire off an email notification.</li>
           </ul>
       </ol>
+    <p><strong>11/09/2022</strong></p>
+      <ol>
+        <li>Converted the contact page form to bootstrap styling</li>
+        <li>Created a seaparte php file to process form submissions.</li>
+          <ul><li>Test that the php form processor file strips invalid characters and also fires email out to me.</li>
+          <ul><li>If the page is accessed outside of valid form submission, it displays an error page with links to go back home.</li>
+          <ul><li>On Wp-Dev/Joe - The email submission currently does not work for some reason but likely something needs changed in the server (not necessary since this is a sandbox).</li>
+          </ul>
+      </ol>
   </div>
 </main>
 
