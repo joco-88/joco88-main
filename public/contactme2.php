@@ -5,7 +5,7 @@ include('../templates/header.php');
 
   <main>
     <div class="container-fluid">
-        <br><h1>Contact Me</h1>
+        <br><h1>Get In Touch</h1>
         <p>On this page, I will test a basic contact form with validations. Might try bootstrap styling.</p>
         <p> Also, I may add a captcha field to prevent more spam.</p>
         <hr>
@@ -13,13 +13,12 @@ include('../templates/header.php');
 
 <!-- Contact form will go below this -->
 
-
 <!-- BELOW IS A NEW CONTACT FORM THAT LOOKS BETTER AND NEEDS TWEAKED -->
 
-<div class="container">]
+<div class="container">
         <div class=" text-center mt-5 ">
 
-            <h1 >Bootstrap Contact Form</h1>
+            <h1>Contact Me</h1>
 
         </div>
 
@@ -29,7 +28,7 @@ include('../templates/header.php');
             <div class="card-body bg-light">
 
             <div class = "container">
-                             <form id="contact-form" role="form">
+                             <form id="contact-form" role="form" method="post" action="/includes/contact-action.php" autocomplete="on">
             <div class="controls">
 
                 <div class="row">
