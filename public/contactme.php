@@ -16,7 +16,7 @@ include('../templates/header.php');
 <!-- Need to remember to make the link safe by somehow including this: echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" -->
 
 <div contactForm>
-    <div class="container-fluid">
+    <center><div class="container-fluid">
     <form method="post" action="/includes/contact-action.php" autocomplete="on">
       <fieldset>
         <legend><br>Enter Your Contact Info:</legend>
@@ -48,7 +48,7 @@ include('../templates/header.php');
       </fieldset>
     </form>
     </div>
-  </div>
+  </div></center>
 
 
 </main>
