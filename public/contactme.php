@@ -46,7 +46,7 @@ include('../templates/header.php');
                             <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
                         </div>
                     </div><br>
-                    <div class="col-md-6">
+                    <div class="col-md-6"><br>
                         <div class="form-group">
                             <label for="form_need">Please specify your need *</label>
                             <select id="form_need" name="contact_reason" class="form-control" required="required" data-error="Please specify your need.">
