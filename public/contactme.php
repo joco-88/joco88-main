@@ -29,13 +29,13 @@ include('../templates/header.php');
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="form_name">First Name *</label>
-                            <input id="form_name" type="text" name="fname" class="form-control" placeholder="Please enter your first name *" required="required" data-error="Firstname is required.">
+                            <input id="form_name" type="text" name="fname" class="form-control" placeholder=<br>"Please enter your first name *" required="required" data-error="Firstname is required.">
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="form_lastname">Last Name *</label>
-                            <input id="form_lastname" type="text" name="lname" class="form-control" placeholder="Please enter your last name *" required="required" data-error="Lastname is required.">
+                            <input id="form_lastname" type="text" name="lname" class="form-control" placeholder=<br>"Please enter your last name *" required="required" data-error="Lastname is required.">
                           </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ include('../templates/header.php');
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="form_email">Email *</label>
-                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                            <input id="form_email" type="email" name="email" class="form-control" placeholder=<br>"Please enter your email *" required="required" data-error="Valid email is required.">
                         </div>
                     </div>
                     <div class="col-md-6">
