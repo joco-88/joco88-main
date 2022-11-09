@@ -71,15 +71,15 @@ include('../templates/header.php');
                     <div class="col-md-12">
                         <div class="form-group">
                             <label for="form_message">Message *</label>
-                            <textarea id="form_message" name="message" class="form-control" placeholder="Write your message here." rows="4" required="required" data-error="Please, leave us a message."></textarea
+                            <textarea id="form_message" name="customer_message" class="form-control" placeholder="Write your message here. Please be detailed." rows="4" required="required" data-error="A Message is Required!."></textarea
                                 >
                             </div>
 
                         </div>
 
                     <div class="col-md-12">
-
-                        <input type="submit" class="btn btn-success btn-send  pt-2 btn-block
+                      <br>
+                        <input type="submit" name="submit" class="btn btn-success btn-send  pt-2 btn-block
                             " value="Send Message" >
 
                 </div>
