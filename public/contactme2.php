@@ -79,8 +79,10 @@ include('../templates/header.php');
 
                     <div class="col-md-12">
                       <br>
+                      <center>
                         <input type="submit" name="submit" class="btn btn-success btn-send  pt-2 btn-block
                             " value="Send Message" >
+                          </center>
 
                 </div>
 
