@@ -34,15 +34,15 @@ include('../templates/header.php');
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <label for="form_name">Firstname *</label>
-                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                            <label for="form_name">First Name *</label>
+                            <input id="form_name" type="text" name="fname" class="form-control" placeholder="Please enter your first name *" required="required" data-error="Firstname is required.">
 
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <label for="form_lastname">Lastname *</label>
-                            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                            <label for="form_lastname">Last Name *</label>
+                            <input id="form_lastname" type="text" name="lname" class="form-control" placeholder="Please enter your last name *" required="required" data-error="Lastname is required.">
                                                             </div>
                     </div>
                 </div>
@@ -57,11 +57,11 @@ include('../templates/header.php');
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="form_need">Please specify your need *</label>
-                            <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
-                                <option value="" selected disabled>--Select Your Issue--</option>
-                                <option >Request Invoice for order</option>
-                                <option >Request order status</option>
-                                <option >Haven't received cashback yet</option>
+                            <select id="form_need" name="contact_reason" class="form-control" required="required" data-error="Please specify your need.">
+                                <option value="" selected disabled>--Contact Reason--</option>
+                                <option >General Question</option>
+                                <option >Website Issue</option>
+                                <option >Job Request</option>
                                 <option >Other</option>
                             </select>
                         </div>
