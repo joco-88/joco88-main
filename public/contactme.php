@@ -6,8 +6,7 @@ include('../templates/header.php');
   <main>
     <div class="container-fluid">
         <br><h1>Get In Touch</h1>
-        <p>On this page, I will test a basic contact form with validations. Might try bootstrap styling.</p>
-        <p> Also, I may add a captcha field to prevent more spam.</p>
+        <p>Have questions or want to reach out? Simply fill out the contact form below and we will get back to you the second we have time.</p>
         <hr>
     </div>
 
