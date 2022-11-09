@@ -51,7 +51,6 @@ $lname = htmlspecialchars($_POST['lname']);
 $fullName = "$fname $lname";
 //$customerMessage = htmlspecialchars($_POST['customer_message']);
 $customerEmail = htmlspecialchars($_POST['email']);
-$phone = htmlspecialchars($_POST['phone']);
 $contactReason = htmlspecialchars($_POST['contact_reason']);
 
 if (isset($_POST['customer_message'])) {
@@ -71,8 +70,7 @@ if (isset($_POST['customer_message'])) {
 	$email_body = "<b>You have received a new message from the following user:&nbsp</b> $fullName<br><br>".
                             "<b>Here is the message:</b><br><br><q><em>$customerMessage</em></q><br><br>".
                             "<b>The contact reason is:</b>  $contactReason<br><br>".
-                            "<b>The customer email is:</b>  $customerEmail<br><br>".
-                            "<b>The customer phone number is:</b> $phone<br>";
+                            "<b>The customer email is:</b>  $customerEmail<br><br>";
 ?>
 
 <!-- This is where the email is actually sent, but only if customermessage is set -->
@@ -133,7 +131,6 @@ echo "<strong>Last Name:</strong> $lname <br>";
 echo "<strong>Full Name:</strong> $fullName <br>";
 echo "<strong>Customer Message:</strong> $customerMessage <br>";
 echo "<strong>Customer Email:</strong> $customerEmail <br>";
-echo "<strong>Customer Phone:</strong> $phone <br>";
 echo "<strong>Contact Reason:</strong> $contactReason <br>";
 echo "<strong>Email will be sent to:</strong> $emailTo <br>";
 echo "<strong>Email Subject is:</strong> $email_subject <br>";
