@@ -32,7 +32,7 @@ $SiteName="Joco88";
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Link 1</a>
+                  <a class="nav-link" href="/sandbox.php">Test Sandbox</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Link 2</a>
