@@ -55,7 +55,7 @@ include('../templates/header.php');
 
       </div>
       <div class="modal-footer d-flex justify-content-center">
-        <button class="btn btn-unique">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
+        <button class="btn btn-unique">Send <i class="fa fa-paper-plane-o ml-1"></i></button>
       </div>
     </div>
   </div>
