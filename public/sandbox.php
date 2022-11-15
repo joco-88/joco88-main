@@ -67,7 +67,7 @@ include('../templates/header.php');
                      </div>
 
             <div class="modal-footer d-flex justify-content-center">
-				<input type="submit" name="submit" class="btn btn-success btn-send mb-2 btn-block" value="Send Message">
+				<input type="submit" name="submit" class="btn btn-primary btn-send mb-2 btn-block" value="Send Message">
               </div>
 </form>
 
