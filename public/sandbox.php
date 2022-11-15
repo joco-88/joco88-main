@@ -34,7 +34,7 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
              $("#result").html(response);
 
           });
-$('#modalContactForm').modal();
+$('#modalContactForm').modal('hide');
 
    });
    });
@@ -61,8 +61,7 @@ $('#modalContactForm').modal();
                     <i class="fa fa-envelope prefix grey-text"></i>
 					<label data-error="wrong" data-success="right" for="modalemail">Email:</label>
                     <input type="email" id="modalemail" class="form-control validate" required>
-                    <div class="invalid-feedback">
-        Please provide a valid email.
+                  
       </div>
                  </div>
 
