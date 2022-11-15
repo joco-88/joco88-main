@@ -66,12 +66,11 @@ include('../templates/header.php');
                      <textarea id="modalmessage" name="modalmessage" class="form-control validate" rows="4" required></textarea>
                      </div>
 
-
-
             <div class="modal-footer d-flex justify-content-center">
 				<input type="submit" name="submit" class="btn btn-success btn-send  pt-2 btn-block" value="Send Message">
+            </div>
 </form>
-</div>
+
 </div>
         </div>
     </div>
