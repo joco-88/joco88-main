@@ -4,7 +4,7 @@ $fullName = htmlspecialchars($_POST['fullName']);
 //$customerMessage = htmlspecialchars($_POST['customer_message']);
 $customerEmail = htmlspecialchars($_POST['email']);
 
-if (isset($_POST['customer_message'])) {
+if (isset($_POST['customerMessage'])) {
   $customerMessage = htmlspecialchars($_POST['customerMessage']);
 } else {
   $customerMessage=NULL;
@@ -18,9 +18,9 @@ if (isset($_POST['customer_message'])) {
     if (isset($customerMessage)) {
 
         echo "<h4>Thank you for submission!<h4>";
-		echo "<br>Your Name: <b>".$_POST["fullName"]."</b>";
-		echo "<br>Your e-mail: <b>".$_POST["email"]."</b>";
-    echo "<br>Your message: <b>".$_POST["customerMessage"]."</b>";
+		echo "<br>Your Name: $fullName";
+		echo "<br>Your e-mail: $customerEmail";
+    echo "<br>Your message: $customerMessage";
   } else {
     echo "It Didn't Work";
   }
