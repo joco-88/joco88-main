@@ -30,13 +30,13 @@ include('../templates/header.php');
       </div>
       <div class="modal-body mx-3">
         <div class="md-form mb-5">
-          <i class="fas fa-user prefix grey-text"></i>
+          <i class="fa fa-user prefix grey-text"></i>
           <input type="text" id="form34" class="form-control validate">
           <label data-error="wrong" data-success="right" for="form34">Your name</label>
         </div>
 
         <div class="md-form mb-5">
-          <i class="fas fa-envelope prefix grey-text"></i>
+          <i class="fa fa-envelope prefix grey-text"></i>
           <input type="email" id="form29" class="form-control validate">
           <label data-error="wrong" data-success="right" for="form29">Your email</label>
         </div>
