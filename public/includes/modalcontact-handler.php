@@ -1,9 +1,14 @@
+
+
+
 <?php
+
+error_reporting(E_ALL); ini_set('display_errors', 1);
 
 $fullName = htmlspecialchars($_POST['fullName']);
 $customerEmail = htmlspecialchars($_POST['email']);
 
-if (isset (trim($_POST['customerMessage']))) {
+if (isset ($_POST['customerMessage'])) {
   $customerMessage = htmlspecialchars ($_POST['customerMessage']);
 } else {
   $customerMessage=NULL;
