@@ -69,7 +69,7 @@ include('../templates/header.php');
             </div>
             <div class="modal-footer d-flex justify-content-center">
                 <button id="send" class="btn btn-info">Submit <i class="fa fa-paper-plane-o ml-1"></i></button>
-				<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+				<input type="submit" name="submit" class="btn btn-success btn-send  pt-2 btn-block" value="Send Message" >
             </div>
 
         </div>
