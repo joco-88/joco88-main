@@ -14,7 +14,7 @@ include('../templates/header.php');
 <script type='text/javascript'>
 
 	 $(document).ready(function(){
-	 $('#modalContactForm').on('click', '.btn-send', function(e){
+	 $('#modalContactForm').on('click', '.btn-submit', function(e){
 
      var fullName = $('#modalfname').val();
 	   var email = $('#modalemail').val();
@@ -67,7 +67,7 @@ include('../templates/header.php');
                      </div>
 
             <div class="modal-footer d-flex justify-content-center">
-              <button class="btn btn-primary mb-2 btn-block" name="submit" data-dismiss="modal" type="submit">Submit Message</button>
+              <button class="btn btn-primary btn-submit mb-2 btn-block" name="submit" data-dismiss="modal" type="submit">Submit Message</button>
 </form>
 				<!-- <input type="submit" name="submit" class="btn btn-primary btn-send mb-2 btn-block" value="Send Message"> -->
               </div>
