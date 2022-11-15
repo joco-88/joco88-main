@@ -14,7 +14,6 @@ include('../templates/header.php');
 <div class="text-center">
   <a href="" class="btn btn-success" data-bs-toggle="modal">Launch Modal Form</a>
   <br>
-  
 </div>
 
 
