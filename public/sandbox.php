@@ -87,7 +87,9 @@ include('../templates/header.php');
   </div>
 </div>
 
-
+<?php
+error_reporting(E_ALL); ini_set('display_errors', 1);
+?>
 
 <!--
 <br> TEST NEW FORM <br>
