@@ -8,7 +8,7 @@ $customerMessage = htmlspecialchars($_POST['email']?? '');
 $customerMessage = trim($customerMessage);
 
 
-if (isset ($_POST['customerMessage'])) {
+if (isset ($customerMessage)) {
   $customerMessage = htmlspecialchars ($_POST['customerMessage']?? '');
 } else {
   $customerMessage=NULL;
