@@ -17,7 +17,7 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 <script type='text/javascript'>
 
 	 $(document).ready(function(){
-	 $('#modalContactForm').on('click', '.btn-send', function(e){
+	 $('#modalContactForm').on('submitbutton', '.btn-send', function(e){
 
      var fullName = $('#modalfname').val();
 	   var email = $('#modalemail').val();
