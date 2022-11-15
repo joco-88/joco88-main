@@ -12,8 +12,9 @@ include('../templates/header.php');
 <!-- Contact form javascript will go here -->
 
 <script type='text/javascript'>
+
 	 $(document).ready(function(){
-	 $('#modalContactForm').on('click', '.btn-info', function(e){
+	 $('#modalContactForm').on('click', '.btn-send', function(e){
 
      var modalfname = $('#fullName').val();
 	   var modalemail = $('#email').val();
