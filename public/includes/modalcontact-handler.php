@@ -15,11 +15,11 @@ if (isset($_POST['customerMessage'])) {
 
     if (isset($customerMessage)) {
 
-        echo "<h4>Thank you for submission!<h4>";
-		echo "<br>Your Name: $fullName";
-		echo "<br>Your e-mail: $customerEmail";
-    echo "<br>Your message: $customerMessage";
-  } else {
-    echo "It Didn't Work";
+          echo "<h4>Thank you for submission!<h4>";
+		      echo "<br>Your Name: $fullName";
+		      echo "<br>Your e-mail: $customerEmail";
+          echo "<br>Your message: $customerMessage";
+      } else {
+          echo "It Didn't Work";
   }
 ?>
