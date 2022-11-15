@@ -27,12 +27,12 @@ include('../templates/header.php');
             <div class="modal-body mx-3">
                 <div class="md-form mb-5">
                     <i class="fa fa-user prefix grey-text"></i>
-					<label data-error="wrong" data-bs-success="right" for="fname">Full Name:</label>
+					<label data-bs-error="wrong" data-bs-success="right" for="fname">Full Name:</label>
                     <input type="text" id="fname" class="form-control validate">
                 </div>
                 <div class="md-form mb-5">
                     <i class="fa fa-envelope prefix grey-text"></i>
-					<label data-error="wrong" data-bs-success="right" for="email">e-Mail:</label>
+					<label data-bs-error="wrong" data-bs-success="right" for="email">e-Mail:</label>
                     <input type="email" id="email" class="form-control validate">
                  </div>
             </div>
