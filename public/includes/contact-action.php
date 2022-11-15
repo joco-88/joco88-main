@@ -49,15 +49,15 @@ $SiteName="Joco88";
 
 <?php
 
-$fname = htmlspecialchars($_POST['fname']);
-$lname = htmlspecialchars($_POST['lname']);
+$fname = htmlspecialchars($_POST['fname']?? '');
+$lname = htmlspecialchars($_POST['lname']?? '');
 $fullName = "$fname $lname";
 //$customerMessage = htmlspecialchars($_POST['customer_message']);
-$customerEmail = htmlspecialchars($_POST['email']);
-$contactReason = htmlspecialchars($_POST['contact_reason']);
+$customerEmail = htmlspecialchars($_POST['email']?? '');
+$contactReason = htmlspecialchars($_POST['contact_reason']?? '');
 
 if (isset($_POST['customer_message'])) {
-  $customerMessage = htmlspecialchars($_POST['customer_message']);
+  $customerMessage = htmlspecialchars($_POST['customer_message']?? '');
 } else {
   $customerMessage=NULL;
 }
