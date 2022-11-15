@@ -67,22 +67,8 @@ include('../templates/header.php');
                      </div>
 
             <div class="modal-footer d-flex justify-content-center">
-              <input type="submit" name"submit" class="btn btn-primary btn-send mb-2 btn-block" id="submitbutton" disabled value="Send Message">
+              <input type="submit" name"submit" class="btn btn-primary btn-send mb-2 btn-block" id="submitbutton">
 </form>
-
-<script>
-$('#modalfname, #modalemail, #modalmessage').bind('keyup', function() {
-    if(allFilled()) $('#submitbutton').removeAttr('disabled');
-});
-
-function allFilled() {
-    var filled = true;
-    $('body input').each(function() {
-        if($(this).val() == '') filled = false;
-    });
-    return filled;
-}
-</script>
 
 
               </div>
