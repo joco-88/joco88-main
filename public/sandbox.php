@@ -34,7 +34,7 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
              $("#result").html(response);
       //return false;
           });
-//$('#modalContactForm').modal('hide');
+$('#modalContactForm').modal('hide');
 
    });
    });
@@ -81,11 +81,6 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
               </div>
 
 
-              <br>
-              <div class="modal-body">
-                    <div id="result"></div>
-              </div>
-
 </div>
         </div>
     </div>
@@ -95,7 +90,10 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 
 <div class="text-center">
   <a href="#modalContactForm" class="btn btn-primary" data-bs-toggle="modal" data-target="#modalContactForm">Launch Modal Contact Form</a>
-
+  <br>
+  <div class="modal-body">
+        <div id="result"></div>
+  </div>
 </div>
 
 
