@@ -34,7 +34,7 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
              $("#result").html(response);
 
           });
-
+$('#modalContactForm').modal('hide');
 
    });
    });
@@ -122,37 +122,6 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
   </div>
 </div>
 
-<?php
-error_reporting(E_ALL); ini_set('display_errors', 1);
-?>
-
-<!--
-<br> TEST NEW FORM <br>
-
-
-<a href="#myModal" class="btn btn-lg btn-primary" data-bs-toggle="modal">Launch Demo Modal</a>
-
-<div id="myModal" class="modal fade">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Confirmation</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-            </div>
-            <div class="modal-body">
-                <p>Do you want to save changes to this document before closing?</p>
-                <p class="text-secondary"><small>If you don't save, your changes will be lost.</small></p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-        </div>
-    </div>
-</div>
--->
-
-<!-- End of Contact Form -->
 
 </main>
   <footer>
