@@ -48,27 +48,29 @@ include('../templates/header.php');
             </div>
             <div class="modal-body mx-3">
               <form>
-                <div class="md-form mb-5">
+                <div class="form control md-form mb-5">
                     <i class="fa fa-user prefix grey-text"></i>
 					<label data-error="wrong" data-success="right" for="modalfname">Full Name:</label>
                     <input type="text" id="modalfname" class="form-control validate" required>
                 </div>
-                <div class="md-form mb-5">
+                <div class="form control md-form mb-5">
                     <i class="fa fa-envelope prefix grey-text"></i>
 					<label data-error="wrong" data-success="right" for="modalemail">e-Mail:</label>
                     <input type="email" id="modalemail" class="form-control validate" required>
                  </div>
 
 
-                 <div class="md-form mb-5">
+                 <div class="form control md-form mb-5">
                      <i class="fa fa-pencil prefix grey-text"></i>
                      <label for="form_message">Message *</label>
                      <textarea id="modalmessage" name="modalmessage" class="form-control validate" rows="4" required></textarea>
                      </div>
 
             <div class="modal-footer d-flex justify-content-center">
+              <div class="form control md-form mb-5">
 				<input type="submit" name="submit" class="btn btn-success btn-send  pt-2 btn-block" value="Send Message">
             </div>
+              </div>
 </form>
 
 </div>
