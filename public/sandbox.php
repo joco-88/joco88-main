@@ -46,6 +46,29 @@ include('../templates/header.php');
   </div>
 </div>
 
+<script type='text/javascript'>
+	 $(document).ready(function(){
+	 $('#modalContactForm').on('click', '.btn-info', function(e){
+     var vfname = $('#fname').val();
+	 var vemail = $('#email').val();
+
+
+			$.post("result.php",
+               {
+                  fname:vfname,
+				  email:vemail,
+               },
+			function(response,status){
+             $("#result").html(response);
+
+          });
+
+     $('#modalContactForm').modal('hide');
+   });
+   });
+
+  </script>
+
 
 <!-- End of Contact Form -->
 
