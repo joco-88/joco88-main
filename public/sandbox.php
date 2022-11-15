@@ -11,13 +11,6 @@ include('../templates/header.php');
 
 <!-- Contact form will go below this -->
 
-
-<div class="text-center">
-  <a href="#modalContactForm" class="btn btn-primary" data-bs-toggle="modal" data-target="#modalContactForm">Launch Modal Contact Form</a>
-  <br>
-</div>
-
-
 <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -44,6 +37,15 @@ include('../templates/header.php');
     </div>
 </div>
 
+
+
+<div class="text-center">
+  <a href="#modalContactForm" class="btn btn-primary" data-bs-toggle="modal" data-target="#modalContactForm">Launch Modal Contact Form</a>
+  <br>
+  <div class="modal-body">
+        <div id="result"></div>
+  </div>
+</div>
 
 
 
