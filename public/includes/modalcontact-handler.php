@@ -13,8 +13,6 @@ if (isset($_POST['customerMessage'])) {
 
 <?php
 
-<?php
-<?php
     if (isset($customerMessage)) {
 
         echo "<h4>Thank you for submission!<h4>";
