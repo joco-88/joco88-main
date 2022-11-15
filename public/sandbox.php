@@ -62,7 +62,7 @@ include('../templates/header.php');
                  <div class="md-form mb-5">
                      <i class="fa fa-pencil prefix grey-text"></i>
                      <label for="form_message">Message *</label>
-                     <textarea id="modalmessage" name="modalmessage" class="form-control" placeholder="Write your message here. Please be detailed." rows="4" required="required" data-error="A Message is Required!.">
+                     <textarea id="modalmessage" name="modalmessage" class="form-control" rows="4" required="required" data-error="A Message is Required!.">
                        </textarea>
                      </div>
 
