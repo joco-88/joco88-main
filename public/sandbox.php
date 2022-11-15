@@ -13,7 +13,7 @@ include('../templates/header.php');
 
 
 <div class="text-center">
-  <a href="#modalContactForm" class="btn btn-success" data-bs-toggle="modal" data-target="#modalContactForm">Launch Modal Contact Form</a>
+  <a href="#modalContactForm" class="btn btn-primary" data-bs-toggle="modal" data-target="#modalContactForm">Launch Modal Contact Form</a>
   <br>
 </div>
 
