@@ -11,6 +11,13 @@ include('../templates/header.php');
 
 <!-- Contact form will go below this -->
 
+<script>
+$(document).ready(function() {
+    $("#myModal").modal("show");
+});
+</script>
+
+
 <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
