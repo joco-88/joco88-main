@@ -64,7 +64,6 @@ include('../templates/header.php');
                      <i class="fa fa-pencil prefix grey-text"></i>
                      <label for="form_message">Message *</label>
                      <input type="textarea" id="modalmessage" name="modalmessage" class="form-control validate" rows="4" required>
-                       </textarea>
                      </div>
 
 
