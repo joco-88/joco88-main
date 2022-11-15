@@ -18,48 +18,33 @@ include('../templates/header.php');
 </div>
 
 
-<div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Write to us</h4>
-        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body mx-3">
-        <div class="md-form mb-5">
-          <i class="fa fa-user prefix grey-text"></i>
-          <input type="text" id="form34" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="form34">Your name</label>
+<div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h2 class="modal-title font-weight-bold">Bootstrap Modal Form</h2>
+            </div>
+            <div class="modal-body mx-3">
+                <div class="md-form mb-5">
+                    <i class="fa fa-user prefix grey-text"></i>
+					<label data-error="wrong" data-success="right" for="fname">Full Name:</label>
+                    <input type="text" id="fname" class="form-control validate">
+                </div>
+                <div class="md-form mb-5">
+                    <i class="fa fa-envelope prefix grey-text"></i>
+					<label data-error="wrong" data-success="right" for="email">e-Mail:</label>
+                    <input type="email" id="email" class="form-control validate">
+                 </div>
+            </div>
+            <div class="modal-footer d-flex justify-content-center">
+                <button id="send" class="btn btn-info">Submit <i class="fa fa-paper-plane-o ml-1"></i></button>
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
         </div>
-
-        <div class="md-form mb-5">
-          <i class="fa fa-envelope prefix grey-text"></i>
-          <input type="email" id="form29" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="form29">Your email</label>
-        </div>
-
-        <div class="md-form mb-5">
-          <i class="fa fa-tag prefix grey-text"></i>
-          <input type="text" id="form32" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="form32">Subject</label>
-        </div>
-
-        <div class="md-form">
-          <i class="fa fa-pencil prefix grey-text"></i>
-          <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
-          <label data-error="wrong" data-success="right" for="form8">Your message</label>
-        </div>
-
-      </div>
-      <div class="modal-footer d-flex justify-content-center">
-        <button class="btn btn-unique">Send <i class="fa fa-paper-plane-o ml-1"></i></button>
-      </div>
     </div>
-  </div>
 </div>
+
+
 
 
 
