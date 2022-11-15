@@ -38,7 +38,7 @@ include('../templates/header.php');
             </div>
             <div class="modal-footer d-flex justify-content-center">
                 <button id="send" class="btn btn-info">Submit <i class="fa fa-paper-plane-o ml-1"></i></button>
-				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
