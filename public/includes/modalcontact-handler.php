@@ -5,7 +5,7 @@ $fullName = htmlspecialchars($_POST['fullName']);
 $customerEmail = htmlspecialchars($_POST['email']);
 
 if (isset($_POST['customer_message'])) {
-  $customerMessage = htmlspecialchars($_POST['customer_message']);
+  $customerMessage = htmlspecialchars($_POST['customerMessage']);
 } else {
   $customerMessage=NULL;
 }
