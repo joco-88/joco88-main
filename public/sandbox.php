@@ -56,11 +56,22 @@ include('../templates/header.php');
 					<label data-bs-error="wrong" data-bs-success="right" for="modalemail">e-Mail:</label>
                     <input type="email" id="modalemail" class="form-control validate">
                  </div>
+
+
+                 <div class="md-form mb-5">
+                     <i class="fa fa-envelope prefix grey-text"></i>
+                     <label for="form_message">Message *</label>
+                     <textarea id="modalmessage" name="modalmessage" class="form-control" placeholder="Write your message here. Please be detailed." rows="4" required="required" data-error="A Message is Required!.">
+                       </textarea>
+                     </div>
+
+
             </div>
             <div class="modal-footer d-flex justify-content-center">
                 <button id="send" class="btn btn-info">Submit <i class="fa fa-paper-plane-o ml-1"></i></button>
 				<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
             </div>
+
         </div>
     </div>
 </div>
