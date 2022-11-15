@@ -55,7 +55,7 @@ include('../templates/header.php');
                 </div>
                 <div class="form control md-form mb-5">
                     <i class="fa fa-envelope prefix grey-text"></i>
-					<label data-error="wrong" data-success="right" for="modalemail">e-Mail:</label>
+					<label data-error="wrong" data-success="right" for="modalemail">Email:</label>
                     <input type="email" id="modalemail" class="form-control validate" required>
                  </div>
 
