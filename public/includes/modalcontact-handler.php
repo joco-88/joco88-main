@@ -1,7 +1,6 @@
 <?php
 
 $fullName = htmlspecialchars($_POST['fullName']);
-//$customerMessage = htmlspecialchars($_POST['customer_message']);
 $customerEmail = htmlspecialchars($_POST['email']);
 
 if (isset($_POST['customerMessage'])) {
