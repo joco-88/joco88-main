@@ -15,9 +15,9 @@ include('../templates/header.php');
 	 $(document).ready(function(){
 	 $('#modalContactForm').on('click', '.btn-info', function(e){
 
-     var fname = $('#fullName').val();
-	   var email = $('#email').val();
-     var customer_message = $('#customer_message').val();
+     var modalfname = $('#fullName').val();
+	   var modalemail = $('#email').val();
+     var modalmessage = $('#customer_message').val();
 
 
 			$.post("result.php",
@@ -47,12 +47,12 @@ include('../templates/header.php');
             <div class="modal-body mx-3">
                 <div class="md-form mb-5">
                     <i class="fa fa-user prefix grey-text"></i>
-					<label data-bs-error="wrong" data-bs-success="right" for="fname">Full Name:</label>
+					<label data-bs-error="wrong" data-bs-success="right" for="modalfname">Full Name:</label>
                     <input type="text" id="fname" class="form-control validate">
                 </div>
                 <div class="md-form mb-5">
                     <i class="fa fa-envelope prefix grey-text"></i>
-					<label data-bs-error="wrong" data-bs-success="right" for="email">e-Mail:</label>
+					<label data-bs-error="wrong" data-bs-success="right" for="modalemail">e-Mail:</label>
                     <input type="email" id="email" class="form-control validate">
                  </div>
             </div>
