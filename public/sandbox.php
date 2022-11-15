@@ -11,10 +11,9 @@ include('../templates/header.php');
 
 <!-- Contact form will go below this -->
 
-<a href="#modalContactForm" class="btn btn-success" data-bs-toggle="modal" data-target="#modalContactForm">Launch Modal Contact Form</a>
 
 <div class="text-center">
-  <a href="#modalContactForm" class="btn btn-success" data-bs-toggle="modal">Launch Modal Form</a>
+  <a href="#modalContactForm" class="btn btn-success" data-bs-toggle="modal" data-target="#modalContactForm">Launch Modal Contact Form</a>
   <br>
 </div>
 
