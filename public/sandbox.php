@@ -70,10 +70,10 @@ include('../templates/header.php');
             </div>
             <div class="modal-footer d-flex justify-content-center">
 				<input type="submit" name="submit" class="btn btn-success btn-send  pt-2 btn-block" value="Send Message">
-            </div>
 
 
-            <form id="contact-form" role="form" method="post" action="/includes/contact-action.php" autocomplete="on">
+
+            <form id="contact-form" role="form" method="post" action="">
             <div class="controls">
             <div class="row">
             <div class="col-md-6">
@@ -130,7 +130,7 @@ include('../templates/header.php');
 
 
 
-
+</div>
         </div>
     </div>
 </div>
