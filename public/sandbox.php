@@ -67,12 +67,12 @@ include('../templates/header.php');
                      </div>
 
             <div class="modal-footer d-flex justify-content-center">
-              <input type="submit" name"submit" class="btn btn-primary btn-send mb-2 btn-block" disabled value="Send Message">
+              <input type="submit" name"submit" class="btn btn-primary btn-send mb-2 btn-block" id="submitbutton" disabled value="Send Message">
 </form>
 
 <script>
-$('#user_input, #pass_input, #v_pass_input, #email').bind('keyup', function() {
-    if(allFilled()) $('#register').removeAttr('disabled');
+$('#modalfname, #modalemail, #modalmessage').bind('keyup', function() {
+    if(allFilled()) $('#submitbutton').removeAttr('disabled');
 });
 
 function allFilled() {
