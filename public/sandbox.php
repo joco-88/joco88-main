@@ -39,7 +39,7 @@ include('../templates/header.php');
     </div>
 </div>
 
- <a href="" class="btn btn-success" data-toggle="modal" data-target="#modalContactForm">Launch Modal Contact Form</a>
+<a href="" class="btn btn-success" data-toggle="modal" data-target="#modalContactForm">Launch Modal Contact Form</a>
 <br>
 <div class="modal-body">
         <div id="result"></div>
