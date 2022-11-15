@@ -47,7 +47,7 @@ include('../templates/header.php');
                 <h2 class="modal-title font-weight-bold">Bootstrap Modal Form</h2>
             </div>
             <div class="modal-body mx-3">
-              <form id="modal-contact-form" role="form" method="post" action="" autocomplete="on">
+              <form id="modal-contact-form" role="form" method="post">
                 <div class="form control md-form mb-5">
                     <i class="fa fa-user prefix grey-text"></i>
 					<label data-error="wrong" data-success="right" for="modalfname">Full Name:</label>
