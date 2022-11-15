@@ -50,7 +50,7 @@ include('../templates/header.php');
                 <div class="md-form mb-5">
                     <i class="fa fa-user prefix grey-text"></i>
 					<label data-error="wrong" data-success="right" for="modalfname">Full Name:</label>
-                    <input type="text" id="modalfname" class="form-control validate" required="required">
+                    <input type="text" id="modalfname" class="form-control validate" required>
                 </div>
                 <div class="md-form mb-5">
                     <i class="fa fa-envelope prefix grey-text"></i>
@@ -62,7 +62,7 @@ include('../templates/header.php');
                  <div class="md-form mb-5">
                      <i class="fa fa-pencil prefix grey-text"></i>
                      <label for="form_message">Message *</label>
-                     <textarea id="modalmessage" name="modalmessage" class="form-control validate" rows="4" required="required" data-error="A Message is Required!.">
+                     <textarea id="modalmessage" name="modalmessage" class="form-control validate" rows="4" required data-error="A Message is Required!.">
                        </textarea>
                      </div>
 
