@@ -81,6 +81,11 @@ $('#modalContactForm').modal('hide');
               </div>
 
 
+              <br>
+              <div class="modal-body">
+                    <div id="result"></div>
+              </div>
+
 </div>
         </div>
     </div>
@@ -90,10 +95,7 @@ $('#modalContactForm').modal('hide');
 
 <div class="text-center">
   <a href="#modalContactForm" class="btn btn-primary" data-bs-toggle="modal" data-target="#modalContactForm">Launch Modal Contact Form</a>
-  <br>
-  <div class="modal-body">
-        <div id="result"></div>
-  </div>
+
 </div>
 
 
