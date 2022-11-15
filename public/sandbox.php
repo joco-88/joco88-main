@@ -35,7 +35,7 @@ include('../templates/header.php');
             </div>
         </div>
     </div>
-
+</div>
 
 <div class="text-center">
   <a href="" class="btn btn-success" data-toggle="modal" data-target="#modalContactForm">Launch Modal Contact Form</a>
@@ -44,7 +44,7 @@ include('../templates/header.php');
         <div id="result"></div>
   </div>
 </div>
-</div>
+
 
 <!-- End of Contact Form -->
 
