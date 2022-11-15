@@ -5,7 +5,7 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 $fullName = htmlspecialchars($_POST['fullName']?? '');
 $customerEmail = htmlspecialchars($_POST['email']?? '');
 $customerMessage = htmlspecialchars($_POST['email']?? '');
-$customerMessage = trim($customerMessage);
+$customerMessage = ltrim($customerMessage);
 
 
 if (isset ($customerMessage)) {
