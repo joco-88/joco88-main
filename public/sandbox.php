@@ -51,7 +51,7 @@ include('../templates/header.php');
 </div>
 
 <!-- Vertically centered scrollable modal -->
-<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+<div class="modal-dialog modal-dialog-centered">
   ...
 </div>
 
