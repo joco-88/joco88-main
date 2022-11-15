@@ -117,7 +117,6 @@ echo "<strong>Email full body is:</strong><br> $email_body <br>";
 <?php
     include($_SERVER['DOCUMENT_ROOT'].'/../templates/footer.php');
     ?>
-?>
 
 
   </footer>
