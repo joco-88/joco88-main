@@ -3,7 +3,7 @@
 error_reporting(E_ALL); ini_set('display_errors', 1);
 
 $PageTitle="Contact Form Submitted";
-include('$_SERVER['DOCUMENT_ROOT'].'/header.php');
+include('$_SERVER['DOCUMENT_ROOT'].'/templates/header.php');
 ?>
 <!doctype html>
 <html lang="en">
