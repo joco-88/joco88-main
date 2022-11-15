@@ -5,11 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
-    <?php if (isset($extraStylesheet)) {
-        echo $extraStylesheet;
-      }
+<?php
 $SiteName="Joco88";
-    ?>
+?>
 
     <!--- This is my Font Awesome Kit I made. Right now, just using hosted (free) fonts and don't need to use it.
     <script src="https://kit.fontawesome.com/347bff65d7.js" crossorigin="anonymous"></script>
