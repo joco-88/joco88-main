@@ -16,16 +16,16 @@ include('../templates/header.php');
 	 $(document).ready(function(){
 	 $('#modalContactForm').on('click', '.btn-send', function(e){
 
-     var modalfname = $('#fullName').val();
-	   var modalemail = $('#email').val();
-     var modalmessage = $('#customerMessage').val();
+     var fullName = $('#modalfname').val();
+	   var email = $('#modalemail').val();
+     var customerMessage = $('#modalmessage').val();
 
 
 			$.post("/includes/modalcontact-handler.php",
                {
-                  fullName:modalfname,
-				          email:modalemail,
-                  customerMessage:modalmessage,
+                  modalfname:fullName,
+				          modalemail:email,
+                  modalmessage:customerMessage,
                },
 			function(response,status){
              $("#result").html(response);
