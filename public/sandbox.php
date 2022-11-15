@@ -23,8 +23,8 @@ include('../templates/header.php');
 
 			$.post("/includes/modalcontact-handler.php",
                {
-                  modalfname:fullName,
-				          modalemail:email,
+                  fullName,
+				          email,
                   customerMessage,
                },
 			function(response,status){
