@@ -25,7 +25,7 @@ include('../templates/header.php');
                {
                   modalfname:fullName,
 				          modalemail:email,
-                  modalmessage:customerMessage,
+                  customerMessage,
                },
 			function(response,status){
              $("#result").html(response);
