@@ -13,7 +13,7 @@ include('../templates/header.php');
 
 <script>
 $(document).ready(function() {
-    $("#myModal").modal("show");
+    $("#modalContactForm").modal("show");
 });
 </script>
 
