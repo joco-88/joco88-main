@@ -50,7 +50,7 @@ include('../templates/header.php');
                 <div class="md-form mb-5">
                     <i class="fa fa-user prefix grey-text"></i>
 					<label data-bs-error="wrong" data-bs-success="right" for="modalfname">Full Name:</label>
-                    <input type="text" id="modalfname" class="form-control validate">
+                    <input type="text" id="modalfname" class="form-control validate" required="required">
                 </div>
                 <div class="md-form mb-5">
                     <i class="fa fa-envelope prefix grey-text"></i>
