@@ -89,13 +89,12 @@ include('../templates/header.php');
 
 
 
-
+<!--
 <br> TEST NEW FORM <br>
 
-<!-- Button HTML (to Trigger Modal) -->
+
 <a href="#myModal" class="btn btn-lg btn-primary" data-bs-toggle="modal">Launch Demo Modal</a>
 
-<!-- Modal HTML -->
 <div id="myModal" class="modal fade">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -114,7 +113,7 @@ include('../templates/header.php');
         </div>
     </div>
 </div>
-
+-->
 
 <!-- End of Contact Form -->
 
