@@ -34,7 +34,7 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
              $("#result").html(response);
 
           });
-//$('#modalContactForm').modal('hide');
+$('#modalContactForm').modal('hide');
 
    });
    });
