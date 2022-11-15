@@ -14,7 +14,7 @@ include('../templates/header.php');
 <script type='text/javascript'>
 
 	 $(document).ready(function(){
-	 $('#modalContactForm').on('submit', '.btn-send', function(e){
+	 $('#modalContactForm').on('submission', '.btn-send', function(e){
 
      var fullName = $('#modalfname').val();
 	   var email = $('#modalemail').val();
