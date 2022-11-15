@@ -17,7 +17,7 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 <script type='text/javascript'>
 
 	 $(document).ready(function(){
-	 $('#modalContactForm').on('submitbutton', '.btn-send', function(e){
+	 $('#modalContactForm').on('click', '.btn-send', function(e){
 
      var fullName = $('#modalfname').val();
 	   var email = $('#modalemail').val();
@@ -34,7 +34,7 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
              $("#result").html(response);
 
           });
-$('#modalContactForm').modal('hide');
+$('#modalContactForm').modal();
 
    });
    });
