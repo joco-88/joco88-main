@@ -23,9 +23,6 @@ $SiteName="Joco88";
     <link rel="stylesheet" href="/css/stylesheet.css?v=11.15.2022.1">
     <link rel="stylesheet" href="/css/font-awesome/font-awesome.min.css">
 
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
     <!-- JavaScript Bundle with Bootstrap Popper -->
     <!-- <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.0/dist/jquery.slim.min.js"></script> -->
