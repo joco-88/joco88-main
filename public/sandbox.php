@@ -73,7 +73,7 @@ include('../templates/header.php');
 
 
 
-            <form id="contact-form" role="form" method="post" action="">
+            <form id="modalContactForm" role="form" method="post" action="">
             <div class="controls">
             <div class="row">
             <div class="col-md-6">
