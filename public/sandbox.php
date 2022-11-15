@@ -67,9 +67,7 @@ include('../templates/header.php');
                      </div>
 
             <div class="modal-footer d-flex justify-content-center">
-              <div class="form control md-form mb-5">
 				<input type="submit" name="submit" class="btn btn-success btn-send  pt-2 btn-block" value="Send Message">
-            </div>
               </div>
 </form>
 
