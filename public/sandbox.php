@@ -32,7 +32,7 @@ include('../templates/header.php');
 
           });
 
-     $('#modalContactForm').modal('hide');
+     //$('#modalContactForm').modal('hide');
    });
    });
 
