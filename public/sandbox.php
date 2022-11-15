@@ -9,7 +9,34 @@ include('../templates/header.php');
         <hr>
     </div>
 
-<!-- Contact form will go below this -->
+<!-- Contact form javascript will go here -->
+
+<script type='text/javascript'>
+	 $(document).ready(function(){
+	 $('#modalContactForm').on('click', '.btn-info', function(e){
+
+     var fname = $('#fullName').val();
+	   var email = $('#email').val();
+     var customer_message = $('#customer_message').val();
+
+
+			$.post("result.php",
+               {
+                  fname:vfname,
+				  email:vemail,
+               },
+			function(response,status){
+             $("#result").html(response);
+
+          });
+
+     $('#modalContactForm').modal('hide');
+   });
+   });
+
+  </script>
+
+<!-- Contact form HTML & Bootstrap will go below this -->
 
 <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
