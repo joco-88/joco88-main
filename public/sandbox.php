@@ -20,10 +20,11 @@ include('../templates/header.php');
      var modalmessage = $('#customer_message').val();
 
 
-			$.post("result.php",
+			$.post("/includes/modalcontact-handler.php",
                {
-                  fname:vfname,
-				  email:vemail,
+                  fullName:modalfname,
+				          email:modalemail,
+                  customerMessage:modalmessage,
                },
 			function(response,status){
              $("#result").html(response);
