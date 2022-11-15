@@ -47,6 +47,7 @@ include('../templates/header.php');
                 <h2 class="modal-title font-weight-bold">Bootstrap Modal Form</h2>
             </div>
             <div class="modal-body mx-3">
+              <form>
                 <div class="md-form mb-5">
                     <i class="fa fa-user prefix grey-text"></i>
 					<label data-error="wrong" data-success="right" for="modalfname">Full Name:</label>
@@ -70,7 +71,7 @@ include('../templates/header.php');
             </div>
             <div class="modal-footer d-flex justify-content-center">
 				<input type="submit" name="submit" class="btn btn-success btn-send  pt-2 btn-block" value="Send Message">
-
+</form>
 
 </div>
         </div>
