@@ -22,6 +22,6 @@ if (! empty($_POST['customerMessage'])) {
 		      echo "<br>Your e-mail: $customerEmail";
           echo "<br>Your message: $customerMessage";
       } else {
-          echo "It Didn't Work";
+          echo "Your message was not sent as you did not provide valid information. Please complete the form and try again.";
   }
 ?>
