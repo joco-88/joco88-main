@@ -32,10 +32,10 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
                },
 			function(response,status){
              $("#result").html(response);
-      //return false;
+
           });
 $('#modalContactForm').modal('hide');
-
+  return false;
    });
    });
 
