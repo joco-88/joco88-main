@@ -17,7 +17,7 @@ include('../templates/header.php');
 
      var modalfname = $('#fullName').val();
 	   var modalemail = $('#email').val();
-     var modalmessage = $('#customer_message').val();
+     var modalmessage = $('#customerMessage').val();
 
 
 			$.post("/includes/modalcontact-handler.php",
@@ -49,12 +49,12 @@ include('../templates/header.php');
                 <div class="md-form mb-5">
                     <i class="fa fa-user prefix grey-text"></i>
 					<label data-bs-error="wrong" data-bs-success="right" for="modalfname">Full Name:</label>
-                    <input type="text" id="fname" class="form-control validate">
+                    <input type="text" id="modalfname" class="form-control validate">
                 </div>
                 <div class="md-form mb-5">
                     <i class="fa fa-envelope prefix grey-text"></i>
 					<label data-bs-error="wrong" data-bs-success="right" for="modalemail">e-Mail:</label>
-                    <input type="email" id="email" class="form-control validate">
+                    <input type="email" id="modalemail" class="form-control validate">
                  </div>
             </div>
             <div class="modal-footer d-flex justify-content-center">
