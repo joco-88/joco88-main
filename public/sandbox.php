@@ -12,7 +12,7 @@ include('../templates/header.php');
 <!-- Contact form will go below this -->
 
 <div class="text-center">
-  <a href="" class="btn btn-success" data-bs-toggle="modal">Launch Modal Form</a>
+  <a href="#modalContactForm" class="btn btn-success" data-bs-toggle="modal">Launch Modal Form</a>
   <br>
 </div>
 
