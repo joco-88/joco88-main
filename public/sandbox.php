@@ -31,10 +31,9 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
                   customerMessage,
                },
 			function(response,status){
-             $("#result").html(response);
+             $("#result").val(response);
 
           });
-          var response = $("#result").val();
 $('#modalContactForm').modal('hide');
 
    });
