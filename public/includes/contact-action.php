@@ -5,44 +5,6 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 $PageTitle="Contact Form Submitted";
 include($_SERVER['DOCUMENT_ROOT'].'/../templates/header.php');
 ?>
-<!doctype html>
-<html lang="en">
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link href="/css/stylesheet.css?v=10.25.2022.4" rel="stylesheet">
-    <link href="/css/font-awesome/font-awesome.min.css" rel="stylesheet">
-    <?php if (isset($extraStylesheet)) {
-        echo $extraStylesheet;
-      }
-$SiteName="Joco88";
-    ?>
-
-    <title>
-    <?php echo isset($PageTitle) ? $PageTitle . " | $SiteName.com" : "$SiteName.com"?>
-    </title>
-    <link rel="icon" type="image/x-icon" href="/media/favicon.ico">
-
-  </head>
-      <header>
-          <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-              <div class="container-fluid">
-              <a class="navbar-brand" href="/"> <?php echo $SiteName; ?> </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="/">&#x2190;&nbspGo Back to the Home Page</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-  <body>
 
 <!-- END OF HEADER AND START OF CONTACT SUCCESS PAGE -->
 
@@ -152,13 +114,10 @@ echo "<strong>Email full body is:</strong><br> $email_body <br>";
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 
     <!--- Start Footer Content --->
-
-    <center>
-      <div class="footerLinks">
-      <div class="container-fluid p-5 my-5 bg-secondary text-white">
-        &copy;<?php echo date("Y");?> - <a href="/contactme.php"><strong>Joseph Condon</strong></a> & <a href="/"><strong>Joco88.com</strong></a></center>
-      </div>
-      </div>
+<?php
+    include($_SERVER['DOCUMENT_ROOT'].'/../templates/footer.php');
+    ?>
+?>
 
 
   </footer>
