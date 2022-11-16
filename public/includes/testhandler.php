@@ -27,9 +27,8 @@ if(isset($newmessage)) {
     $email_from = "<mail@joco88.com>";
     $email_subject= "Contact Request Submitted";
 
-    $email_body = "<b>You have received a new message from the following user:&nbsp</b> $fullName<br><br>".
+    $email_body = "<b>You have received a new message from the following user:&nbsp</b> $customerName<br><br>".
                               "<b>Here is the message:</b><br><br><q><em>$customerMessage</em></q><br><br>".
-                              "<b>The contact reason is:</b>  $contactReason<br><br>".
                               "<b>The customer email is:</b>  $customerEmail<br><br>";
 
     $headers = "Content-type: text/html; charset=iso-8859-1 \r\n";
