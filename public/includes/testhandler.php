@@ -37,6 +37,6 @@ if(isset($_POST['contactFrmSubmit']) && !empty($_POST['name']) && !empty($_POST[
 
 $status = "ok";
 
-    echo $status
+    echo $status;
 }
 ?>
