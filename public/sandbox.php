@@ -16,24 +16,24 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 <!-- Button to trigger modal -->
 
 <br>
-<!--
+
 <div class="text-center">
   <a href="#modalForm" class="btn btn-success btn-lg" data-bs-toggle="modal" data-target="#modalForm">Contact Us</a>
 </div>
 
 
 <!-- Modal -->
-<!-- <div class="modal fade" id="modalForm" role="dialog">
+ <div class="modal fade" id="modalForm" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
-            <!-- Modal Header -->
-          <!--   <div class="modal-header">
+             Modal Header -->
+             <div class="modal-header">
                 <h4 class="modal-title">Contact Us</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
 
             <!-- Modal Body -->
-          <!--   <div class="modal-body">
+          <div class="modal-body">
                 <p class="statusMsg"></p>
                 <form role="form">
                     <div class="form-group">
@@ -52,7 +52,7 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
             </div>
 
             <!-- Modal Footer -->
-          <!--   <div class="modal-footer">
+           <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary submitBtn" onclick="submitContactForm()">SUBMIT</button>
             </div>
