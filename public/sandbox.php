@@ -95,6 +95,16 @@ $('#modalContactForm').modal('hide');
   </div>
 </div>
 
+<!--- NEW MODAL BELOW -->
+
+
+
+
+
+
+
+
+<!--  --END OF NEW MODAL------------------------------------->
 
 </main>
   <footer>
