@@ -142,7 +142,7 @@ $('#modalContactForm').modal('hide');
 
             <!-- Modal Footer -->
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary submitBtn" onclick="submitContactForm()">SUBMIT</button>
             </div>
         </div>
