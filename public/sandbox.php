@@ -103,12 +103,10 @@ $('#modalContactForm').modal('hide');
 
 
 <div class="text-center">
-  <a href="#modalForm" class="btn btn-success btn-lg" data-bs-toggle="modal" data-target="#modalForm">Launch Modal Contact Form</a>
+  <a href="#modalForm" class="btn btn-success btn-lg" data-bs-toggle="modal" data-target="#modalForm">Open New Form</a>
 </div>
 
-<button class="btn btn-success btn-lg" data-bs-toggle="modal" data-target="#modalForm">
-    Open Contact Form
-</button>
+
 
 <!-- Modal -->
 <div class="modal fade" id="modalForm" role="dialog">
