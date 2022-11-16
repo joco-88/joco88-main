@@ -26,7 +26,7 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
  <div class="modal fade" id="modalForm" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
-             Modal Header -->
+          <!--   Modal Header -->
              <div class="modal-header">
                 <h4 class="modal-title">Contact Us</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
