@@ -5,6 +5,11 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 
 <?php
 
+
+
+
+
+
 if(isset($_POST['contactFrmSubmit'])) {
     //&& !empty($_POST['name'])
     //&& !empty($_POST['email'])
@@ -13,7 +18,7 @@ if(isset($_POST['contactFrmSubmit'])) {
 
 
 
-    $status = 'ok';
+
     $customerName = $_POST['name'];
     $customerEmail = $_POST['email'];
     $customerMessage = $_POST['message'];
@@ -31,6 +36,7 @@ if(isset($_POST['contactFrmSubmit'])) {
     $headers .= "From: Joco88.com Contact Page Submission $email_from \r\n";
     $headers .= "Reply-To: $customerEmail \r\n";
     mail($emailTo,$email_subject,$email_body,$headers);
+    $status = 'ok';
 } else {
     echo "Not Working";
 }
