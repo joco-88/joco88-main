@@ -153,9 +153,9 @@ $('#modalContactForm').modal('hide');
 <script>
 function submitContactForm(){
     var reg = /^[A-Z0-9._%+-]+@([A-Z0-9-]+\.)+[A-Z]{2,4}$/i;
-    var customerName = $('#inputName').val();
-    var customerEmail = $('#inputEmail').val();
-    var customerMessage = $('#inputMessage').val();
+    var name = $('#inputName').val();
+    var email = $('#inputEmail').val();
+    var message = $('#inputMessage').val();
     if(name.trim() == '' ){
         alert('Please enter your name.');
         $('#inputName').focus();
@@ -164,7 +164,7 @@ function submitContactForm(){
         alert('Please enter your email.');
         $('#inputEmail').focus();
         return false;
-    }else if(email.trim() != '' && !reg.test(customerEmail)){
+    }else if(email.trim() != '' && !reg.test(email)){
         alert('Please enter valid email.');
         $('#inputEmail').focus();
         return false;
@@ -176,7 +176,7 @@ function submitContactForm(){
         $.ajax({
             type:'POST',
             url:'/includes/testhandler.php',
-            data:'contactFrmSubmit=1&name='+customerName+'&email='+customerEmail+'&message='+customerMessage,
+            data:'contactFrmSubmit=1&name='+name+'&email='+email+'&message='+message,
             beforeSend: function () {
                 $('.submitBtn').attr("disabled","disabled");
                 $('.modal-body').css('opacity', '.5');
