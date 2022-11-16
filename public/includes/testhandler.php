@@ -2,11 +2,12 @@
 
 error_reporting(E_ALL); ini_set('display_errors', 1);
 
-if(isset($_POST['contactFrmSubmit'])
-    && !empty($_POST['name'])
-    && !empty($_POST['email'])
-    && (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) === false)
-    && !empty($_POST['message'])) {
+if(isset($_POST['message'])
+    //&& !empty($_POST['name'])
+    //&& !empty($_POST['email'])
+    //&& (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) === false)
+    //&& !empty($_POST['message']))
+    {
 
 $status = 'ok';
 
@@ -15,9 +16,7 @@ $status = 'ok';
     $customerEmail  = $_POST['email'];
     $customerMessage= $_POST['message'];
 
-    /*
-     * Send email to admin
-     */
+
     $emailTo = "jocodigitalweb@gmail.com";
     $email_from = "<mail@joco88.com>";
     $email_subject= "Contact Request Submitted";
