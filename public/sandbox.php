@@ -99,7 +99,7 @@ function submitContactForm(){
                     $('#inputMessage').val('');
                     $('.statusMsg').html('<div class="alert alert-success" role="alert">Success! We will contact you soon.</div>');
                 }else{
-                    $('.statusMsg').html('<div class="alert alert-success" role="alert">An error occurred. Please try again.</div>');
+                    $('.statusMsg').html('<div class="alert alert-danger" role="alert">An error occurred. Please try again.</div>');
                 }
                 $('.submitBtn').removeAttr("disabled");
                 $('.modal-body').css('opacity', '');
