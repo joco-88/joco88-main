@@ -120,7 +120,7 @@ $('#modalContactForm').modal('hide');
                     <span aria-hidden="true">&times;</span>
                     <span class="sr-only">Close</span>
                 </button>
-                <h4 class="modal-title" id="myModalLabel">Contact Form</h4>
+                <h4 align="left" class="modal-title" id="myModalLabel">Contact Form</h4>
             </div>
 
             <!-- Modal Body -->
