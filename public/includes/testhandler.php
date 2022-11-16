@@ -3,9 +3,9 @@ if(isset($_POST['contactFrmSubmit']) && !empty($_POST['name']) && !empty($_POST[
 {
 
     // Submitted form data
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $message = $_POST['message'];
+    $name = htmlspecialchars($_POST['name']?? '');
+    $email = htmlspecialchars($_POST['email']?? '');
+    $message = htmlspecialchars($_POST['message']?? '');
 
     /*
      * Send email to admin
