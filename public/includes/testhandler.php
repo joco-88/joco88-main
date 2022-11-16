@@ -31,10 +31,8 @@ if(isset($_POST['contactFrmSubmit'])
     mail($emailTo,$email_subject,$email_body,$headers);
 
 
-$status = "ok";
-
-echo $status;
+$status = 'ok';
 }
-
+echo $status;die;
 
 ?>
