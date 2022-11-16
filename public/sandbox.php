@@ -101,11 +101,11 @@ $('#modalContactForm').modal('hide');
 
 <!-- Button to trigger modal -->
 
+<br>
 
 <div class="text-center">
   <a href="#modalForm" class="btn btn-success btn-lg" data-bs-toggle="modal" data-target="#modalForm">Open New Form</a>
 </div>
-<br>
 
 
 <!-- Modal -->
