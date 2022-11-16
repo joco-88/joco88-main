@@ -104,7 +104,7 @@ $('#modalContactForm').modal('hide');
 
 
 
-<!--  --END OF NEW MODAL------------------------------------->
+<!--  END OF NEW MODAL ------------------------------------->
 
 </main>
   <footer>
