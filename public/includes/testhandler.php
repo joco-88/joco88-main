@@ -17,9 +17,9 @@ if(isset($_POST['contactFrmSubmit'])
      * Send email to admin
      */
     $emailTo = "jocodigitalweb@gmail.com";
-    $subject= "Contact Request Submitted";
+    $email_subject= "Contact Request Submitted";
 
-    $htmlContent = '
+    $email_body = '
     <h4>Contact request has submitted at JOCO88.com - On The New Modal Form.</h4>
     <table cellspacing="0" style="width: 300px; height: 200px;">
         <tr>
@@ -32,11 +32,6 @@ if(isset($_POST['contactFrmSubmit'])
             <th>Message:</th><td>'.$customerMessage.'</td>
         </tr>
     </table>';
-
-
-/* Set content-type header for sending HTML email */
-
-
 
     $headers = "Content-type: text/html; charset=iso-8859-1 \r\n";
     $headers .= "From: Joco88.com Contact Page Submission $email_from \r\n";
