@@ -1,28 +1,28 @@
 <?php
-if(isset($_POST['contactFrmSubmit']) && !empty($_POST['name']) && !empty($_POST['customerEmail']) && (!filter_var($_POST['customerEmail'], FILTER_VALIDATE_EMAIL) === false) && !empty($_POST['customerMessage'])){
+if(isset($_POST['contactFrmSubmit']) && !empty($_POST['name']) && !empty($_POST['email']) && (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) === false) && !empty($_POST['message'])){
 
     // Submitted form data
-    $name   = $_POST['customerName'];
-    $email  = $_POST['customerEmail'];
-    $message= $_POST['customerMessage'];
+    $customerName   = $_POST['name'];
+    $customerEmail  = $_POST['email'];
+    $customerMessage= $_POST['message'];
 
     /*
      * Send email to admin
      */
-    $to     = 'admin@example.com';
+    $to     = 'jocodigitalweb@gmail.com';
     $subject= 'Contact Request Submitted';
 
     $htmlContent = '
     <h4>Contact request has submitted at CodexWorld, details are given below.</h4>
     <table cellspacing="0" style="width: 300px; height: 200px;">
         <tr>
-            <th>Name:</th><td>'.$name.'</td>
+            <th>Name:</th><td>'.$customerName.'</td>
         </tr>
         <tr style="background-color: #e0e0e0;">
-            <th>Email:</th><td>'.$email.'</td>
+            <th>Email:</th><td>'.$customerEmail.'</td>
         </tr>
         <tr>
-            <th>Message:</th><td>'.$message.'</td>
+            <th>Message:</th><td>'.$customerMessage.'</td>
         </tr>
     </table>';
 
