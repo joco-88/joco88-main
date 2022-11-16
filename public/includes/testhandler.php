@@ -13,9 +13,9 @@ if(isset($_POST['contactFrmSubmit']) && !empty($_POST['name']) && !empty($_POST[
     $to = 'mail@joco88.com';
     $subject = 'Contact Request Submitted';
 
-    $emailBody = "<b>You have received a new message from the following user:&nbsp</b> $name<br><br>".
-                              "<b>Here is the message:</b><br><br><q><em>$message</em></q><br><br>".
-                              "<b>The customer email is:</b>  $email<br><br>";
+    $emailBody = "<b>You have received a new message from the following contact:&nbsp</b> $name<br><br>".
+                              "<b> <b>The customer email is:</b>  $email<br><br>".
+                              "<b>$name provided the message below:</b><br><br><q><em>$message</em></q><br><br>";
 
     // Set content-type header for sending HTML email
     //$headers = "MIME-Version: 1.0 \r\n";
