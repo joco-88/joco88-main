@@ -27,8 +27,10 @@ if(isset($_POST['contactFrmSubmit']) && !empty($_POST['name']) && !empty($_POST[
     </table>';
 ?>
 
+<!--  Set content-type header for sending HTML email -->
+
 <?php
-    // Set content-type header for sending HTML email
+
     $headers = "Content-type: text/html; charset=iso-8859-1 \r\n";
     $headers .= "From: Joco88.com Contact Page Submission $email_from \r\n";
     $headers .= "Reply-To: $customerEmail \r\n";
