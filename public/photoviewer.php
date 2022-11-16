@@ -1,9 +1,9 @@
 <?php
-error_reporting(E_ALL); ini_set('display_errors', 1);
-
 $PageTitle = "Photo Gallery";
 
 include('../templates/header.php');
+
+error_reporting(E_ALL); ini_set('display_errors', 1);
 ?>
 
 <!-- Body starts here as body tag opens at end of Header.php file -->
