@@ -106,7 +106,7 @@ $('#modalContactForm').modal('hide');
 <br>
 
 <div class="text-center">
-  <a href="#modalForm" class="btn btn-success btn-lg" data-bs-toggle="modal" data-target="#modalForm">Open New Form</a>
+  <a href="#modalForm" class="btn btn-success btn-lg" data-bs-toggle="modal" data-target="#modalForm">Contact Us</a>
 </div>
 
 
