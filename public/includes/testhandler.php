@@ -34,4 +34,8 @@ if(isset($_POST['message'])) {
 } else {
     echo "Not Working";
 }
+  echo "$customerName <br>";
+  echo "$emailTo <br>";
+  echo "$customerEmail <br>";
+  echo "$customerMessage <br>";
   echo $status;die;
