@@ -33,6 +33,6 @@ if(isset($_POST['contactFrmSubmit'])) {
     mail($emailTo,$email_subject,$email_body,$headers);
     $status = 'ok';
 } else {
-    echo "Not Working";
+    echo "err";
 }
   echo $status;die;
