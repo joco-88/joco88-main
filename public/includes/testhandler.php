@@ -13,19 +13,9 @@ if(isset($_POST['contactFrmSubmit']) && !empty($_POST['name']) && !empty($_POST[
     $to = 'jocodigitalweb@gmail.com';
     $subject = 'Contact Request Submitted';
 
-    $htmlContent = '
-    <h4>New form submission on Joco88, using the new modal form.</h4>
-    <table cellspacing="0" style="width: 300px; height: 200px;">
-        <tr>
-            <th>Name:</th><td>'.$name.'</td>
-        </tr>
-        <tr style="background-color: #e0e0e0;">
-            <th>Email:</th><td>'.$email.'</td>
-        </tr>
-        <tr>
-            <th>Message:</th><td>'.$message.'</td>
-        </tr>
-    </table>';
+    $emailBody = "<b>You have received a new message from the following user:&nbsp</b> $name<br><br>".
+                              "<b>Here is the message:</b><br><br><q><em>$message</em></q><br><br>".
+                              "<b>The customer email is:</b>  $email<br><br>";
 
     // Set content-type header for sending HTML email
     $headers = "MIME-Version: 1.0 \r\n";
@@ -36,7 +26,7 @@ if(isset($_POST['contactFrmSubmit']) && !empty($_POST['name']) && !empty($_POST[
 
 
     // Send email
-    mail($to,$subject,$htmlContent,$headers);
+    mail($to,$subject,$emailBody,$headers);
         $status = 'ok';
         echo $status;
     } else {
