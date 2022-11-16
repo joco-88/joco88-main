@@ -32,6 +32,7 @@ if(isset($_POST['contactFrmSubmit'])) {
     $headers .= "Reply-To: $customerEmail \r\n";
     mail($emailTo,$email_subject,$email_body,$headers);
     $status = 'ok';
+    echo $status;
 } else {
     echo "err";
 }
