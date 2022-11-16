@@ -1,5 +1,5 @@
 <?php
-if(isset($_POST['contactFrmSubmit']) && !empty($_POST['customerName']) && !empty($_POST['customerEmail']) && (!filter_var($_POST['customerEmail'], FILTER_VALIDATE_EMAIL) === false) && !empty($_POST['customerMessage'])){
+if(isset($_POST['contactFrmSubmit']) && !empty($_POST['name']) && !empty($_POST['customerEmail']) && (!filter_var($_POST['customerEmail'], FILTER_VALIDATE_EMAIL) === false) && !empty($_POST['customerMessage'])){
 
     // Submitted form data
     $name   = $_POST['customerName'];
