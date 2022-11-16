@@ -13,7 +13,7 @@ if(isset($_POST['contactFrmSubmit']) && !empty($_POST['name']) && !empty($_POST[
     $subject= 'Contact Request Submitted';
 
     $htmlContent = '
-    <h4>Contact request has submitted at CodexWorld, details are given below.</h4>
+    <h4>Contact request has submitted at JOCO88.com - On The New Modal Form.</h4>
     <table cellspacing="0" style="width: 300px; height: 200px;">
         <tr>
             <th>Name:</th><td>'.$customerName.'</td>
@@ -31,7 +31,7 @@ if(isset($_POST['contactFrmSubmit']) && !empty($_POST['name']) && !empty($_POST[
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
     // Additional headers
-    $headers .= 'From: CodexWorld<sender@example.com>' . "\r\n";
+    $headers .= 'From: Joco88<mail@joco88.com>' . "\r\n";
 
     // Send email
     if(mail($to,$subject,$htmlContent,$headers)){
