@@ -13,7 +13,7 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
     </div>
 
 <!-- Contact form javascript will go here -->
-
+<!---
 <script type='text/javascript'>
 
 	 $(document).ready(function(){
@@ -39,9 +39,10 @@ $('#modalContactForm').modal('hide');
    });
 
   </script>
-
+--->
 <!-- Contact form HTML & Bootstrap will go below this -->
 
+<!---
 <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -94,6 +95,7 @@ $('#modalContactForm').modal('hide');
         <div id="result"></div>
   </div>
 </div>
+--->
 
 <!--- NEW MODAL BELOW -->
 
