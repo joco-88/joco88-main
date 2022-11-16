@@ -8,9 +8,9 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 
 
 
+$newmessage = "yes";
 
-
-if(isset($_POST['contactFrmSubmit'])) {
+if(isset($newmessage)) {
     //&& !empty($_POST['name'])
     //&& !empty($_POST['email'])
     //&& (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) === false)
