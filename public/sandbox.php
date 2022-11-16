@@ -116,7 +116,7 @@ $('#modalContactForm').modal('hide');
         <div class="modal-content">
             <!-- Modal Header -->
             <div class="modal-header">
-                <button type="button" class="close" data-bs-dismiss="modal">
+                <button type="button" class="btn-close" data-bs-dismiss="modal">
                     <span aria-hidden="true">&times;</span>
                     <span class="sr-only">Close</span>
                 </button>
