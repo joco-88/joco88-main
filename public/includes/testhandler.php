@@ -17,6 +17,7 @@ if(isset($_POST['contactFrmSubmit'])
      * Send email to admin
      */
     $emailTo = "jocodigitalweb@gmail.com";
+    $email_from = "<mail@joco88.com>";
     $email_subject= "Contact Request Submitted";
 
     $email_body = '
