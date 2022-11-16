@@ -169,7 +169,7 @@ function submitContactForm(){
         $('#inputEmail').focus();
         return false;
     }else if(message.trim() == '' ){
-        print('Please enter your message.');
+        alert('Please enter your message.');
         $('#inputMessage').focus();
         return false;
     }else{
