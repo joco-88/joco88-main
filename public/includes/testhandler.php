@@ -20,19 +20,10 @@ if(isset($_POST['contactFrmSubmit'])
     $email_from = "<mail@joco88.com>";
     $email_subject= "Contact Request Submitted";
 
-    $email_body = '
-    <h4>Contact request has submitted at JOCO88.com - On The New Modal Form.</h4>
-    <table cellspacing="0" style="width: 300px; height: 200px;">
-        <tr>
-            <th>Name:</th><td>'.$customerName.'</td>
-        </tr>
-        <tr style="background-color: #e0e0e0;">
-            <th>Email:</th><td>'.$customerEmail.'</td>
-        </tr>
-        <tr>
-            <th>Message:</th><td>'.$customerMessage.'</td>
-        </tr>
-    </table>';
+    $email_body = "<b>You have received a new message from the following user:&nbsp</b> $fullName<br><br>".
+                              "<b>Here is the message:</b><br><br><q><em>$customerMessage</em></q><br><br>".
+                              "<b>The contact reason is:</b>  $contactReason<br><br>".
+                              "<b>The customer email is:</b>  $customerEmail<br><br>";
 
     $headers = "Content-type: text/html; charset=iso-8859-1 \r\n";
     $headers .= "From: Joco88.com Contact Page Submission $email_from \r\n";
