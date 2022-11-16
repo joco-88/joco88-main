@@ -8,6 +8,8 @@ if(isset($_POST['contactFrmSubmit'])
     && (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) === false)
     && !empty($_POST['message'])) {
 
+$status = 'ok';
+
     // Submitted form data
     $customerName   = $_POST['name'];
     $customerEmail  = $_POST['email'];
@@ -31,6 +33,6 @@ if(isset($_POST['contactFrmSubmit'])
     mail($emailTo,$email_subject,$email_body,$headers);
 
 
-$status = 'ok';
+
 }
 echo $status;die;
