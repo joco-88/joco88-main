@@ -116,8 +116,9 @@ $('#modalContactForm').modal('hide');
         <div class="modal-content">
             <!-- Modal Header -->
             <div class="modal-header">
-                <button type="button" class="btn-close" aria-label="Close"></button>
-                <h4 align="left" class="modal-title" id="myModalLabel">Contact Form</h4>
+                <h4 class="modal-title">Modal title</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <!-- <h4 align="left" class="modal-title" id="myModalLabel">Contact Form</h4> -->
             </div>
 
             <!-- Modal Body -->
