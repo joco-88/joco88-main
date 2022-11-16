@@ -176,7 +176,7 @@ function submitContactForm(){
         $.ajax({
             type:'POST',
             url:'/includes/modalcontact-handler.php',
-            data:'contactFrmSubmit=1&name='+name+'&email='+email+'&message='+message,
+            data:'contactFrmSubmit=1&name='+fullName+'&email='+customerEmail+'&message='+customerMessage,
             beforeSend: function () {
                 $('.submitBtn').attr("disabled","disabled");
                 $('.modal-body').css('opacity', '.5');
