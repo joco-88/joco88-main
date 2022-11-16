@@ -9,8 +9,8 @@ if(isset($_POST['contactFrmSubmit']) && !empty($_POST['name']) && !empty($_POST[
     /*
      * Send email to admin
      */
-    $to     = 'jocodigitalweb@gmail.com';
-    $subject= 'Contact Request Submitted';
+    $emailTo = "jocodigitalweb@gmail.com";
+    $subject= "Contact Request Submitted";
 
     $htmlContent = '
     <h4>Contact request has submitted at JOCO88.com - On The New Modal Form.</h4>
@@ -34,7 +34,7 @@ if(isset($_POST['contactFrmSubmit']) && !empty($_POST['name']) && !empty($_POST[
     $headers .= 'From: Joco88<mail@joco88.com>' . "\r\n";
 
     // Send email
-    if(mail($to,$subject,$htmlContent,$headers)){
+    if(mail($emailTo,$subject,$htmlContent,$headers)){
         $status = 'ok';
     }else{
         $status = 'err';
