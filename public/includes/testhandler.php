@@ -1,10 +1,10 @@
 <?php
-if(isset($_POST['contactFrmSubmit']) && !empty($_POST['name']) && !empty($_POST['email']) && (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) === false) && !empty($_POST['message'])){
+if(isset($_POST['contactFrmSubmit']) && !empty($_POST['customerName']) && !empty($_POST['customerEmail']) && (!filter_var($_POST['customerEmail'], FILTER_VALIDATE_EMAIL) === false) && !empty($_POST['customerMessage'])){
 
     // Submitted form data
-    $name   = $_POST['name'];
-    $email  = $_POST['email'];
-    $message= $_POST['message'];
+    $name   = $_POST['customerName'];
+    $email  = $_POST['customerEmail'];
+    $message= $_POST['customerMessage'];
 
     /*
      * Send email to admin
