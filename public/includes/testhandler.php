@@ -9,11 +9,11 @@ if(isset($_POST['contactFrmSubmit']) && !empty($_POST['name']) && !empty($_POST[
     /*
      * Send email to admin
      */
-    $to     = 'admin@example.com';
+    $to     = 'jocodigitalweb@gmail.com';
     $subject= 'Contact Request Submitted';
 
     $htmlContent = '
-    <h4>Contact request has submitted at CodexWorld, details are given below.</h4>
+    <h4>New form submission on Joco88, using the new modal form.</h4>
     <table cellspacing="0" style="width: 300px; height: 200px;">
         <tr>
             <th>Name:</th><td>'.$name.'</td>
@@ -31,7 +31,7 @@ if(isset($_POST['contactFrmSubmit']) && !empty($_POST['name']) && !empty($_POST[
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
     // Additional headers
-    $headers .= 'From: CodexWorld<sender@example.com>' . "\r\n";
+    $headers .= 'From: Joco88-NewForm<mail@joco88.com>' . "\r\n";
 
     // Send email
     if(mail($to,$subject,$htmlContent,$headers)){
