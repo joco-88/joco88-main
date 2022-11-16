@@ -34,6 +34,5 @@ if(isset($_POST['message'])) {
 } else {
     echo "Not Working";
 }
-
+  echo $status;die;
 }
-echo $status;die;
