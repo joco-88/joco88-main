@@ -3,14 +3,14 @@ if(isset($_POST['contactFrmSubmit']) && !empty($_POST['name']) && !empty($_POST[
 {
 
     // Submitted form data
-    $name   = $_POST['name'];
-    $email  = $_POST['email'];
-    $message= $_POST['message'];
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
 
     /*
      * Send email to admin
      */
-    $to = 'jocodigitalweb@gmail.com';
+    $to = 'mail@joco88.com';
     $subject = 'Contact Request Submitted';
 
     $emailBody = "<b>You have received a new message from the following user:&nbsp</b> $name<br><br>".
