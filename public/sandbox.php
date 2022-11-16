@@ -185,9 +185,7 @@ function submitContactForm(){
                     $('#inputName').val('');
                     $('#inputEmail').val('');
                     $('#inputMessage').val('');
-                    $('.statusMsg').html('<div class="alert alert-success" role="alert">
-                            Thanks for contact us! We will contact you soon.
-                            </div>');
+                    $('.statusMsg').html('<span style="color:green;">Thanks for contacting us, we\'ll get back to you soon.</p>');
                 }else{
                     $('.statusMsg').html('<span style="color:red;">Some problem occurred, please try again.</span>');
                 }
