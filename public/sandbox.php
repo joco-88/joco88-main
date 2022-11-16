@@ -100,6 +100,16 @@ $('#modalContactForm').modal('hide');
 
 
 <!-- Button to trigger modal -->
+
+
+<div class="text-center">
+  <a href="#modalForm" class="btn btn-success btn-lg" data-bs-toggle="modal" data-target="#modalForm">Launch Modal Contact Form</a>
+  <br>
+  <div class="modal-body">
+        <div id="result"></div>
+  </div>
+</div>
+
 <button class="btn btn-success btn-lg" data-bs-toggle="modal" data-target="#modalForm">
     Open Contact Form
 </button>
