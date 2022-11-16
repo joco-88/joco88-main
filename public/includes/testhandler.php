@@ -1,5 +1,6 @@
 <?php
-if(isset($_POST['contactFrmSubmit']) && !empty($_POST['name']) && !empty($_POST['email']) && (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) === false) && !empty($_POST['message'])){
+if(isset($_POST['contactFrmSubmit']) && !empty($_POST['name']) && !empty($_POST['email']) && (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) === false) && !empty($_POST['message']))
+{
 
     // Submitted form data
     $name   = $_POST['name'];
@@ -36,10 +37,8 @@ if(isset($_POST['contactFrmSubmit']) && !empty($_POST['name']) && !empty($_POST[
     // Send email
     mail($to,$subject,$htmlContent,$headers)
         $status = 'ok';
+        echo $status;die;
     } else {
         $status = 'err';
+        echo $status;die;
     }
-
-    // Output status
-    echo $status;die;
-}
