@@ -34,5 +34,3 @@ if(isset($_POST['contactFrmSubmit'])
 $status = 'ok';
 }
 echo $status;die;
-
-?>
