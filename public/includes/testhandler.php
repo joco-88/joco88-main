@@ -31,8 +31,9 @@ $status = 'ok';
     $headers .= "From: Joco88.com Contact Page Submission $email_from \r\n";
     $headers .= "Reply-To: $customerEmail \r\n";
     mail($emailTo,$email_subject,$email_body,$headers);
-
-
+} else {
+    echo "Not Working";
+}
 
 }
 echo $status;die;
