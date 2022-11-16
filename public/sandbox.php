@@ -202,6 +202,8 @@ function submitContactForm(){
 
 </main>
   <footer>
+<!--  Sweet Alert Script Below --------------------------->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <?php
       include('../templates/footer.php');
     ?>
