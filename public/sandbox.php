@@ -153,9 +153,9 @@ $('#modalContactForm').modal('hide');
 <script>
 function submitContactForm(){
     var reg = /^[A-Z0-9._%+-]+@([A-Z0-9-]+\.)+[A-Z]{2,4}$/i;
-    var name = $('#inputName').val();
-    var email = $('#inputEmail').val();
-    var message = $('#inputMessage').val();
+    var fullName = $('#inputName').val();
+    var customerEmail = $('#inputEmail').val();
+    var customerMessage = $('#inputMessage').val();
     if(name.trim() == '' ){
         alert('Please enter your name.');
         $('#inputName').focus();
