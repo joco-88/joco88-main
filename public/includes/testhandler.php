@@ -20,7 +20,7 @@ if(isset($_POST['contactFrmSubmit']) && !empty($_POST['name']) && !empty($_POST[
     // Set content-type header for sending HTML email
     //$headers = "MIME-Version: 1.0 \r\n";
     $headers = "Content-type: text/html; charset=iso-8859-1 \r\n";
-    $headers .= "From: Joco88-NewForm<mail@joco88.com> \r\n";
+    $headers .= "From: Joco88 - Contact Form<mail@joco88.com> \r\n";
     $headers .= "Reply-To: $email \r\n";
     // Additional headers
 
