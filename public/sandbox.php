@@ -164,7 +164,7 @@ function submitContactForm(){
         alert('Please enter your email.');
         $('#inputEmail').focus();
         return false;
-    }else if(email.trim() != '' && !reg.test(email)){
+    }else if(email.trim() != '' && !reg.test(customerEmail)){
         alert('Please enter valid email.');
         $('#inputEmail').focus();
         return false;
