@@ -99,10 +99,7 @@ $('#modalContactForm').modal('hide');
 
 
 
-<!-- Button to trigger modal -->
-<button class="btn btn-success btn-lg" data-toggle="modal" data-target="#modalForm">
-    Open Contact Form
-</button>
+
 
 <!-- Modal -->
 <div class="modal fade" id="modalForm" role="dialog">
@@ -146,7 +143,10 @@ $('#modalContactForm').modal('hide');
 </div>
 
 
-
+<!-- Button to trigger modal -->
+<button class="btn btn-success btn-lg" data-toggle="modal" data-target="#modalForm">
+    Open Contact Form
+</button>
 
 <!--  END OF NEW MODAL ------------------------------------->
 
