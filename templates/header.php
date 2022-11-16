@@ -46,7 +46,7 @@ $SiteName="Joco88";
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Projects</a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="/projects/photoviewer.php">Photo Viewer</a></li>
-                  <li><a class="dropdown-item" href="#">/projects/contactmodal.php"</a></li>
+                  <li><a class="dropdown-item" href="/projects/contactmodal.php"></a>Contact Modal</li>
                   <li><a class="dropdown-item" href="#">Dropdown Link 3</a></li>
                 </ul>
               </li>
