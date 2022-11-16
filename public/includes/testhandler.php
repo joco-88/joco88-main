@@ -28,9 +28,9 @@ if(isset($_POST['contactFrmSubmit']) && !empty($_POST['name']) && !empty($_POST[
     // Send email
     mail($to,$subject,$emailBody,$headers);
         $status = 'ok';
-        echo $status;
+        echo $status;die;
     } else {
         $status = 'err';
-        echo $status;
+        echo $status;die;
     }
 ?>
