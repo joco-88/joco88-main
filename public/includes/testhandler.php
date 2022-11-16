@@ -1,6 +1,4 @@
 <?php
-error_reporting(E_ALL); ini_set('display_errors', 1);
-
 if(isset($_POST['contactFrmSubmit']) && !empty($_POST['name']) && !empty($_POST['email']) && (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) === false) && !empty($_POST['message']))
 {
 
