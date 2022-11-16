@@ -11,9 +11,9 @@ if(isset($_POST['message'])) {
 
 
     $status = 'ok';
-    $customerName   = $_POST['name'];
-    $customerEmail  = $_POST['email'];
-    $customerMessage= $_POST['message'];
+    $customerName = $_POST['name'];
+    $customerEmail = $_POST['email'];
+    $customerMessage = $_POST['message'];
 
     $emailTo = "jocodigitalweb@gmail.com";
     $email_from = "<mail@joco88.com>";
