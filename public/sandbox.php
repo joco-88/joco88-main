@@ -156,19 +156,19 @@ function submitContactForm(){
     var email = $('#inputEmail').val();
     var message = $('#inputMessage').val();
     if(name.trim() == '' ){
-        swal("Missing Info!", "Please enter your full name.", "warning");
+        swal("Missing Name!", "Please enter your full name.", "warning");
         $('#inputName').focus();
         return false;
     }else if(email.trim() == '' ){
-        alert('Please enter your email.');
+        swal("Missing Email Address!", "Please enter your Email address.", "warning");
         $('#inputEmail').focus();
         return false;
     }else if(email.trim() != '' && !reg.test(email)){
-        alert('Please enter valid email.');
+        swal("Invalid Email!", "Please enter your full & valided Email address.", "warning");
         $('#inputEmail').focus();
         return false;
     }else if(message.trim() == '' ){
-        alert('Please enter your message.');
+        swal("Message Required!", "Please enter a message with your contact information.", "warning");
         $('#inputMessage').focus();
         return false;
     }else{
