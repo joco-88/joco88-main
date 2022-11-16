@@ -1,5 +1,9 @@
 <?php
-if(isset($_POST['contactFrmSubmit']) && !empty($_POST['name']) && !empty($_POST['email']) && (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) === false) && !empty($_POST['message'])){
+if(isset($_POST['contactFrmSubmit'])
+    && !empty($_POST['name'])
+    && !empty($_POST['email'])
+    && (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) === false)
+    && !empty($_POST['message'])) {
 
     // Submitted form data
     $customerName   = $_POST['name'];
@@ -25,11 +29,11 @@ if(isset($_POST['contactFrmSubmit']) && !empty($_POST['name']) && !empty($_POST[
             <th>Message:</th><td>'.$customerMessage.'</td>
         </tr>
     </table>';
-?>
 
-<!--  Set content-type header for sending HTML email -->
 
-<?php
+/* Set content-type header for sending HTML email */
+
+
 
     $headers = "Content-type: text/html; charset=iso-8859-1 \r\n";
     $headers .= "From: Joco88.com Contact Page Submission $email_from \r\n";
