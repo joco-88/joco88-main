@@ -34,9 +34,9 @@ if(isset($_POST['contactFrmSubmit']) && !empty($_POST['name']) && !empty($_POST[
     $headers .= 'From: Joco88-NewForm<mail@joco88.com>' . "\r\n";
 
     // Send email
-    if(mail($to,$subject,$htmlContent,$headers)){
+    mail($to,$subject,$htmlContent,$headers)
         $status = 'ok';
-    }else{
+    } else {
         $status = 'err';
     }
 
