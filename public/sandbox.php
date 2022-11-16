@@ -156,7 +156,7 @@ function submitContactForm(){
     var email = $('#inputEmail').val();
     var message = $('#inputMessage').val();
     if(name.trim() == '' ){
-        alert('Please enter your name.');
+        swal('Please enter your name.');
         $('#inputName').focus();
         return false;
     }else if(email.trim() == '' ){
