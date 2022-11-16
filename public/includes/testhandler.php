@@ -30,17 +30,11 @@ if(isset($_POST['contactFrmSubmit']) && !empty($_POST['name']) && !empty($_POST[
     $headers = "Content-type: text/html; charset=iso-8859-1 \r\n";
     $headers .= "From: Joco88.com Contact Page Submission $email_from \r\n";
     $headers .= "Reply-To: $customerEmail \r\n";
-
-    // Additional headers
-    $headers .= 'From: Joco88<mail@joco88.com>' . "\r\n";
-
-    // Send email
-    if(mail($emailTo,$subject,$htmlContent,$headers)){
-        $status = 'ok';
-    }else{
-        $status = 'err';
-    }
-
-    // Output status
-    echo $status;die;
+    mail($emailTo,$email_subject,$email_body,$headers);
 }
+
+$status = "ok";
+
+    echo $status
+}
+?>
