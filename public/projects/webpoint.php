@@ -9,7 +9,10 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 
 
 
-
+    <!-- Scrollable modal -->
+    <div class="modal-dialog modal-dialog-scrollable">
+      <p>Test paragraph</p>
+    </div>
 
 
 
