@@ -47,6 +47,7 @@ $SiteName="Joco88";
                   <li><a class="dropdown-item" href="/projects/photoviewer.php">Photo Viewer</a></li>
                   <li><a class="dropdown-item" href="/projects/contactmodal.php">Contact Modal</a></li>
                   <li><a class="dropdown-item" href="/projects/webpoint.php">Webpoint.us</a></li>
+                  <li><a class="dropdown-item" href="/projects/webpoint-design"<Webpoint Redesing</a></li>
                 </ul>
               </li>
               <li class="nav-item">
