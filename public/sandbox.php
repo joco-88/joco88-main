@@ -16,7 +16,7 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 
 
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#testModal">Launch Test Modal</button>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#testModal">More Event Details</button>
 
 <!-- Modal -->
 <div class="modal fade" id="testModal" tabindex="-1" aria-labelledby="testModalLabel" aria-hidden="true">
