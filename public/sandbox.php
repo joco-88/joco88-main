@@ -16,6 +16,7 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 
 
 <!-- Button trigger modal -->
+<div class="text-center">
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#testModal">More Event Details</button>
 
 <!-- Modal -->
