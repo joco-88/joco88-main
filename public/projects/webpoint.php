@@ -240,19 +240,19 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
     		<div class="container-fluid">
     			<div class="row justify-content-center">
     				<div class="col-6 col-sm-2 text-center">
-    					<img class="footer-logo" src="/wp_Media/images/clientlogo_boxing_resize.png" alt="USA Boxing" border="0">
+    					<img class="footer-logo" src="../media/webpointmedia/clientlogo_boxing_resize.png" alt="USA Boxing" border="0">
     				</div>
     				<!--<div class="col-6 col-sm-2 text-center">
     					<img class="footer-logo" src="/wp_Media/images/webpoint_blue.png" alt="Webpoint Technologies" border="0">
     				</div>-->
     				<div class="col-6 col-sm-2 text-center">
-    					<img class="footer-logo" src="/wp_Media/images/clientlogo_cheer_resize.png" alt="USA Cheer" border="0">
+    					<img class="footer-logo" src="../media/webpointmedia/clientlogo_cheer_resize.png" alt="USA Cheer" border="0">
     				</div>
     				<div class="col-6 col-sm-2 text-center">
-    					<img class="footer-logo" src="/wp_Media/images/clientlogo_diving_resize.png" alt="USA Diving" border="0">
+    					<img class="footer-logo" src="../media/webpointmedia/clientlogo_diving_resize.png" alt="USA Diving" border="0">
     				</div>
     				<div class="col-6 col-sm-2 text-center">
-    					<img class="footer-logo" src="/wp_Media/images/clientlogo_fieldhockey_resize.png" alt="USA Field Hockey" border="0">
+    					<img class="footer-logo" src="../media/webpointmedia/clientlogo_fieldhockey_resize.png" alt="USA Field Hockey" border="0">
     				</div>
     			</div>
     			<br><br><br>
