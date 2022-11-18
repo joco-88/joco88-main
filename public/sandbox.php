@@ -54,6 +54,9 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
           <li>I'm going to list things to test the scrolling capabilities</li>
           <li>I'm going to list things to test the scrolling capabilities</li>
         </ol>
+        <br>
+        <p>As you can see - you can put quite a lot of shit in here and be able to scroll without forcing the actual page to scroll.<br>
+          It's all self-contained within the modal window. You can change the buttons and headings to say what you want</p>
 
       </div>
       <div class="modal-footer">
