@@ -19,8 +19,8 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#testModal">Launch Test Modal</button>
 
 <!-- Modal -->
-<div class="modal-dialog modal-dialog-scrollable" id="testModal" aria-labelledby="testModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="testModalLabel">Additional Event Info</h5>
