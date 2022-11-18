@@ -28,6 +28,33 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
       </div>
       <div class="modal-body">
         <p>Further information about the event or schedule could go here. Bleep Bloop.</p>
+        <br><br>
+        <ol>
+          <li>I'm going to list things to test the scrolling capabilities</li>
+          <li>I'm going to list things to test the scrolling capabilities</li>
+          <li>I'm going to list things to test the scrolling capabilities</li>
+          <li>I'm going to list things to test the scrolling capabilities</li>
+          <li>I'm going to list things to test the scrolling capabilities</li>
+          <li>I'm going to list things to test the scrolling capabilities</li>
+          <li>I'm going to list things to test the scrolling capabilities</li>
+          <li>I'm going to list things to test the scrolling capabilities</li>
+          <li>I'm going to list things to test the scrolling capabilities</li>
+          <li>I'm going to list things to test the scrolling capabilities</li>
+          <li>I'm going to list things to test the scrolling capabilities</li>
+          <li>I'm going to list things to test the scrolling capabilities</li>
+          <li>I'm going to list things to test the scrolling capabilities</li>
+          <li>I'm going to list things to test the scrolling capabilities</li>
+          <li>I'm going to list things to test the scrolling capabilities</li>
+          <li>I'm going to list things to test the scrolling capabilities</li>
+          <li>I'm going to list things to test the scrolling capabilities</li>
+          <li>I'm going to list things to test the scrolling capabilities</li>
+          <li>I'm going to list things to test the scrolling capabilities</li>
+          <li>I'm going to list things to test the scrolling capabilities</li>
+          <li>I'm going to list things to test the scrolling capabilities</li>
+          <li>I'm going to list things to test the scrolling capabilities</li>
+          <li>I'm going to list things to test the scrolling capabilities</li>
+        </ol>
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
