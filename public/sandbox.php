@@ -8,7 +8,7 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
   <main>
     <div class="container-fluid">
         <br><h1>Sandbox Page</h1>
-        <p>On this page, I will test new projects and hone my coding knowledge.</p>
+        <p>On this page, I will test new projects and hone my basic coding knowledge.</p>
         <hr>
     </div>
 
