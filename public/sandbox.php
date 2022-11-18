@@ -56,7 +56,8 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
         </ol>
         <br>
         <p>As you can see - you can put quite a lot of shit in here and be able to scroll without forcing the actual page to scroll.<br>
-          It's all self-contained within the modal window. You can change the buttons and headings to say what you want</p>
+          It's all self-contained within the modal window. You can change the buttons and headings to say what you want. I'm also guessing this text will wrap just fine. Additionally, Im thinking all standard html
+        would work here, so you coudl even insert photos, links and basic tables - so long as they are readable for accesibility purposes.</p>
 
       </div>
       <div class="modal-footer">
