@@ -233,13 +233,10 @@
         <div class="modal-dialog">
             <div class="modal-content">
               <!--   Modal Header -->
-                 <div class="modal-header align-items-center justify-content-center">
-                   <img src="assets/img/webpoint.gif" class="modal-title  align-items-center justify-content-center" alt="" width="195"></center>
-                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                   </div>
-                   <div class="modal-header">
+                 <div class="modal-header">
+                   <<a href="index.php" class="logo me-auto"><img src="assets/img/webpoint_logo_white.png" alt="" class="img-fluid"></a>
                     <h4 class="modal-title">Contact Us</h4>
-
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
 
                 <!-- Modal Body -->
@@ -249,11 +246,11 @@
                         <div class="form-group">
                             <label for="inputName">Name</label>
                             <input type="text" class="form-control" id="inputName" placeholder="Enter your name"/>
-                        </div><br>
+                        </div>
                         <div class="form-group">
                             <label for="inputEmail">Email</label>
                             <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email"/>
-                        </div><br>
+                        </div>
                         <div class="form-group">
                             <label for="inputMessage">Message</label>
                             <textarea class="form-control" id="inputMessage" placeholder="Enter your message"></textarea>
