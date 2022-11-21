@@ -1747,7 +1747,7 @@ section {
   #footer .copyright,
   #footer .credits {
     text-align: center;
-    float: none;
+    float: center;
   }
 
   #footer .credits {
