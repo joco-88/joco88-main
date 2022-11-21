@@ -218,9 +218,9 @@
             <h3>Contact Us!</h3>
             <p> Reach out to us about any questions you may have or to setup a time to discuss your needs. We will reply as soon as possible.</p>
           </div>
-          <div class="text-center">
+
 <a href="#modalForm" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-target="#modalForm">Contact Us</a>
-</div>
+
 
         </div>
 
