@@ -161,19 +161,6 @@
             </div>
           </div>
 
-        </div>
-
-      </div>
-
-    </div>
-
-
-    <section id="services" class="services section-bg">
-      <div class="container" data-aos="fade-up">
-
-        </div>
-
-
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-layer"></i></div>
