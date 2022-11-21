@@ -108,28 +108,15 @@
          <div class="container" data-aos="fade-up">
 
            <div class="section-title">
-             <h2>About Us</h2>
+             <h2>We Are Experts in National Sports Organization Management Systems</h2>
            </div>
 
            <div class="row content">
              <div class="col-lg-6">
-               <p>
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                 magna aliqua.
-               </p>
-               <ul>
-                 <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-                 <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-                 <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-               </ul>
-             </div>
-             <div class="col-lg-6 pt-4 pt-lg-0">
-               <p>
-                 Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                 velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                 culpa qui officia deserunt mollit anim id est laborum.
-               </p>
-               <a href="#" class="btn-learn-more">Learn More</a>
+               <p>For over two decades our team has been serving the US Olympic NGB movement with highly customized integrated membership, certification and event
+                 management platforms. Giving you the tools to manage your organization at the
+                  national, regional and local level, allowing you to focus on growing your sport.
+
              </div>
            </div>
 
@@ -143,10 +130,8 @@
 
         <div class="section-title">
           <h2>Our Services</h2>
-          <h3>We Are Experts in National Sports Organization Management Systems
-          <p>For over two decades our team has been serving the US Olympic NGB movement with highly customized integrated membership, certification and event
-            management platforms. Giving you the tools to manage your organization at the
-             national, regional and local level, allowing you to focus on growing your sport.</p>
+
+          </p>
         </div>
 
         <div class="row">
