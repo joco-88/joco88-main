@@ -594,6 +594,7 @@ section {
 .clients {
   padding: 12px 0;
   text-align: center;
+  align-items: center;
 }
 
 .clients img {
