@@ -171,7 +171,7 @@
             <p> Reach out to us about any questions you may have or to setup a time to discuss your needs. We will reply as soon as possible.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
+            <a class="cta-btn align-middle" href="#">Contact Us</a>
           </div>
         </div>
 
