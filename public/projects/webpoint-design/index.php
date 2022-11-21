@@ -211,7 +211,7 @@
     <!-- ======= Contact Section ======= -->
 <center>
     <section id="cta" class="cta">
-      <div class="container" data-aos="zoom-in">
+      <div class="container align-items-center justify-content-center" data-aos="zoom-in">
 
         <div class="row align-items-center justify-content-center">
           <div class="col-lg-9 text-center text-lg-start align-items-center justify-content-center">
