@@ -221,6 +221,7 @@
           <div class="col-lg-3 cta-btn-container text-center">
             <a href="#modalForm" class="cta-btn align-middle" data-bs-toggle="modal" data-target="#modalForm">Contact Us</a>
 </div>
+</div>
             <!-- Modal -->
              <div class="modal fade" id="modalForm" role="dialog">
                 <div class="modal-dialog">
