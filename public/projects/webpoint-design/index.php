@@ -283,7 +283,7 @@
         &copy; Copyright <?php echo date("Y"); ?><strong><span> - Webpoint</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-
+<a href="index.php" class="logo me-auto"><img src="assets/img/webpoint.gif" alt="" class="img-fluid" width=20%;></a>
       </div>
     </div>
   </footer><!-- End Footer -->
