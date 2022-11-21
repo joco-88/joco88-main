@@ -239,7 +239,7 @@
         <div class="row">
 
           <div class="footer-contact align-items-center">
-            <a href="index.php" class="logo me-auto"><img src="assets/img/webpoint.gif" alt="" class="img-fluid" width=50%;></a>
+            <a href="index.php" class="logo me-auto"><img src="assets/img/webpoint.gif" alt="" class="img-fluid" width=20%;></a>
 
           </div>
 
