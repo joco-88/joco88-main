@@ -91,7 +91,7 @@
             <img src="assets/img/clients/USAD_ClientLogo.png" class="img-fluid" alt="">
           </div>
 
-          <div class="col-  d-flex align-items-center justify-content-center">
+          <div class="col- d-flex align-items-center justify-content-center">
             <img src="assets/img/clients/USAFH_ClientLogo.png" class="img-fluid" alt="">
           </div>
 
