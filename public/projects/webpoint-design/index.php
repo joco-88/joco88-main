@@ -171,8 +171,6 @@
     <section id="services" class="services section-bg">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-          <h2>Our Services</h2>
 
           </p>
         </div>
