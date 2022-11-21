@@ -112,10 +112,10 @@
 
            <div class="row content">
 
-               <h6>For over two decades our team has been serving the US Olympic NGB movement with highly customized integrated membership, certification and event
+               <p><strong>For over two decades our team has been serving the US Olympic NGB movement with highly customized integrated membership, certification and event
                  management platforms. Our entire platform is built to provide the necessary tools to manage your organization at the
                   national, regional and local level, while allowing you to focus on growing your sport.
-</h6>
+</strong></p>
              </div>
            </div>
 
