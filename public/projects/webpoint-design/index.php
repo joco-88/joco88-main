@@ -236,7 +236,7 @@
 
     <div class="footer-top align-items-center">
       <div class="container align-items-center">
-        <div class="row">
+        <div class="row align-items-center justify-content-center">
 
           <div class="footer-contact align-items-center">
             <a href="index.php" class="logo me-auto"><img src="assets/img/webpoint.gif" alt="" class="img-fluid" width=20%;></a>
