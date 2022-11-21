@@ -79,19 +79,19 @@
 
         <div class="row align-items-center" data-aos="zoom-in">
 
-          <div class="col-auto d-flex align-items-center justify-content-center">
+          <div class="col-auto d-flex align-items-center justify-content-center mx-2 p-2">
             <img src="assets/img/clients/USAB_ClientLogo.png" class="img-fluid" alt="">
           </div>
 
-          <div class="col-auto d-flex align-items-center justify-content-center">
+          <div class="col-auto d-flex align-items-center justify-content-center mx-2 p-2">
             <img src="assets/img/clients/usa-cheer.png" class="img-fluid" alt="">
           </div>
 
-          <div class="col-auto d-flex align-items-center justify-content-center">
+          <div class="col-auto d-flex align-items-center justify-content-center mx-2 p-2">
             <img src="assets/img/clients/USAD_ClientLogo.png" class="img-fluid" alt="">
           </div>
 
-          <div class="col-auto d-flex align-items-center justify-content-center">
+          <div class="col-auto d-flex align-items-center justify-content-center mx-2 p-2">
             <img src="assets/img/clients/USAFH_ClientLogo.png" class="img-fluid" alt="">
           </div>
 
