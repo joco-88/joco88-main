@@ -280,6 +280,7 @@
 
     <div class="container footer-bottom clearfix">
       <div class="copyright">
+        <a href="index.php" class="logo me-auto"><img src="assets/img/webpoint_logo_white.png" alt="" class="img-fluid" width=20%;></a><br>
         &copy; Copyright <?php echo date("Y"); ?><strong><span> - Webpoint</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
