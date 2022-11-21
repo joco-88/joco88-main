@@ -353,11 +353,11 @@
                 </div>
 
                 <div class="col-auto d-flex align-items-center justify-content-center">
-                  <img src="assets/img/clients/USAD_ClientLogo.png" class="img-fluid" alt="">
+                  <img src="assets/img/clients/USAD_Client.png" class="img-fluid" alt="">
                 </div>
 
                 <div class="col-auto d-flex align-items-center justify-content-center">
-                  <img src="assets/img/clients/USAFH_ClientLogo.png" class="img-fluid" alt="">
+                  <img src="assets/img/clients/USAFH_Client.png" class="img-fluid" alt="">
                 </div>
 
 
