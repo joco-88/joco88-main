@@ -277,7 +277,7 @@
 
     <div class="container footer-bottom clearfix align-items-center justify-content-center">
       <div class="copyright align-items-center justify-content-center">
-        <br>
+      <center>
         &copy; Copyright <?php echo date("Y"); ?><strong><span> - Webpoint</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
