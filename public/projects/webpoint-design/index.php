@@ -111,8 +111,11 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Our Services</h2>
+          <h3>We Are Experts in National Sports Organization Management Systems
+          <p>For over two decades our team has been serving the US Olympic NGB movement with highly customized integrated membership, certification and event
+            management platforms. Giving you the tools to manage your organization at the
+             national, regional and local level, allowing you to focus on growing your sport.</p>
         </div>
 
         <div class="row">
