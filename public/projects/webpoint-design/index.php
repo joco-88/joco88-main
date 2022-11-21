@@ -234,7 +234,6 @@
             <div class="modal-content">
               <!--   Modal Header -->
                  <div class="modal-header">
-                   <<a href="index.php" class="logo me-auto"><img src="assets/img/webpoint_logo_white.png" alt="" class="img-fluid"></a>
                     <h4 class="modal-title">Contact Us</h4>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
