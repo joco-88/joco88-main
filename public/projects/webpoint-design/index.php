@@ -36,7 +36,7 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.php">Webpoint</a></h1>
+    <!--  <h1 class="logo me-auto"><a href="index.php">Webpoint</a></h1> -->
       <!-- Image Logo Below -->
       <a href="index.php" class="logo me-auto"><img src="assets/img/webpoint_logo_white.png" alt="" class="img-fluid"></a>-->
 
