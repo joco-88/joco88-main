@@ -1726,11 +1726,11 @@ section {
 }
 
 #footer .copyright {
-  float: left;
+  float: center;
 }
 
 #footer .credits {
-  float: right;
+  float: center;
   font-size: 13px;
 }
 
