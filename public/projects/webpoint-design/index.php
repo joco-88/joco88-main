@@ -77,7 +77,7 @@
     <center><section id="clients" class="clients section-bg align-items-center">
       <div class="container">
 
-        <div class="row" data-aos="zoom-in">
+        <div class="row align-items-center" data-aos="zoom-in">
 
           <div class="col-auto d-flex align-items-center justify-content-center">
             <img src="assets/img/clients/USAB_ClientLogo.png" class="img-fluid" alt="">
