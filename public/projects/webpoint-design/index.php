@@ -75,7 +75,7 @@
   <main id="main">
 
     <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients section-bg">
+    <center><section id="clients" class="clients section-bg">
       <div class="container">
 
         <div class="row" data-aos="zoom-in">
@@ -100,7 +100,8 @@
         </div>
 
       </div>
-    </section><!-- End Clients Section -->
+    </section></center>
+    <!-- End Clients Section -->
 
 
 
