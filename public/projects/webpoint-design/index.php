@@ -108,11 +108,11 @@
          <div class="container" data-aos="fade-up">
 
            <div class="section-title">
-             <h2>We Are Experts in National Sports Organization Management Systems</h2>
+             <h2>Experts in National Sports Organization Management Systems</h2>
            </div>
 
            <div class="row content">
-        
+
                <p>For over two decades our team has been serving the US Olympic NGB movement with highly customized integrated membership, certification and event
                  management platforms. Giving you the tools to manage your organization at the
                   national, regional and local level, allowing you to focus on growing your sport.
