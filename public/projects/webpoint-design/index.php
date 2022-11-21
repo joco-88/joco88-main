@@ -239,7 +239,8 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Webpoint</h3>
+            <a href="index.php" class="logo me-auto"><img src="assets/img/webpoint_logo_white.png" alt="" class="img-fluid"></a>
+
           </div>
 
         </div>
