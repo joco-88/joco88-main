@@ -282,8 +282,8 @@
       <div class="copyright">
         &copy; Copyright <?php echo date("Y"); ?><strong><span> - Webpoint</span></strong>. All Rights Reserved
       </div>
-      <div class="credits align-items-center">
-<a href="index.php" class="logo me-auto"><img src="assets/img/webpoint_logo_white.png" alt="" class="img-fluid" width=20%;></a>
+      <div class="credits">
+
       </div>
     </div>
   </footer><!-- End Footer -->
