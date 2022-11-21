@@ -605,7 +605,7 @@ section {
   display: inline-block;
   padding: 15px 0;
   float: none;
-  filter: grayscale(100);
+  filter: brightness(60%);
   align-items: center;
 }
 
