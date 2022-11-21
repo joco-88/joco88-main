@@ -224,8 +224,6 @@
 <a href="#modalForm" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-target="#modalForm">Contact Us Today!</a>
 </center>
 
-
-
       </div>
     </section><!-- End Contact Section -->
 
@@ -318,22 +316,14 @@
     }
     </script>
 
-
     <!--- NEW MODAL CONTACT FORM CODE ENDS HERE ------>
-
 
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
-
-
-
-
           <div class="footer-contact align-items-center">
-
           </div>
-
         </div>
       </div>
     </div>
