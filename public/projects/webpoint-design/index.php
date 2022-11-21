@@ -58,7 +58,7 @@
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
           <h1>Experts in National Sports Organization Management Systems</h1>
-          <h5>For over two decades our team has been serving the US Olympic NGB movement with highly customized integrated membership, certification and event management platforms.</h5>
+          <h5>Serving the US Olympic NGB movement for over two decades.</h5>
             <div class="d-flex justify-content-center justify-content-lg-start">
             <a href="#about" class="btn-get-started scrollto">Our Services</a>
           </div>
