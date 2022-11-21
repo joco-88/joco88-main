@@ -235,7 +235,7 @@
 
 
     <div class="footer-top">
-      <div class="container">
+      <div class="container align-items-center">
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
