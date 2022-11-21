@@ -219,8 +219,8 @@
             <p> Reach out to us about any questions you may have or to setup a time to discuss your needs. We will reply as soon as possible.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#modalForm" data-bs-toggle="modal" data-target="#modalForm">Contact Us</a>
-
+            <a href="#modalForm" class="cta-btn align-middle" data-bs-toggle="modal" data-target="#modalForm">Contact Us</a>
+</div>
             <!-- Modal -->
              <div class="modal fade" id="modalForm" role="dialog">
                 <div class="modal-dialog">
