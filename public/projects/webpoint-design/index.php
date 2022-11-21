@@ -216,7 +216,7 @@
         <div class="row">
           <div class="col-lg-9 text-center text-lg-start">
             <h3>Contact Us!</h3>
-            <p> Reach out to us about any questions you may have or to setup a time to discuss your needs. We will reply as soon as possible.</p>
+            <p> Reach out to us with any questions you may have or to setup a time to discuss your needs. We will reply as soon as possible.</p>
           </div>
 
 <a href="#modalForm" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-target="#modalForm">Contact Us Today!</a>
@@ -317,11 +317,7 @@
     </script>
 
 
-    <!----- NEW MODAL CONTACT FORM CODE ENDS HERE ------>
-
-
-
-
+    <!--- NEW MODAL CONTACT FORM CODE ENDS HERE ------>
 
 
   </main><!-- End #main -->
