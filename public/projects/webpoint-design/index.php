@@ -128,7 +128,8 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
               <h4><a href="">Memberships</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <p>Define pre-requisite certifications, screenings, ages; set length of memberships,
+                renewal dates, start dates, reminders, manage requests for certificates of insurance, etc.</p>
             </div>
           </div>
 
@@ -136,7 +137,8 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
               <h4><a href="">Certifications</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <p>Define pre-requisite events/clinics, superseding parameters; set exam questions, pass rates, embed videos; process background screenings
+                and Safe Sport Trainings, trigger roster eligibility, set certificate designs, etc.</p>
             </div>
           </div>
 
@@ -144,7 +146,8 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-layer"></i></div>
               <h4><a href="">Event Registration</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <p>Set athlete registrations, staff registrations, check-in deadlines, manage real-time eligibility requirements, define categories, divisions,
+                age groups, track and publish results, offer discount codes, event insurance, etc.</p>
             </div>
           </div>
 
