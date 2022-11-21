@@ -26,7 +26,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css?v=11.21.2022.13" rel="stylesheet">
+  <link href="assets/css/style.css?v=11.21.2022.14" rel="stylesheet">
 
 </head>
 
