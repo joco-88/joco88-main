@@ -238,7 +238,7 @@
       <div class="container align-items-center">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 footer-contact">
+          <div class="footer-contact align-items-center">
             <a href="index.php" class="logo me-auto"><img src="assets/img/webpoint.gif" alt="" class="img-fluid"></a>
 
           </div>
