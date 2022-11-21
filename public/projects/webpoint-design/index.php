@@ -79,7 +79,7 @@
 
         <div class="row" data-aos="zoom-in">
 
-          <div class="col-s d-flex align-items-center justify-content-center">
+          <div class="col-sm d-flex align-items-center justify-content-center">
             <img src="assets/img/clients/USAB_ClientLogo.png" class="img-fluid" alt="">
           </div>
 
