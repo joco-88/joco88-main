@@ -75,9 +75,9 @@
 
     <!-- ======= Clients Section ======= -->
     <center><section id="clients" class="clients section-bg align-items-center">
-      <div class="container">
+      <div class="container justify-content-center">
 
-        <div class="row align-items-center" data-aos="zoom-in">
+        <div class="row align-items-center justify-content-center" data-aos="zoom-in">
 
           <div class="col-auto d-flex align-items-center justify-content-center mx-2 p-2">
             <img src="assets/img/clients/USAB_ClientLogo.png" class="img-fluid" alt="">
