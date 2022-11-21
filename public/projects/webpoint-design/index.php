@@ -38,7 +38,7 @@
 
       <h1 class="logo me-auto"><a href="index.php">Webpoint</a></h1>
       <!-- Image Logo Below -->
-      <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <a href="index.html" class="logo me-auto"><img src="assets/img/webpoint_logo_white.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar">
         <ul>
