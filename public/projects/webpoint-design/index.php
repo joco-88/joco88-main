@@ -277,7 +277,7 @@
 
     <div class="container footer-bottom clearfix align-items-center justify-content-center">
       <div class="copyright align-items-center justify-content-center">
-        <br><a href="index.php" class="logo me-auto"><img src="assets/img/webpoint_logo_white.png" alt="" class="img-fluid" width=20%;></a><br><br>
+        <br>
         &copy; Copyright <?php echo date("Y"); ?><strong><span> - Webpoint</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
