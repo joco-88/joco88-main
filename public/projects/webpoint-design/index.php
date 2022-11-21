@@ -242,6 +242,10 @@
             <h3>Webpoint</h3>
           </div>
 
+        </div>
+      </div>
+    </div>
+
           <!-- ======= Clients Section ======= -->
           <center><section id="clients" class="clients section-bg align-items-center">
             <div class="container justify-content-center">
@@ -271,9 +275,7 @@
           </section></center>
           <!-- End Clients Section -->
 
-        </div>
-      </div>
-    </div>
+
 
     <div class="container footer-bottom clearfix">
       <div class="copyright">
