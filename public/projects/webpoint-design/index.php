@@ -213,8 +213,8 @@
     <section id="cta" class="cta">
       <div class="container" data-aos="zoom-in">
 
-        <div class="row">
-          <div class="col-lg-9 text-center text-lg-start">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-9 text-center text-lg-start align-items-center justify-content-center">
             <h3>Contact Us!</h3>
             <p> Simply click the button below to fill out our contact form. <br>
               Reach out to us with any questions you may have or to setup a time to discuss your needs. We will reply as soon as possible.</p>
