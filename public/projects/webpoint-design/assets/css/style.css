@@ -592,7 +592,7 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  padding: 25px 0;
+  padding: 12px 0;
   text-align: center;
 }
 
@@ -602,6 +602,7 @@ section {
   display: inline-block;
   padding: 15px 0;
   filter: grayscale(100);
+  align-items: center;
 }
 
 .clients img:hover {
