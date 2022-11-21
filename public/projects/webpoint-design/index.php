@@ -235,7 +235,7 @@
               <!--   Modal Header -->
                  <div class="modal-header">
                    <div><center><img src="assets/img/webpoint.gif" alt="Webpoint Logo" width="200">
-                   </center></div>
+                   </center><br></div>
                     <h4 class="modal-title">Contact Us</h4>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
