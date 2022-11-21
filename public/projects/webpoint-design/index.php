@@ -74,7 +74,7 @@
   <main id="main">
 
     <!-- ======= Clients Section ======= -->
-    <center><section id="clients" class="clients section-bg">
+    <center><section id="clients" class="clients section-bg align-items-center">
       <div class="container">
 
         <div class="row" data-aos="zoom-in">
