@@ -209,18 +209,18 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Contact Section ======= -->
-<center>
+
     <section id="cta" class="cta">
       <div class="container align-items-center justify-content-center" data-aos="zoom-in">
 
         <div class="row align-items-center justify-content-center">
           <div class="col-lg-9 text-center text-lg-start align-items-center justify-content-center">
-            <h3>Contact Us!</h3>
+            <center><h3>Contact Us!</h3>
             <p> Simply click the button below to fill out our contact form. <br>
               Reach out to us with any questions you may have or to setup a time to discuss your needs. We will reply as soon as possible.</p>
-          </div>
+          </div></center>
 </div>
-
+<center>
 <a href="#modalForm" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-target="#modalForm">Contact Us Today!</a>
 </center>
 
