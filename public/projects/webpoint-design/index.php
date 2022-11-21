@@ -108,7 +108,7 @@
          <div class="container" data-aos="fade-up">
 
            <div class="section-title">
-             <h2>Experts in National Sports Organization Management Systems</h2>
+             <h2>About Us</h2>
            </div>
 
            <div class="row content">
