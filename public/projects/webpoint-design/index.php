@@ -338,7 +338,35 @@
       </div>
     </div>
 
-        
+          <!-- ======= Clients Section ======= -->
+          <center><section id="clients" class="clients section-bg align-items-center">
+            <div class="container justify-content-center">
+
+              <div class="row align-items-center justify-content-center" data-aos="zoom-in">
+
+                <div class="col-auto d-flex align-items-center justify-content-center">
+                  <img src="assets/img/clients/USAB_ClientLogo.png" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-auto d-flex align-items-center justify-content-center">
+                  <img src="assets/img/clients/usa-cheer.png" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-auto d-flex align-items-center justify-content-center">
+                  <img src="assets/img/clients/USAD_ClientLogo.png" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-auto d-flex align-items-center justify-content-center">
+                  <img src="assets/img/clients/USAFH_ClientLogo.png" class="img-fluid" alt="">
+                </div>
+
+
+              </div>
+
+            </div>
+          </section></center>
+          <!-- End Clients Section -->
+
 
 
     <div class="container footer-bottom clearfix align-items-center justify-content-center">
