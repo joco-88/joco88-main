@@ -234,9 +234,7 @@
   <footer id="footer">
 
 
-    <div class="footer-top align-items-center">
-      <div class="container align-items-center">
-        <div class="row align-items-center justify-content-center">
+
 
           <div class="footer-contact align-items-center">
 
