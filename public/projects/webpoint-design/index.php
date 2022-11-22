@@ -162,7 +162,7 @@
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-2" data-aos="zoom-in" data-aos-delay="400">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-layer"></i></div>
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
               <h4><a href="">Event Registration</a></h4>
               <p>Set athlete registrations, staff registrations, check-in deadlines, manage real-time eligibility requirements, define categories, divisions,
                 age groups, track and publish results, offer discount codes, event insurance, etc.</p>
@@ -179,7 +179,7 @@
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-2" data-aos="zoom-in" data-aos-delay="400">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-layer"></i></div>
+              <div class="icon"><i class="bx bxs-like bx-tada-hover"></i></div>
               <h4><a href="">Communication</a></h4>
               <p>Automate notifications, reminders, updates/newsletters; build email templates, set up contact groups, communicate to specific groups; link social media platforms, etc.</p>
             </div>
