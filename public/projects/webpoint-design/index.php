@@ -179,7 +179,7 @@
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-2" data-aos="zoom-in" data-aos-delay="400">
             <div class="icon-box">
-              <div class="icon"><i class="bx bxs-bell bx-tada-hover"></i></div>
+              <div class="icon"><i class="bx bx-bell bx-tada-hover"></i></div>
               <h4><a href="">Communication</a></h4>
               <p>Automate notifications, reminders, updates/newsletters; build email templates, set up contact groups, communicate to specific groups; link social media platforms, etc.</p>
             </div>
@@ -196,7 +196,7 @@
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-2" data-aos="zoom-in" data-aos-delay="400">
             <div class="icon-box">
-              <div class="icon"><i class="bx bxs-help-circle"></i></div>
+              <div class="icon"><i class="bx bx-help-circle"></i></div>
               <h4><a href="">Help Desk</a></h4>
               <p>National office can submit improvement requests, help/assistance requests and system issues though our Helpdesk; stay up to date on
                 in progress and upcoming global improvements; ask us to configure user role settings, etc.</p>
