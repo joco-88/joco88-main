@@ -26,7 +26,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css?v=11.21.2022.19" rel="stylesheet">
+  <link href="assets/css/style.css?v=11.21.2022.20" rel="stylesheet">
 
 </head>
 
@@ -234,7 +234,7 @@
             <div class="modal-content">
               <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
               <!--   Modal Header -->
-                 <center> <div class="modal-header align-items-center justify-content-center">
+                 <div class="modal-header-2 align-items-center justify-content-center">
                    <div><img src="assets/img/webpoint3.gif" alt="Webpoint Logo" width="75%">
                    </center></div>
                 </div>
