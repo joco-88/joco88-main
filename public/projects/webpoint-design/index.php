@@ -246,7 +246,7 @@
                     <p class="statusMsg"></p>
                     <form role="form">
                         <div class="form-group">
-                            <label for="inputName">Name</label>
+                            <label for="inputName"><strong>Name</strong></label>
                             <input type="text" class="form-control" id="inputName" placeholder="Enter your name"/>
                         </div><br>
                         <div class="form-group">
