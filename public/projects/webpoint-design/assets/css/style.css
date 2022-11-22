@@ -32,7 +32,7 @@ h6 {
   font-family: "Jost", sans-serif;
 }
 
-..modal-header-2 {
+.modal-header-2 {
   display: flex;
   justify-content: center;
 }
