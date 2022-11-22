@@ -234,9 +234,9 @@
             <div class="modal-content">
               <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
               <!--   Modal Header -->
-                 <div class="modal-header-2 align-items-center justify-content-center">
+                 <div class="modal-header-2 text-center align-items-center justify-content-center">
                    <div><img src="assets/img/webpoint3.gif" alt="Webpoint Logo" width="75%">
-                   </center></div>
+                   </div>
                 </div>
 
                 <!-- Modal Body -->
