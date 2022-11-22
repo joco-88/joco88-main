@@ -241,7 +241,7 @@
 
                 <!-- Modal Body -->
               <div class="modal-body">
-                <center><h4 class="modal-title"><br>Contact Us</h4></center>
+                <center><h3 class="modal-title"><br>Contact Us</h3></center>
                     <p class="statusMsg"></p>
                     <form role="form">
                         <div class="form-group">
