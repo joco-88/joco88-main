@@ -233,7 +233,6 @@
         <div class="modal-dialog">
             <div class="modal-content">
               <!--   Modal Header -->
-                <center>
                  <div class="modal-header">
                    <div><img src="assets/img/webpoint.gif" alt="Webpoint Logo" width="250">
                    </center></div>
