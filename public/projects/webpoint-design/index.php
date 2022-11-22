@@ -136,7 +136,7 @@
         <div class="row">
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-2" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <div class="icon"><i class="bx bx-user-circle"></i></div>
               <h4><a href="">Contacts</a></h4>
               <p>Olympic experience, veteran status, contact info, athlete info, customer history, memberships, certifications, user info, event registrations, rosters, communication history, etc.</p>
             </div>
