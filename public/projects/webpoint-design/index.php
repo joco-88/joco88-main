@@ -237,9 +237,6 @@
                  <div class="modal-header align-items-center justify-content-center">
                    <div><img src="assets/img/webpoint3.gif" alt="Webpoint Logo" width="75%">
                    </center></div>
-
-
-
                 </div>
 
                 <!-- Modal Body -->
