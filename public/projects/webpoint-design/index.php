@@ -196,7 +196,7 @@
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-2" data-aos="zoom-in" data-aos-delay="400">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-layer"></i></div>
+              <div class="icon"><i class="bx bxs-help-circle"></i></div>
               <h4><a href="">Help Desk</a></h4>
               <p>National office can submit improvement requests, help/assistance requests and system issues though our Helpdesk; stay up to date on
                 in progress and upcoming global improvements; ask us to configure user role settings, etc.</p>
