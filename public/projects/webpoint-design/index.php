@@ -235,13 +235,14 @@
               <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
               <!--   Modal Header -->
                  <div class="modal-header-2 text-center align-items-center justify-content-center">
-                   <div><img src="assets/img/webpoint3.gif" alt="Webpoint Logo" width="75%">
+                   <div><img src="assets/img/webpoint3.gif" alt="Webpoint Logo" width="75%"><br>
+                     <h3 class="modal-title text-center"><br>Contact Us</h3>
                    </div>
                 </div>
 
                 <!-- Modal Body -->
               <div class="modal-body">
-                <h3 class="modal-title text-center"><br>Contact Us</h3>
+
                     <p class="statusMsg"></p>
                     <form role="form">
                         <div class="form-group">
