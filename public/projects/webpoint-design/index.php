@@ -171,7 +171,7 @@
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-2" data-aos="zoom-in" data-aos-delay="400">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-layer"></i></div>
+              <div class="icon"><i class="bx bx-report"></i></div>
               <h4><a href="">Reporting</a></h4>
               <p>Robust reports, sort and group data, view trends; view memberships awaiting approval, certifications awaiting completion, transactions awaiting payment, etc.</p>
             </div>
