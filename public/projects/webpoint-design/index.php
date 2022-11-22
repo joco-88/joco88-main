@@ -153,7 +153,7 @@
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-2" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <div class="icon"><i class="bx bx-user-check"></i></div>
               <h4><a href="">Certifications</a></h4>
               <p>Define pre-requisite events/clinics, superseding parameters; set exam questions, pass rates, embed videos; process background screenings
                 and Safe Sport Trainings, trigger roster eligibility, set certificate designs, etc.</p>
