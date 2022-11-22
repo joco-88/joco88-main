@@ -233,7 +233,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
               <!--   Modal Header -->
-                 <div class="modal-header">
+                 <div class="modal-header align-items-center justify-content-center">
                    <div><img src="assets/img/webpoint2.gif" alt="Webpoint Logo" width="75%">
                    </center></div>
 
