@@ -129,7 +129,11 @@
 
         <div class="section-title">
           <h2>Our Services</h2>
+          <div class="row content">
 
+              <p><strong>Listed below are many, but not all of the services we provide. Feel free to reach out if you have any questions regarding specific needs.
+         </strong></p>
+            </div>
           </p>
         </div>
 
