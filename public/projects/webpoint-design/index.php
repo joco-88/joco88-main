@@ -250,11 +250,11 @@
                             <input type="text" class="form-control" id="inputName" placeholder="Enter your name"/>
                         </div><br>
                         <div class="form-group">
-                            <label for="inputEmail">Email</label>
+                            <label for="inputEmail"><strong>Email</strong></label>
                             <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email"/>
                         </div><br>
                         <div class="form-group">
-                            <label for="inputMessage">Message</label>
+                            <label for="inputMessage"><strong>Message</strong></label>
                             <textarea class="form-control" id="inputMessage" placeholder="Enter your message"></textarea>
                         </div>
                     </form>
