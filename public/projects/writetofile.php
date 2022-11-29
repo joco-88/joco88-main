@@ -23,7 +23,7 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 
 $writetofile = fopen("readwritedoc.txt", "r+")  or die("Could not open required file!");
 
-echo $_POST['visitorname'];
+echo "Your Name: "$_POST['visitorname'] . "was saved";
 
 
 
