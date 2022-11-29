@@ -22,8 +22,12 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 <?php
 
 $writetofile = fopen("readwritedoc.txt", "r+")  or die("Could not open required file!");
-$visitorName = $_POST['visitorname'];
-echo "Your Name: $visotorName was saved";
+
+if isset($_POST['visitorname']) {
+  $visitorName = $_POST['visitorname'];
+  echo "Your Name: $visotorName was saved";
+}
+
 
 
 
