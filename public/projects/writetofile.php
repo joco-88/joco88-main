@@ -25,11 +25,10 @@ $writetofile = fopen("readwritedoc.txt", "r+")  or die("Could not open required 
 
 if (isset($_POST['visitorname'])) {
   $visitorName = $_POST['visitorname'] . "\n";
-  fwrite($writetofile, $visitorName);
-  echo "Your Name: <strong>$visitorName</strong>, was saved";
 }
 
-
+fwrite($writetofile, $visitorName);
+echo "Your Name: <strong>$visitorName</strong>, was saved";
 
 
 flcose($writetofile);
