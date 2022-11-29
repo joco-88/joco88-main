@@ -14,30 +14,7 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 
 <!-- Upcoming New Sandbox Project Will Go Below -->
 
-<form method="post" action="">
-<input type="text" name="visitorname">
-<input type="submit">
-</form>
 
-<?php
-
-$writetofile = fopen("readwritedoc.txt", "r+")  or die("Could not open required file!");
-
-if (isset($_POST['visitorname'])) {
-  $visitorName = $_POST['visitorname'] . "\n";
-}
-
-fwrite($writetofile, $visitorName);
-echo "Your Name: <strong>$visitorName</strong>, was saved";
-
-
-flcose($writetofile);
- ?>
-
-
-
-
-</main>
   <footer>
 <!--  Any necessary scripts go below here --------------------------->
 
