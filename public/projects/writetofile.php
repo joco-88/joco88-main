@@ -14,16 +14,18 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 
 <!-- Upcoming New Sandbox Project Will Go Below -->
 
+<form method="post" action="">
+<input type="text" name="visitorname">
+<input type="submit">
+</form>
+
 <?php
 
 $writetofile = fopen("readwritedoc.txt", "r+")  or die("Could not open required file!");
 
 echo $_POST['visitorname'];
 
-<form method="post" action="">
-<input type="text" name="visitorname">
-<input type="submit">
-</form>
+
 
 flcose($writetofile);
  ?>
