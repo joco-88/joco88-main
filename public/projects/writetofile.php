@@ -1,5 +1,5 @@
 <?php
-$PageTitle="Home";
+$PageTitle="Test Write to PHP File";
 include('../../templates/header.php');
 
 error_reporting(E_ALL); ini_set('display_errors', 1);
@@ -7,7 +7,7 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 ?>
   <main>
     <div class="container-fluid">
-        <br><h1>Sandbox Page</h1>
+        <br><h1>Write To File</h1>
         <p>On this page, I will test new projects and hone my basic coding knowledge.</p>
         <hr>
     </div>
