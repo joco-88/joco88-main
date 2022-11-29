@@ -16,7 +16,7 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 
 <?php
 
-$writetofile = fopen("readwrite.php", "r+")  or die("Could not open required file!");
+$writetofile = fopen("readwrite.txt", "r+")  or die("Could not open required file!");
 
 
 
