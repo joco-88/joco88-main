@@ -16,7 +16,11 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 <div class="container-fluid">
 Test Data..
 
-
+<form action="upload.php" method="post" enctype="multipart/form-data">
+  Select image to upload:
+  <input type="file" name="fileToUpload" id="fileToUpload">
+  <input type="submit" value="Upload Image" name="submit">
+</form>
 
 
 
