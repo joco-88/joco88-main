@@ -65,3 +65,17 @@ label {
 	margin-left: 10px;
 	margin-right: 10px;
 }
+
+/*------- Boostrap Edits ----------*/
+
+#event-header {
+    background-color: #1e3f5d;
+    background-image: linear-gradient(#1d3d5a, #194976);
+    color: #ffffff;
+  }
+
+  #event-table-head {
+    background-color: #1e3f5d;
+    background-image: linear-gradient(#1d3d5a, #194976);
+    color: #ffffff;
+  } 
