@@ -33,7 +33,7 @@ $eventStart = "12.10.22";
 $eventEnd = "12.12.2022";
 
 //Player 1 Variables
-$player1_name = "Joe Condon;
+$player1_name = "Joe Condon";
 $player1_Id = "06071988";
 $player1_gender = "Male;
 $player1_wins = 20;
