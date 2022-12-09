@@ -47,7 +47,7 @@ a:active {
   }
 /*------- Boostrap Player Card Photo ----------*/
 }
-#player-thumbnail {
+#event-header #player-thumbnail {
   padding: .25rem;
   background-color: #fff;
   border: 1px solid #dee2e6;
