@@ -48,6 +48,10 @@ a:active {
 /*------- Boostrap Player Card Photo ----------*/
 }
 .player-thumbnail {
-    width: 300px;
-    height: 300px;
+  padding: .25rem;
+   background-color: #fff;
+   border: 1px solid #dee2e6;
+   border-radius: .25rem;
+   max-width: 100%;
+   height: auto;
 }
