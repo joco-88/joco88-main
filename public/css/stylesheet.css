@@ -29,42 +29,8 @@ a:active {
 
 /* Contact Form Styles */
 
-/*
-body {
-    font-family: 'Lato', sans-serif;
-}
-*/
 
 
-body {
-    font-family: 'Lato', sans-serif;
-}
-
-h1 {
-    margin-bottom: 40px;
-}
-
-label {
-    color: #333;
-}
-
-.btn-send {
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    width: 80%;
-    margin-left: 3px;
-    }
-.help-block.with-errors {
-    color: #ff5050;
-    margin-top: 5px;
-
-}
-
-.card{
-	margin-left: 10px;
-	margin-right: 10px;
-}
 
 /*------- Boostrap Edits ----------*/
 
@@ -78,4 +44,4 @@ label {
     background-color: #1e3f5d;
     background-image: linear-gradient(#1d3d5a, #194976);
     color: #ffffff;
-  } 
+  }
