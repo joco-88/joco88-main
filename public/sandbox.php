@@ -33,11 +33,11 @@ $eventStart = "12.10.22";
 $eventEnd = "12.12.2022";
 
 //Player 1 Variables
-$player1_name = $row['P1_Name'];
-$player1_Id = $row['P1_ContactID'];
-$player1_gender = $row['P1_Gender'];
-$player1_wins = $row2['GMWinsCount'];
-$player1_losses = $row2['GMLossCount'];
+$player1_name = "Joe Condon"";
+$player1_Id = "06071988";
+$player1_gender = "Male;
+$player1_wins = 20;
+$player1_losses = 0;
 $player1_experience = $player1_wins + $player1_losses . " Games";
 
 //Player 1 Conditional Variables
@@ -63,13 +63,13 @@ $player1_experience = $player1_wins + $player1_losses . " Games";
         }
 
 
-//Player 2 Variables
-$player2_name = $row['P2_Name'];
-$player2_Id = $row['P2_ContactID'];
-$player2_gender = $row['P2_Gender'];
-$player2_wins = $row3['GMWinsCount'];
-$player2_losses = $row3['GMLossCount'];
-$player2_experience = $player2_wins + $player2_losses . " Games";
+        //Player 2 Variables
+        $player2_name = "Keek Condon"";
+        $player2_Id = "04072013";
+        $player2_gender = "Male;
+        $player2_wins = 80;
+        $player2_losses = 0;
+        $player2_experience = $player2_wins + $player2_losses . " Games";
 
 //Player 2 Conditional Variables
     //Player 2 Organization Name
