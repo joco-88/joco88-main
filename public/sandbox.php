@@ -194,9 +194,10 @@ echo "Event Description: $eventDescription<br><br>";
 
         <svg class="bd-placeholder-img rounded float-end" width="70" height="70" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 70x270" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
           <rect width="100%" height="100%" fill="#868e96"></rect></svg>
-
+</tr>
 
       <!-- End Example Code -->
+      <tr>
                     <th scope="col-sm-2"> <img id="player-thumbnail" src="/media/keek.JPG" class="img-fluid"</img></th>
                     <th scope="col" id="event-table-head" class="text-white" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal"><?php echo $player1_name;?></a></th>
                     <td scope="col" id="event-table-head" class="text-white">vs.</i></th>
