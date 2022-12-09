@@ -189,7 +189,7 @@ echo "Event Description: $eventDescription<br><br>";
 
         <!-- Example Code -->
 
-        <img class="bd-placeholder-img rounded float-start" width="70" height="70" src="/media/keek.JPG" aria-label="Placeholder: 70x70" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+        <img class="bd-placeholder-img rounded mx-auto" width="70" height="70" src="/media/keek.JPG" aria-label="Placeholder: 70x70" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
           <rect width="100%" height="100%" fill="#868e96"></rect></img>
 
         <img class="bd-placeholder-img rounded float-end" width="70" height="70" src="/media/keek.JPG" aria-label="Placeholder: 70x270" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
