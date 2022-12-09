@@ -7,7 +7,7 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 ?>
   <main>
     <div class="container-fluid">
-        <br><h1>Write To File</h1>
+        <br><h1>Test Returns Form</h1>
         <p>On this page, I will test new projects and hone my basic coding knowledge.</p>
         <hr>
 
