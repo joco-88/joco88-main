@@ -40,6 +40,12 @@ a:active {
     color: #ffffff;
   }
 
+  #event-table-head-1 {
+    background-color: #1e3f5d;
+    background-image: #1d3d5a;
+    color: #ffffff;
+  }
+
   #event-table-head {
     background-color: #1e3f5d;
     background-image: linear-gradient(#1d3d5a, #194976);
