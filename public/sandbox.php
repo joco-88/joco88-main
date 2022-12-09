@@ -206,7 +206,10 @@ echo "Event Description: $eventDescription<br><br>";
                             <rect width="100%" height="100%" fill="#868e96"></rect></img></a></th>
       <td scope="col" id="event-table-head" class="text-white">vs.</i></th>
       <th scope="col" id="event-table-head" class="text-white"><?php echo $player2_name; ?></th>
-  
+      </tr>
+
+
+                    <tr>
                     <th scope="col" id="event-table-head" class="text-white" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal"><?php echo $player1_name;?></a></th>
                     <td scope="col" id="event-table-head" class="text-white">vs.</i></th>
                     <th scope="col" id="event-table-head" class="text-white"><?php echo $player2_name; ?></th>
