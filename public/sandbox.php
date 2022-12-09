@@ -202,7 +202,7 @@ echo "Event Description: $eventDescription<br><br>";
                     <th scope="col" id="event-table-head" class="text-white" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal"><?php echo $player1_name;?></a></th>
                       <div class="col-sm-6"></div>
                     <td scope="col" id="event-table-head" class="text-white">vs.</i></th>
-                      <div class="col-sm-6"> <img id="player-thumbnail" src="/media/keek.JPG" class="img-fluid"</img></div>
+                      <div class="col-sm-6"> <img id="player-thumbnail" src="/media/keek.JPG" class="img-fluid"</img></div><br>
                     <th scope="col" id="event-table-head" class="text-white"><?php echo $player2_name; ?></th>
                     </tr>
                 </thead>
