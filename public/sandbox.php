@@ -168,7 +168,7 @@ echo "Event Description: $eventDescription<br><br>";
 <div class="row row-cols-1 row-cols-lg-2 g-4 mx-2 px-0 justify-content-center">
 
 <!-- Start of First Card -->
-<div class="col p-0">
+<div class="col p-1">
     <div class="shadow p-0 mb-5 bg-white rounded">
                 <div class="card text-center">
 
