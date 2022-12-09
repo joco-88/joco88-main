@@ -47,7 +47,7 @@ a:active {
   }
 /*------- Boostrap Player Card Photo ----------*/
 }
-.player-thumbnail {
+#player-thumbnail {
     object-fit: cover;
     width: 230px;
     height: 230px;
