@@ -186,6 +186,20 @@ echo "Event Description: $eventDescription<br><br>";
                 <h5 class="card-title">Event Roster</h5><br>
                 <thead class="table-dark">
                 <tr>
+
+
+                  <!-- Example Code -->
+
+                     <svg class="bd-placeholder-img img-thumbnail" width="200" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera: 200x200" preserveAspectRatio="xMidYMid slice" focusable="false"><title>A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">200x200</text></svg>
+
+
+                     <!-- End Example Code -->
+
+
+
+
+
+
                     <th scope="col" id="event-table-head" class="text-white" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal"><?php echo $player1_name;?></a></th>
                     <td scope="col" id="event-table-head" class="text-white">vs.</i></th>
                     <th scope="col" id="event-table-head" class="text-white"><?php echo $player2_name; ?></th>
