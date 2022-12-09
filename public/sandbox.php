@@ -201,7 +201,10 @@ echo "Event Description: $eventDescription<br><br>";
 
 
                     <tr>
-                    <th scope="col" id="event-table-head" class="text-white" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal"><?php echo $player1_name;?></a></th>
+                    <th scope="col" id="event-table-head" class="text-white"
+                    <img class="bd-placeholder-img rounded mx-auto" width="70" height="70" src="/media/keek.JPG" aria-label="Placeholder: 70x70" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+                      <rect width="100%" height="100%" fill="#868e96"></rect></img>
+                    data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal"><?php echo $player1_name;?></a></th>
                     <td scope="col" id="event-table-head" class="text-white">vs.</i></th>
                     <th scope="col" id="event-table-head" class="text-white"><?php echo $player2_name; ?></th>
                     </tr>
