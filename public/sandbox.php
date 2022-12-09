@@ -26,7 +26,7 @@ $wpClient = "USA Boxing";
 
 //Game Data Variables
 $eventId = 11111;
-$eventTitle = "The Best Fight Ever!"";
+$eventTitle = "The Best Fight Ever!";
 $eventDescription = "This fight is for warriors. Man, they are really going to fuck each other up.";
 $eventCategory = "No Fatties Allowed";
 $eventStart = "12.10.22";
