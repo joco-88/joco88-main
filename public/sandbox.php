@@ -187,16 +187,14 @@ echo "Event Description: $eventDescription<br><br>";
                 <thead class="table-dark">
                 <tr>
 
-                  <!-- Example Code -->
+        <!-- Example Code -->
 
-                     <svg class="bd-placeholder-img img-thumbnail" width="200" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A generic resemble a photograph : 200x200" 
-                     preserveAspectRatio="xMidYMid slice" focusable="false"><title>A generic square placeholder image with a </title>
-                     <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">200x200</text></svg>
+        <svg class="bd-placeholder-img rounded float-start" width="200" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 200x200" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">200x200</text></svg>
 
-
-                     <!-- End Example Code -->
+        <svg class="bd-placeholder-img rounded float-end" width="200" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 200x200" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">200x200</text></svg>
 
 
+      <!-- End Example Code -->
 
                     <th scope="col" id="event-table-head" class="text-white" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal"><?php echo $player1_name;?></a></th>
                     <td scope="col" id="event-table-head" class="text-white">vs.</i></th>
