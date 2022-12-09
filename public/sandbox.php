@@ -198,7 +198,7 @@ echo "Event Description: $eventDescription<br><br>";
 
       <!-- End Example Code -->
 
-                    <th scope="col" id="event-table-head" class="text-white" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><img src="/media/keek.JPG" width="70" height="70"</img> class="img-fluid" /><a href="#PlayerInfoModal"><?php echo $player1_name;?></a></th>
+                    <th scope="col" id="event-table-head" class="text-white" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><img src="/media/keek.JPG" width="70" height="70" class="img-fluid"</img><br><a href="#PlayerInfoModal"><?php echo $player1_name;?></a></th>
                     <td scope="col" id="event-table-head" class="text-white">vs.</i></th>
                     <th scope="col" id="event-table-head" class="text-white"><?php echo $player2_name; ?></th>
                     </tr>
