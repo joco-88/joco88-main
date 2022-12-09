@@ -200,10 +200,8 @@ echo "Event Description: $eventDescription<br><br>";
 
 
 
-                      <tr>
-                        <div class="bg-white square shadow-sm py-5 px-4"><img src="/media/keek.JPG" alt="" width="100" id="player-thumbnail" class="img-fluid square mb-3 player-thumbnail shadow-sm">
+                    <tr>
                     <th scope="col" id="event-table-head" class="text-white" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal"><?php echo $player1_name;?></a></th>
-                      <div class="col-sm-6"></div>
                     <td scope="col" id="event-table-head" class="text-white">vs.</i></th>
                     <th scope="col" id="event-table-head" class="text-white"><?php echo $player2_name; ?></th>
                     </tr>
