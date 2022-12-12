@@ -53,7 +53,7 @@ a:active {
     color: #ffffff;
   }
 /*------- Boostrap Player Card Photo ----------*/
-}
+
 #player-thumbnail {
     object-fit: cover;
     width: 230px;
