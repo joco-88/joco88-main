@@ -508,7 +508,6 @@ echo "Event Description: $eventDescription<br><br>";
 </main>
   <footer>
 <!--  Any necessary scripts go below here --------------------------->
-<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 
     <?php
       include('../templates/footer.php');
