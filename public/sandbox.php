@@ -190,27 +190,48 @@ echo "Event Description: $eventDescription<br><br>";
     <div class="table-responsive">
                 <table class="table table-striped table-sm">
 
-                <thead class="table-dark">
-                <tr>
-
-
+                <thead class="border border-white">
       <tr>
-      <th scope="col" id="event-table-head-1" class="text-white" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal">
-        <img class="bd-placeholder-img rounded mx-auto border border-info" width="70" height="70" src="/media/keek.JPG" aria-label="Placeholder: 70x70" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="#868e96"></rect></img></a></th>
+      <th scope="col" id="event-table-head-1" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal">
 
-         <td scope="col" id="event-table-head-1"><h5 class="card-title">Event Roster</h5><br></i></th>
+<!-- Conditional to either add Player 1 image with winner badge, or simply the player image alone -->
+<?php
+    if ($gameWinner == 1) { ?>
+                <div class="winner-badge">
+        <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border" width="70" height="70" src="media/joewp.jpg" aria-label="Player One Image" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <rect width="100%" height="100%" fill="#868e96"></rect></img></a>
+                <span class="notify-winner-badge">Winner!</span></div>
+    </th>
+<?php
+    } else {?>
+        <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border" width="70" height="70" src="media/joewp.jpg" aria-label="Player One Image" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <rect width="100%" height="100%" fill="#868e96"></rect></img></a>
+<?php } ?>
 
-        <th scope="col" id="event-table-head-1" class="text-white" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal">
-          <img class="bd-placeholder-img rounded mx-auto border border-info" width="70" height="70" src="/media/keek.JPG" aria-label="Placeholder: 70x70" preserveAspectRatio="xMidYMid slice" focusable="false">
-                              <rect width="100%" height="100%" fill="#868e96"></rect></img></a></th>
+         <th scope="col" id="event-table-head-1"></th>
+
+        <th scope="col" id="event-table-head-1" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal">
+
+<!-- Conditional to either add Player 2 image with winner badge, or simply the player image alone -->
+<?php
+    if ($gameWinner == 2) { ?>
+                <div class="winner-badge">
+        <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border" width="70" height="70" src="media/dustinwp.jpg" aria-label="Player One Image" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <rect width="100%" height="100%" fill="#868e96"></rect></img></a>
+                <span class="notify-winner-badge">Winner!</span></div>
+    </th>
+<?php
+    } else {?>
+        <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border" width="70" height="70" src="media/dustinwp.jpg" aria-label="Player One Image" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <rect width="100%" height="100%" fill="#868e96"></rect></img></a>
+<?php } ?>
       </tr>
 
 
                     <tr>
-                    <th scope="col" id="event-table-head" class="text-white" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal"><?php echo $player1_name;?></a></th>
-                    <td scope="col" id="event-table-head" class="text-white">vs.</i></th>
-                    <th scope="col" id="event-table-head" class="text-white"><?php echo $player2_name; ?></th>
+                    <th scope="col" id="event-table-head-left" class="text-white align-middle" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal"><?php echo $player1_name;?></a></th>
+                    <th scope="col" id="event-table-head" class="text-white align-middle"><img src="media/vs-32.png"></img></th>
+                    <th scope="col" id="event-table-head-right" class="text-white align-middle" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal"><?php echo $player2_name; ?></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -290,19 +311,32 @@ echo "Event Description: $eventDescription<br><br>";
                     </p>
                     <div class="table-responsive">
                                 <table class="table table-striped table-sm">
-                                <h5 class="card-title">Event Roster</h5><br>
                                 <thead class="table-dark">
-                                    <tr>
-                                    <th scope="col" id="event-table-head" class="text-white" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal">
-                                      <img class="bd-placeholder-img rounded mx-auto border border-white" width="70" height="70" src="/media/keek.JPG" aria-label="Placeholder: 70x70" preserveAspectRatio="xMidYMid slice" focusable="false">
-                                                          <rect width="100%" height="100%" fill="#868e96"></rect></img>
-                                      <br><?php echo $player1_name;?></a></th>
-                                    <td scope="col" id="event-table-head" class="text-white">vs.</i></th>
-                                    <th scope="col" id="event-table-head" class="text-white" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal">
-                                      <img class="bd-placeholder-img rounded mx-auto border border-white" width="70" height="70" src="/media/keek.JPG" aria-label="Placeholder: 70x70" preserveAspectRatio="xMidYMid slice" focusable="false">
-                                                          <rect width="100%" height="100%" fill="#868e96"></rect></img>
-                                      <br><?php echo $player2_name; ?></th></a>
-                                    </tr>
+
+                                <tr>
+                                    <th scope="col" id="event-table-head-left" class="text-white" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal">
+                    <?php if ($gameWinner == 1) {
+                    echo $winnerBadgeOpen;}  ?>
+                                    <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border-2" width="70" height="70" src="media/joewp.jpg" aria-label="Player 1 Photo" preserveAspectRatio="xMidYMid slice" focusable="false">
+                                    <rect width="100%" height="100%" fill="#868e96"></rect></img>
+    <?php if ($gameWinner == 1) {
+      echo $winnerBadgeClose;}  ?>
+                        <br><?php echo $player1_name;?></a>
+                        </th>
+                                    <th scope="col" id="event-table-head" class="text-white align-middle"><img src="media/vs-39.png"></img></th>
+
+                                    <th scope="col" id="event-table-head-right" class="text-white" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal">
+
+                                    <?php if ($gameWinner == 2) {
+                                        echo $winnerBadgeOpen;}  ?>
+
+                                    <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border-2" width="70" height="70" src="media/dustinwp.jpg" aria-label="Player 2 Photo" preserveAspectRatio="xMidYMid slice" focusable="false">
+                                      <rect width="100%" height="100%" fill="#868e96"></rect></img>
+
+                                      <?php if ($gameWinner == 2) {
+      echo $winnerBadgeClose; }  ?>
+                                      <br><?php echo $player2_name; ?></a></th>
+                                </tr>
                                 </thead>
                                 <tbody>
 
@@ -361,7 +395,6 @@ echo "Event Description: $eventDescription<br><br>";
                 </div>
             </div>
         </div>
-
 
 <!-- Start of Third Card -->
 
@@ -446,10 +479,9 @@ echo "Event Description: $eventDescription<br><br>";
             </div>
         </div>
 
-
 <!-- End Of All Cards -->
 
-<!-- Final Div to Close Out Grid -->
+<!-- Final Div to Close Out Grid --> 
     </div>
 <!-- END OF CARD GRID -->
 
