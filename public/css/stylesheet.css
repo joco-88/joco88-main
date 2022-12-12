@@ -10,52 +10,128 @@
     color: #EAF8FC;
     text-decoration: none;
 }
-/* Mouse Over Link */
-.footerLinks a:hover {
-    color: #92E1F6;
-    text-decoration: none;
-}
+
 /* Visited Link */
 .footerLinks a:visited {
     color: #EAF8FC;
     text-decoration: none;
 }
+
+/* Mouse Over Link */
+.footerLinks a:hover {
+  color: #92E1F6;
+  text-decoration: none;
+}
+
 /* selected link */
 a:active {
   color: #ffffff;
 }
-/* Standard Font Styles */
-
-
-/* Contact Form Styles */
-
-
-
 
 /*------- Boostrap Edits ----------*/
 
+
+/*------- Boostrap Player Card ----------*/
+
 #event-header {
-    background-color: #1e3f5d;
-    background-image: linear-gradient(#1d3d5a, #194976);
-    color: #ffffff;
-  }
+  background-color: #1e3f5d;
+  background-image: linear-gradient(#1d3d5a, #194976);
+  color: #ffffff;
+}
 
-  #event-table-head-1 {
-    background-color: #ffffff;
-    /*background-color: #1d3d5a;
-    background-image: #1d3d5a; */
-    color: #1d3d5a;
-  }
+#event-table-head-1 {
+  background-color: #ffffff;
+  color: #1d3d5a;
+}
 
-  #event-table-head {
-    background-color: #1e3f5d;
-    background-image: linear-gradient(#1d3d5a, #194976);
-    color: #ffffff;
-  }
-/*------- Boostrap Player Card Photo ----------*/
+#event-table-head {
+  background-color: #1e3f5d;
+  background-image: linear-gradient(#1d3d5a, #194976);
+  color: #ffffff;
+}
 
-#player-thumbnail {
-    object-fit: cover;
-    width: 230px;
-    height: 230px;
+#event-table-head-left {
+  background-color: #1e3f5d;
+  background-image: linear-gradient(#1d3d5a, #194976);
+  color: #ffffff;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 6px;
+
+}
+
+#event-table-head-right {
+  background-color: #1e3f5d;
+  background-image: linear-gradient(#1d3d5a, #194976);
+  color: #ffffff;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 0px;
+}
+
+.player-thumbnail-border {
+  border: 2px solid #1e3f5d;
+}
+
+.player-thumbnail-border-2 {
+  border: 2px solid #ffffff;
+}
+
+.winner-badge {
+  position:relative;
+  padding-top:11px;
+  display:inline-block;
+}
+.notify-winner-badge{
+  position: absolute;
+  right:-20px;
+  top:10px;
+  background:rgb(1, 90, 41);
+  text-align: center;
+  border-radius: 30px 30px 30px 30px;
+  color:white;
+  padding:2px 3px;
+  font-size:9px;
+}
+
+/*----------- ------- Boostrap Player Card - Link Styling ----------- -----------*/
+
+/*////////// Unvisited Link /////////////*/
+#event-table-head-left a:link {
+  color: #EAF8FC;
+  text-decoration: none;
+}
+
+#event-table-head-right a:link {
+  color: #EAF8FC;
+  text-decoration: none;
+}
+
+/*//////////  Visited Link  /////////////*/
+#event-table-head-left a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#event-table-head-right a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*////////// Mouse Over Link /////////////*/
+#event-table-head-left a:hover {
+  color: #92E1F6;
+  text-decoration: none;
+}
+
+#event-table-head-right a:hover {
+  color: #92E1F6;
+  text-decoration: none;
+}
+
+/*//////////  selected link /////////////*/
+#event-table-head-left a:active {
+color: #ffffff;
+}
+
+#event-table-head-right a:active {
+color: #ffffff;
   }
