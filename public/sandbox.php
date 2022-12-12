@@ -197,7 +197,7 @@ echo "Event Description: $eventDescription<br><br>";
         <!-- Conditional to either add Player 1 image with winner badge, or simply the player image alone -->
         <?php if ($gameWinner == 1) {
                             echo $winnerBadgeOpen;}  ?>
-                <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border" width="70" height="70" src="media/joewp.jpg" aria-label="Player One Image" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border" width="70" height="70" src="/media/joewp.jpg" aria-label="Player One Image" preserveAspectRatio="xMidYMid slice" focusable="false">
                 <rect width="100%" height="100%" fill="#868e96"></rect></img></a>
                 <?php if ($gameWinner == 1) {
               echo $winnerBadgeClose;}  ?>
@@ -211,7 +211,7 @@ echo "Event Description: $eventDescription<br><br>";
         <!-- Conditional to either add Player 2 image with winner badge, or simply the player image alone -->
         <?php if ($gameWinner == 2) {
             echo $winnerBadgeOpen;}  ?>
-                <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border" width="70" height="70" src="media/dustinwp.jpg" aria-label="Player One Image" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border" width="70" height="70" src="/media/dustinwp.jpg" aria-label="Player One Image" preserveAspectRatio="xMidYMid slice" focusable="false">
                 <rect width="100%" height="100%" fill="#868e96"></rect></img></a>
         <?php if ($gameWinner == 2) {
             echo $winnerBadgeClose;}  ?>
