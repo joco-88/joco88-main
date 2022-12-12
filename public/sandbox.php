@@ -31,7 +31,7 @@ $eventDescription = "This fight is for warriors. Man, they are really going to f
 $eventCategory = "No Fatties Allowed";
 $eventStart = "12.10.22";
 $eventEnd = "12.12.2022";
-$gameWinner = 2;
+$gameWinner = 1;
 
 //Conditional Winner Badge Photo Code
 $winnerBadgeOpen = "<div class='winner-badge'>";
