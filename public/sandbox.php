@@ -216,13 +216,13 @@ echo "Event Description: $eventDescription<br><br>";
 <?php
     if ($gameWinner == 2) { ?>
                 <div class="winner-badge">
-        <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border" width="70" height="70" src="media/dustinwp.jpg" aria-label="Player One Image" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border" width="70" height="70" src="/media/dustinwp.jpg" aria-label="Player One Image" preserveAspectRatio="xMidYMid slice" focusable="false">
         <rect width="100%" height="100%" fill="#868e96"></rect></img></a>
                 <span class="notify-winner-badge">Winner!</span></div>
     </th>
 <?php
     } else {?>
-        <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border" width="70" height="70" src="media/dustinwp.jpg" aria-label="Player One Image" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border" width="70" height="70" src="/media/dustinwp.jpg" aria-label="Player One Image" preserveAspectRatio="xMidYMid slice" focusable="false">
         <rect width="100%" height="100%" fill="#868e96"></rect></img></a>
 <?php } ?>
       </tr>
@@ -230,7 +230,7 @@ echo "Event Description: $eventDescription<br><br>";
 
                     <tr>
                     <th scope="col" id="event-table-head-left" class="text-white align-middle" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal"><?php echo $player1_name;?></a></th>
-                    <th scope="col" id="event-table-head" class="text-white align-middle"><img src="media/vs-32.png"></img></th>
+                    <th scope="col" id="event-table-head" class="text-white align-middle"><img src="/media/vs-32.png"></img></th>
                     <th scope="col" id="event-table-head-right" class="text-white align-middle" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal"><?php echo $player2_name; ?></th>
                     </tr>
                 </thead>
@@ -317,7 +317,7 @@ echo "Event Description: $eventDescription<br><br>";
                                     <th scope="col" id="event-table-head-left" class="text-white" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal">
                     <?php if ($gameWinner == 1) {
                     echo $winnerBadgeOpen;}  ?>
-                                    <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border-2" width="70" height="70" src="media/joewp.jpg" aria-label="Player 1 Photo" preserveAspectRatio="xMidYMid slice" focusable="false">
+                                    <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border-2" width="70" height="70" src="/media/joewp.jpg" aria-label="Player 1 Photo" preserveAspectRatio="xMidYMid slice" focusable="false">
                                     <rect width="100%" height="100%" fill="#868e96"></rect></img>
     <?php if ($gameWinner == 1) {
       echo $winnerBadgeClose;}  ?>
@@ -330,7 +330,7 @@ echo "Event Description: $eventDescription<br><br>";
                                     <?php if ($gameWinner == 2) {
                                         echo $winnerBadgeOpen;}  ?>
 
-                                    <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border-2" width="70" height="70" src="media/dustinwp.jpg" aria-label="Player 2 Photo" preserveAspectRatio="xMidYMid slice" focusable="false">
+                                    <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border-2" width="70" height="70" src="/media/dustinwp.jpg" aria-label="Player 2 Photo" preserveAspectRatio="xMidYMid slice" focusable="false">
                                       <rect width="100%" height="100%" fill="#868e96"></rect></img>
 
                                       <?php if ($gameWinner == 2) {
@@ -481,7 +481,7 @@ echo "Event Description: $eventDescription<br><br>";
 
 <!-- End Of All Cards -->
 
-<!-- Final Div to Close Out Grid --> 
+<!-- Final Div to Close Out Grid -->
     </div>
 <!-- END OF CARD GRID -->
 
