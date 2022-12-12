@@ -4,6 +4,12 @@ include('../templates/header.php');
 
 error_reporting(E_ALL); ini_set('display_errors', 1);
 
+$('.grid').masonry({
+  // options
+  itemSelector: '.grid-item',
+  columnWidth: 200
+});
+
 ?>
   <main>
     <div class="container-fluid">
