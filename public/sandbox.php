@@ -108,6 +108,7 @@ echo "<strong><u>Event Information</strong></u><br>";
 echo "Game ID: $gameid <br>";
 echo "Event ID: $eventId <br>";
 echo "Event Title: $eventTitle <br>";
+echo "Winner: Player $gameWinner <br>";
 echo "Event Start Date: $eventStart <br>";
 echo "Event End Date: $eventEnd <br>";
 echo "Category: $eventCategory <br>";
