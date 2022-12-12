@@ -171,7 +171,7 @@ echo "Event Description: $eventDescription<br><br>";
 <br><br></center>
 
 <!-- Start of Card Grid -->
-<div class="row row-cols-1 row-cols-lg-2 g-4 mx-2 px-0 justify-content-center data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'">
+<div class="row row-cols-1 row-cols-lg-2 g-4 mx-2 px-0 justify-content-center">
 
 <!-- Start of First Card -->
 <div class="col">
