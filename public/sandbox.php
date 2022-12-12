@@ -194,38 +194,30 @@ echo "Event Description: $eventDescription<br><br>";
       <tr>
       <th scope="col" id="event-table-head-1" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal">
 
-<!-- Conditional to either add Player 1 image with winner badge, or simply the player image alone -->
-<?php
-    if ($gameWinner == 1) { ?>
-                <div class="winner-badge">
-        <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border" width="70" height="70" src="media/joewp.jpg" aria-label="Player One Image" preserveAspectRatio="xMidYMid slice" focusable="false">
-        <rect width="100%" height="100%" fill="#868e96"></rect></img></a>
-                <span class="notify-winner-badge">Winner!</span></div>
-    </th>
-<?php
-    } else {?>
-        <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border" width="70" height="70" src="media/joewp.jpg" aria-label="Player One Image" preserveAspectRatio="xMidYMid slice" focusable="false">
-        <rect width="100%" height="100%" fill="#868e96"></rect></img></a>
-<?php } ?>
+        <!-- Conditional to either add Player 1 image with winner badge, or simply the player image alone -->
+        <?php if ($gameWinner == 1) {
+                            echo $winnerBadgeOpen;}  ?>
+                <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border" width="70" height="70" src="media/joewp.jpg" aria-label="Player One Image" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <rect width="100%" height="100%" fill="#868e96"></rect></img></a>
+                <?php if ($gameWinner == 1) {
+              echo $winnerBadgeClose;}  ?>
+            </th>
 
-         <th scope="col" id="event-table-head-1"></th>
 
-        <th scope="col" id="event-table-head-1" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal">
+                 <th scope="col" id="event-table-head-1"></th>
 
-<!-- Conditional to either add Player 2 image with winner badge, or simply the player image alone -->
-<?php
-    if ($gameWinner == 2) { ?>
-                <div class="winner-badge">
-        <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border" width="70" height="70" src="/media/dustinwp.jpg" aria-label="Player One Image" preserveAspectRatio="xMidYMid slice" focusable="false">
-        <rect width="100%" height="100%" fill="#868e96"></rect></img></a>
-                <span class="notify-winner-badge">Winner!</span></div>
-    </th>
-<?php
-    } else {?>
-        <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border" width="70" height="70" src="/media/dustinwp.jpg" aria-label="Player One Image" preserveAspectRatio="xMidYMid slice" focusable="false">
-        <rect width="100%" height="100%" fill="#868e96"></rect></img></a>
-<?php } ?>
-      </tr>
+                <th scope="col" id="event-table-head-1" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal">
+
+        <!-- Conditional to either add Player 2 image with winner badge, or simply the player image alone -->
+        <?php if ($gameWinner == 2) {
+            echo $winnerBadgeOpen;}  ?>
+                <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border" width="70" height="70" src="media/dustinwp.jpg" aria-label="Player One Image" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <rect width="100%" height="100%" fill="#868e96"></rect></img></a>
+        <?php if ($gameWinner == 2) {
+            echo $winnerBadgeClose;}  ?>
+            </th>
+
+              </tr>
 
 
                     <tr>
