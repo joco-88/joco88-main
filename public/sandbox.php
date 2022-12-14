@@ -490,7 +490,7 @@ echo "Event Description: $eventDescription<br><br>";
 const PlayerInfoModal = document.getElementById('PlayerInfoModal')
 PlayerInfoModal.addEventListener('show.bs.modal', event => {
   // Button that triggered the modal
-  const button = event.relatedTarget
+  const th = event.th
   // Extract info from data-bs-* attributes
   const player = button.getAttribute('data-bs-playerId')
   // If necessary, you could initiate an AJAX request here
