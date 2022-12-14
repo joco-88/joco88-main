@@ -500,8 +500,8 @@ PlayerInfoModal.addEventListener('show.bs.modal', event => {
   const modalTitle = PlayerInfoModal.querySelector('.modal-title')
   const modalBody = PlayerInfoModal.querySelector('.modal-body')
 
-  modalTitle.textContent = Profile: ${playerId}
-  modalBody.textContent = New Modal Body: Player ID: playerId
+  modalTitle.textContent = Profile: write(playerId)
+  modalBody.textContent = New Modal Body: Player ID: write(playerId)
 })
 </script>
 <!-- END OF Modal JS - Needed to dynamially alter modal content -->
