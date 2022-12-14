@@ -174,116 +174,105 @@ echo "Event Description: $eventDescription<br><br>";
 <div class="row row-cols-1 row-cols-lg-2 g-4 mx-2 px-0 justify-content-center">
 
 <!-- Start of First Card -->
-<div class="col">
-    <div class="shadow p-0 mb-5 bg-white rounded">
-                <div class="card text-center">
+  <div class="col">
+      <div class="shadow p-0 mb-5 bg-white rounded">
+                  <div class="card text-center">
 
-                <div id="event-header" class="card-header event"><strong><?php echo $eventTitle; ?></strong></div>
-                    <div class="card-body">
-                    <?php echo "Event ID: $eventId"; ?>
-                    <p class="card-description">
-                    <?php echo "Dates: $eventStart - $eventEnd<br>
-                    $eventCategory<br>
-                    $eventDescription"; ?>
-                    <hr>
-                    </p>
-    <div class="table-responsive">
-                <table class="table table-striped table-sm">
+                  <div id="event-header" class="card-header event"><strong><?php echo $eventTitle; ?></strong></div>
+                      <div class="card-body">
+                      <?php echo "Event ID: $eventId"; ?>
+                      <p class="card-description">
+                      <?php echo "Dates: $eventStart - $eventEnd<br>
+                      $eventCategory<br>
+                      $eventDescription"; ?>
+                      <hr>
+                      </p>
+                      <div class="table-responsive">
+                                  <table class="table table-striped table-sm">
+                                  <thead class="table-dark">
 
-                <thead class="border border-white">
-      <tr>
-      <th scope="col" id="event-table-head-1" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal">
+                                  <tr>
+                                      <th scope="col" id="event-table-head-left" class="text-white" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal">
+                      <?php if ($gameWinner == 1) {
+                      echo $winnerBadgeOpen;}  ?>
+                                      <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border-2" width="70" height="70" src="/media/joewp.jpg" aria-label="Player 1 Photo" preserveAspectRatio="xMidYMid slice" focusable="false">
+                                      <rect width="100%" height="100%" fill="#868e96"></rect></img>
+      <?php if ($gameWinner == 1) {
+        echo $winnerBadgeClose;}  ?>
+                          <br><?php echo $player1_name;?></a>
+                          </th>
+                                      <th scope="col" id="event-table-head" class="text-white align-middle"><img src="media/vs-39.png"></img></th>
 
-        <!-- Conditional to either add Player 1 image with winner badge, or simply the player image alone -->
-        <?php if ($gameWinner == 1) {
-                            echo $winnerBadgeOpen;}  ?>
-                <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border" width="70" height="70" src="/media/joewp.jpg" aria-label="Player One Image" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <rect width="100%" height="100%" fill="#868e96"></rect></img></a>
-                <?php if ($gameWinner == 1) {
-              echo $winnerBadgeClose;}  ?>
-            </th>
+                                      <th scope="col" id="event-table-head-right" class="text-white" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal">
 
+                                      <?php if ($gameWinner == 2) {
+                                          echo $winnerBadgeOpen;}  ?>
 
-                 <th scope="col" id="event-table-head-1"></th>
+                                      <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border-2" width="70" height="70" src="/media/dustinwp.jpg" aria-label="Player 2 Photo" preserveAspectRatio="xMidYMid slice" focusable="false">
+                                        <rect width="100%" height="100%" fill="#868e96"></rect></img>
 
-                <th scope="col" id="event-table-head-1" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal">
+                                        <?php if ($gameWinner == 2) {
+        echo $winnerBadgeClose; }  ?>
+                                        <br><?php echo $player2_name; ?></a></th>
+                                  </tr>
+                                  </thead>
+                                  <tbody>
 
-        <!-- Conditional to either add Player 2 image with winner badge, or simply the player image alone -->
-        <?php if ($gameWinner == 2) {
-            echo $winnerBadgeOpen;}  ?>
-                <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border" width="70" height="70" src="/media/dustinwp.jpg" aria-label="Player One Image" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <rect width="100%" height="100%" fill="#868e96"></rect></img></a>
-        <?php if ($gameWinner == 2) {
-            echo $winnerBadgeClose;}  ?>
-            </th>
+                      <tr>
+                      <td scope="col"><?php echo $player1_gender; ?></td>
+                      <th scope="col">Gender</th>
+                      <td scope="col"><?php echo $player2_gender; ?></td>
+                      </tr>
 
-              </tr>
+                      <tr>
+                      <td scope="col"><?php echo $player1_birth; ?></td>
+                      <th scope="col">Birthday</th>
+                      <td scope="col"><?php echo $player2_birth; ?></td>
+                      </tr>
 
+                      <tr>
+                      <td scope="col"><?php echo $player1_age; ?></td>
+                      <th scope="col">Age</th>
+                      <td scope="col"><?php echo $player2_age; ?></td>
+                      </tr>
 
-                    <tr>
-                    <th scope="col" id="event-table-head-left" class="text-white align-middle" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal"><?php echo $player1_name;?></a></th>
-                    <th scope="col" id="event-table-head" class="text-white align-middle"><img src="/media/vs-32.png"></img></th>
-                    <th scope="col" id="event-table-head-right" class="text-white align-middle" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal"><?php echo $player2_name; ?></th>
-                    </tr>
-                </thead>
-                <tbody>
+                      <tr>
+                      <td scope="col"><?php echo $player1_experience; ?></td>
+                      <th scope="col">Experience</th>
+                      <td scope="col"><?php echo $player2_experience; ?></td>
+                      </tr>
 
-                    <tr>
-                    <td scope="col"><?php echo $player1_gender; ?></td>
-                    <th scope="col">Gender</th>
-                    <td scope="col"><?php echo $player2_gender; ?></td>
-                    </tr>
+                      <tr>
+                      <td scope="col"><?php echo $player1_wins; ?></td>
+                      <th scope="col">Wins</th>
+                      <td scope="col"><?php echo $player2_wins; ?></td>
+                      </tr>
 
-                    <tr>
-                    <td scope="col"><?php echo $player1_birth; ?></td>
-                    <th scope="col">Birthday</th>
-                    <td scope="col"><?php echo $player2_birth; ?></td>
-                    </tr>
+                      <tr>
+                      <td scope="col"><?php echo $player1_losses; ?></td>
+                      <th scope="col">Losses</th>
+                      <td scope="col"><?php echo $player2_losses; ?></td>
+                      </tr>
 
-                    <tr>
-                    <td scope="col"><?php echo $player1_age; ?></td>
-                    <th scope="col">Age</th>
-                    <td scope="col"><?php echo $player2_age; ?></td>
-                    </tr>
+                      <tr>
+                      <td scope="col"><?php echo $player1_org; ?></td>
+                      <th scope="col">Organization</th>
+                      <td scope="col"><?php echo $player2_org; ?></td>
+                      </tr>
 
-                    <tr>
-                    <td scope="col"><?php echo $player1_experience; ?></td>
-                    <th scope="col">Experience</th>
-                    <td scope="col"><?php echo $player2_experience; ?></td>
-                    </tr>
+                      <tr>
+                      <td scope="col"><?php echo $player1_Id; ?></td>
+                      <th scope="col"><?php echo "$wpClient #";?></th>
+                      <td scope="col"><?php echo $player2_Id; ?></td>
+                      </tr>
+                  </tbody>
+                  </table>
+                  </div>
 
-                    <tr>
-                    <td scope="col"><?php echo $player1_wins; ?></td>
-                    <th scope="col">Wins</th>
-                    <td scope="col"><?php echo $player2_wins; ?></td>
-                    </tr>
-
-                    <tr>
-                    <td scope="col"><?php echo $player1_losses; ?></td>
-                    <th scope="col">Losses</th>
-                    <td scope="col"><?php echo $player2_losses; ?></td>
-                    </tr>
-
-                    <tr>
-                    <td scope="col"><?php echo $player1_org; ?></td>
-                    <th scope="col">Organization</th>
-                    <td scope="col"><?php echo $player2_org; ?></td>
-                    </tr>
-
-                    <tr>
-                    <td scope="col"><?php echo $player1_Id; ?></td>
-                    <th scope="col"><?php echo "$wpClient #";?></th>
-                    <td scope="col"><?php echo $player2_Id; ?></td>
-                    </tr>
-                </tbody>
-                </table>
-                </div>
-
-                </div>
-                </div>
-            </div>
-        </div>
-
+                  </div>
+                  </div>
+              </div>
+          </div>
 
 
 <!-- Start of Second Card -->
