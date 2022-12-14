@@ -192,7 +192,7 @@ echo "Event Description: $eventDescription<br><br>";
                                   <thead class="table-dark">
 
                                   <tr>
-                                      <th scope="col" id="event-table-head-left" class="text-white" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal" data-bs-playerId="$player1_Id"><a href="#PlayerInfoModal">
+                                      <th scope="col" id="event-table-head-left" class="text-white" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal" data-bs-playerId="<?php $player1_Id ?>"><a href="#PlayerInfoModal">
                       <?php if ($gameWinner == 1) {
                       echo $winnerBadgeOpen;}  ?>
                                       <img class="bd-placeholder-img rounded mx-auto player-thumbnail-border-2" width="70" height="70" src="/media/joewp.jpg" aria-label="Player 1 Photo" preserveAspectRatio="xMidYMid slice" focusable="false">
