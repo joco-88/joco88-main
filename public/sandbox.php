@@ -203,7 +203,7 @@ echo "Event Description: $eventDescription<br><br>";
                           </th>
                                       <th scope="col" id="event-table-head" class="text-white align-middle"><img src="media/vs-39.png"></img></th>
 
-                                      <th scope="col" id="event-table-head-right" class="text-white" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal"><a href="#PlayerInfoModal">
+                                      <th scope="col" id="event-table-head-right" class="text-white" data-bs-toggle="modal" data-bs-target="#PlayerInfoModal" data-bs-playerId="<?php echo $player2_Id; ?>"><a href="#PlayerInfoModal">
 
                                       <?php if ($gameWinner == 2) {
                                           echo $winnerBadgeOpen;}  ?>
