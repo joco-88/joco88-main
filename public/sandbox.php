@@ -498,7 +498,7 @@ PlayerInfoModal.addEventListener('show.bs.modal', event => {
   //
   // Update the modal's content.
   const modalTitle = PlayerInfoModal.querySelector('.modal-title')
-  const modalBodyInput = PlayerInfoModal.querySelector('.modal-body')
+  const modalBody = PlayerInfoModal.querySelector('.modal-body')
 
   modalTitle.textContent = `Profile: ${player}`
   modalBody.value = player
