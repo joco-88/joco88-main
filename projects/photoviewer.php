@@ -31,7 +31,7 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
   </div>
 
   	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-  	<script type="text/javascript" src="js/ezoom2.js"></script>
+  	<script type="text/javascript" src="../js/ezoom2.js"></script>
   	<script type="text/javascript">
   		$(document).ready(function(){
 
