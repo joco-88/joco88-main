@@ -48,6 +48,15 @@ include('../templates/header.php');
           <ul><li>On Wp-Dev/Joe - The email submission currently does not work for some reason but likely something needs changed in the server (not necessary since this is a sandbox).</li>
           </ul>
       </ol>
+      <p><strong>12/31/2022</strong></p>
+      <ol>
+        <li>It's new years! I got my site switched to Hostinger</li>
+        <li>Created a seaparte php file to process form submissions.</li>
+          <ul><li>Test that the php form processor file strips invalid characters and also fires email out to me.</li>
+          <ul><li>If the page is accessed outside of valid form submission, it displays an error page with links to go back home.</li>
+          <ul><li>On Wp-Dev/Joe - The email submission currently does not work for some reason but likely something needs changed in the server (not necessary since this is a sandbox).</li>
+          </ul>
+      </ol>
   </div>
 </main>
 
