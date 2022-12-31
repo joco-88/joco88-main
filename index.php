@@ -2,7 +2,7 @@
 error_reporting(E_ALL); ini_set('display_errors', 1);
 
 $PageTitle="Home";
-include('../templates/header.php');
+include('/templates/header.php');
 ?>
 
 <!-- Body starts here as body tag opens at end of Header.php file -->
@@ -60,7 +60,7 @@ include('../templates/header.php');
 
   <footer>
     <?php
-      include('../templates/footer.php');
+      include('/templates/footer.php');
     ?>
   </footer>
 </body>
