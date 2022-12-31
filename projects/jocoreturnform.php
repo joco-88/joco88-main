@@ -1,6 +1,6 @@
 <?php
 $PageTitle="Test Write to PHP File";
-include('../../templates/header.php');
+include('../templates/header.php');
 
 error_reporting(E_ALL); ini_set('display_errors', 1);
 
@@ -93,7 +93,7 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 <!--  Any necessary scripts go below here --------------------------->
 
     <?php
-      include('../../templates/footer.php');
+      include('../templates/footer.php');
     ?>
   </footer>
 </body>

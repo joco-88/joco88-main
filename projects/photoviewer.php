@@ -52,7 +52,7 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 </main>
   <footer>
     <?php
-      include('../../templates/footer.php');
+      include('../templates/footer.php');
     ?>
 
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
