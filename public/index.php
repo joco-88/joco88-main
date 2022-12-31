@@ -41,7 +41,7 @@ include('../templates/header.php');
       </ol>
     <p><strong>11/09/2022</strong></p>
       <ol>
-        <li>Converted the contact page form to bootstrap styling (test)</li>
+        <li>Converted the contact page form to bootstrap styling</li>
         <li>Created a seaparte php file to process form submissions.</li>
           <ul><li>Test that the php form processor file strips invalid characters and also fires email out to me.</li>
           <ul><li>If the page is accessed outside of valid form submission, it displays an error page with links to go back home.</li>
