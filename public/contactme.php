@@ -50,7 +50,7 @@ include('../templates/header.php');
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <label for="form_need">Please specify your need *</label>
+                            <label for="form_need">Please specify your need*</label>
                             <select id="form_need" name="contact_reason" class="form-control" required="required" data-error="Please specify your need.">
                                 <option value="" selected disabled>--Contact Reason--</option>
                                 <option >General Question</option>
