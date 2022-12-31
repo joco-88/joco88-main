@@ -1,6 +1,6 @@
 <?php
 $PageTitle="Home";
-include('../templates/header.php');
+include('templates/header.php');
 
 error_reporting(E_ALL); ini_set('display_errors', 1);
 
@@ -519,7 +519,7 @@ PlayerInfoModal.addEventListener('show.bs.modal', event => {
 <!--  Any necessary scripts go below here --------------------------->
 
     <?php
-      include('../templates/footer.php');
+      include('templates/footer.php');
     ?>
   </footer>
 </body>

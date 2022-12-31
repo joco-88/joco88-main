@@ -60,7 +60,7 @@ include('templates/header.php');
 
   <footer>
     <?php
-      include('/templates/footer.php');
+      include('templates/footer.php');
     ?>
   </footer>
 </body>
