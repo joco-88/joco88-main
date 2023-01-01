@@ -1,6 +1,6 @@
 <?php
 $PageTitle="Home";
-include('/templates/header.php');
+include('templates/header.php');
 
 error_reporting(E_ALL); ini_set('display_errors', 1);
 
@@ -117,7 +117,7 @@ function submitContactForm(){
 <!--  Sweet Alert Script Below --------------------------->
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <?php
-      include('/templates/footer.php');
+      include('templates/footer.php');
     ?>
   </footer>
 </body>
