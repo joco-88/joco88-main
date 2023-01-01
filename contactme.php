@@ -7,7 +7,7 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 ?>
   <main>
     <div class="container-fluid">
-        <br><h1>Sandbox Page</h1>
+        <br><h1>Contact Me!</h1>
         <p>Have questions and want to reach out? Simply fill out the contact form below and we will get back to you the second we have time.</p>
         <hr>
     </div>
