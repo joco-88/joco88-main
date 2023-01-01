@@ -3,7 +3,7 @@
 error_reporting(E_ALL); ini_set('display_errors', 1);
 
 $PageTitle="Contact Form Submitted";
-include($_SERVER['DOCUMENT_ROOT'].'/../templates/header.php');
+include($_SERVER['DOCUMENT_ROOT'].'../templates/header.php');
 ?>
 
 <!-- END OF HEADER AND START OF CONTACT SUCCESS PAGE -->
@@ -111,7 +111,7 @@ echo "<strong>Email full body is:</strong><br> $email_body <br>";
 
     <!--- Start Footer Content --->
 <?php
-    include($_SERVER['DOCUMENT_ROOT'].'/../templates/footer.php');
+    include('../templates/footer.php');
 ?>
 
 
