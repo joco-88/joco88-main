@@ -1,96 +1,123 @@
 <?php
+$PageTitle="Home";
+include('../templates/header.php');
+
 error_reporting(E_ALL); ini_set('display_errors', 1);
 
-$PageTitle="Home";
-include('templates/header.php');
 ?>
-
   <main>
     <div class="container-fluid">
-        <br><h1>Get In Touch</h1>
-        <p>Have questions or want to reach out? Simply fill out the contact form below and we will get back to you the second we have time.</p>
+        <br><h1>Sandbox Page</h1>
+        <p>Have questions and want to reach out? Simply fill out the contact form below and we will get back to you the second we have time.</p>
         <hr>
     </div>
 
-<!-- Contact form will go below this -->
+<!-- Contact Form Modal Code Starts below here -->
+<!-- Button to trigger modal -->
 
-<div class="container">
-        <div class=" text-center mt-5 ">
+<br>
 
-            <h1>Contact Me</h1>
+<div class="text-center">
+  <a href="#modalForm" class="btn btn-success btn-lg" data-bs-toggle="modal" data-target="#modalForm">Contact Us</a>
+</div>
 
-        </div>
-    <div class="row ">
-      <div class="col-lg-7 mx-auto">
-        <div class="card mt-2 mx-auto p-4 bg-light">
-            <div class="card-body bg-light">
-            <div class = "container">
-                             <form id="contact-form" role="form" method="post" action="/includes/contact-action.php" autocomplete="on">
-            <div class="controls">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="form_name">First Name *</label>
-                            <input id="form_name" type="text" name="fname" class="form-control" placeholder="Please enter your first name *" required="required" data-error="Firstname is required.">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="form_lastname">Last Name *</label>
-                            <input id="form_lastname" type="text" name="lname" class="form-control" placeholder="Please enter your last name *" required="required" data-error="Lastname is required.">
-                          </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="form_email">Email *</label>
-                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="form_need">Please specify your need*</label>
-                            <select id="form_need" name="contact_reason" class="form-control" required="required" data-error="Please specify your need.">
-                                <option value="" selected disabled>--Contact Reason--</option>
-                                <option >General Question</option>
-                                <option >Website Issue</option>
-                                <option >Job Request</option>
-                                <option >Other</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <label for="form_message">Message *</label>
-                            <textarea id="form_message" name="customer_message" class="form-control" placeholder="Write your message here. Please be detailed." rows="4" required="required" data-error="A Message is Required!.">
-                              </textarea>
-                            </div>
-                        </div>
-                    <div class="col-md-12">
-                      <br>
-                      <center>
-                        <input type="submit" name="submit" class="btn btn-success btn-send  pt-2 btn-block" value="Send Message" >
-                          </center>
-                </div>
-                </div>
-        </div>
-         </form>
-        </div>
+
+<!-- Modal -->
+ <div class="modal fade" id="modalForm" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+          <!--   Modal Header -->
+             <div class="modal-header">
+                <h4 class="modal-title">Contact Us</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
+
+            <!-- Modal Body -->
+          <div class="modal-body">
+                <p class="statusMsg"></p>
+                <form role="form">
+                    <div class="form-group">
+                        <label for="inputName">Name</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Enter your name"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputMessage">Message</label>
+                        <textarea class="form-control" id="inputMessage" placeholder="Enter your message"></textarea>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Modal Footer -->
+           <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary submitBtn" onclick="submitContactForm()">SUBMIT</button>
+            </div>
+        </div>
     </div>
-        <!-- /.8 -->
-    </div>
-    <!-- /.row-->
 </div>
-</div>
+
+
+<script>
+function submitContactForm(){
+    var reg = /^[A-Z0-9._%+-]+@([A-Z0-9-]+\.)+[A-Z]{2,4}$/i;
+    var name = $('#inputName').val();
+    var email = $('#inputEmail').val();
+    var message = $('#inputMessage').val();
+    if(name.trim() == '' ){
+        swal("Missing Name!", "Please enter your full name.", "warning");
+        $('#inputName').focus();
+        return false;
+    }else if(email.trim() == '' ){
+        swal("Missing Email Address!", "Please enter your Email address.", "warning");
+        $('#inputEmail').focus();
+        return false;
+    }else if(email.trim() != '' && !reg.test(email)){
+        swal("Invalid Email!", "Please enter a valid Email address.", "warning");
+        $('#inputEmail').focus();
+        return false;
+    }else if(message.trim() == '' ){
+        swal("Message Required!", "Please enter a message with your contact information.", "warning");
+        $('#inputMessage').focus();
+        return false;
+    }else{
+        $.ajax({
+            type:'POST',
+            url:'../includes/contactmodal-handler.php',
+            data:'contactFrmSubmit=1&name='+name+'&email='+email+'&message='+message,
+            beforeSend: function () {
+                $('.submitBtn').attr("disabled","disabled");
+                $('.modal-body').css('opacity', '.5');
+            },
+            success:function(msg){
+                if(msg == 'ok'){
+                    $('#inputName').val('');
+                    $('#inputEmail').val('');
+                    $('#inputMessage').val('');
+                    $('.statusMsg').html('<div class="alert alert-success" role="alert">Success! We will contact you soon.</div>');
+                }else{
+                    $('.statusMsg').html('<div class="alert alert-danger" role="alert">An error occurred. Please try again.</div>');
+                }
+                $('.submitBtn').removeAttr("disabled");
+                $('.modal-body').css('opacity', '');
+            }
+        });
+    }
+}
+</script>
+
+
+<!--  END OF NEW MODAL ------------------------------------->
 
 </main>
   <footer>
+<!--  Sweet Alert Script Below --------------------------->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <?php
-      include('templates/footer.php');
+      include('../templates/footer.php');
     ?>
   </footer>
 </body>
